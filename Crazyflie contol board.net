@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "/home/spy/Documents/crazyflie-electronics/drone/Crazyflie contol board.sch")
-    (date "wo 27 feb 2019 15:42:52 CET")
+    (date "wo 27 feb 2019 16:49:10 CET")
     (tool "Eeschema 5.0.2-bee76a0~70~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -228,7 +228,7 @@
       (tstamp 5C74E84C))
     (comp (ref U12)
       (value CP2102N-A01-GQFN24)
-      (footprint digikey-footprints:QFN-24-1EP_4x4mm)
+      (footprint footprints-Lib:QFN-24-1EP_4x4mm_new)
       (datasheet http://www.silabs.com/support%20documents/technicaldocs/cp2102n-datasheet.pdf)
       (libsource (lib Interface_USB) (part CP2102N-A01-GQFN24) (description "USB to UART master bridge"))
       (sheetpath (names /) (tstamps /))

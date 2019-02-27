@@ -839,7 +839,7 @@ U 1 1 5C81EE6D
 P 10100 1750
 F 0 "U12" H 10100 2828 50  0000 C CNN
 F 1 "CP2102N-A01-GQFN24" H 10100 2737 50  0000 C CNN
-F 2 "digikey-footprints:QFN-24-1EP_4x4mm" H 10550 950 50  0001 L CNN
+F 2 "footprints-Lib:QFN-24-1EP_4x4mm_new" H 10550 950 50  0001 L CNN
 F 3 "http://www.silabs.com/support%20documents/technicaldocs/cp2102n-datasheet.pdf" H 10150 700 50  0001 C CNN
 	1    10100 1750
 	1    0    0    -1  
