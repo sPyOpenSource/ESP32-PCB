@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "/home/spy/Documents/crazyflie-electronics/drone/Crazyflie contol board.sch")
-    (date "wo 27 feb 2019 14:25:52 CET")
+    (date "wo 27 feb 2019 15:42:52 CET")
     (tool "Eeschema 5.0.2-bee76a0~70~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -222,7 +222,7 @@
       (tstamp 4DE2157C))
     (comp (ref U11)
       (value ESP32-WROOM)
-      (footprint footprints-Lib:ESP32-WROOM-32)
+      (footprint footprints-Lib:ESP32-WROOM-32S)
       (libsource (lib ESP32-footprints-Shem-Lib) (part ESP32-WROOM) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 5C74E84C))
