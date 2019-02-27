@@ -56,10 +56,6 @@ Wire Wire Line
 Wire Wire Line
 	4900 3000 4450 3000
 Wire Wire Line
-	1600 5800 1600 5700
-Wire Wire Line
-	1600 5700 1700 5700
-Wire Wire Line
 	2800 2400 3200 2400
 Wire Wire Line
 	8600 1100 8600 900 
@@ -120,7 +116,7 @@ Wire Wire Line
 Wire Wire Line
 	6550 6500 6550 6850
 Wire Wire Line
-	9550 6100 9550 6750
+	9550 6050 9550 6700
 Wire Wire Line
 	8350 4700 7900 4700
 Wire Wire Line
@@ -141,37 +137,9 @@ Wire Wire Line
 	3500 4450 3900 4450
 Wire Wire Line
 	6250 7450 6250 7350
-Wire Wire Line
-	5850 7350 5550 7350
-Wire Wire Line
-	7500 5800 7100 5800
-Wire Wire Line
-	7100 5600 7500 5600
-Wire Wire Line
-	7500 5600 7500 5700
-Connection ~ 7500 5800
 Connection ~ 10450 3200
 Wire Wire Line
 	10100 3400 10450 3400
-Wire Wire Line
-	5850 7350 5850 7250
-Wire Wire Line
-	5250 7350 5250 7250
-Connection ~ 5250 6500
-Wire Wire Line
-	5250 6500 5550 6500
-Wire Wire Line
-	5850 6500 5850 6850
-Wire Wire Line
-	5250 6850 5250 6500
-Connection ~ 4700 5700
-Wire Wire Line
-	4700 5400 4700 5450
-Wire Wire Line
-	4700 5800 4900 5800
-Connection ~ 4700 5450
-Wire Wire Line
-	4700 5600 4900 5600
 Wire Wire Line
 	9450 3200 9700 3200
 Wire Wire Line
@@ -179,21 +147,9 @@ Wire Wire Line
 Wire Wire Line
 	7100 4700 7450 4700
 Wire Wire Line
-	4700 5450 4900 5450
-Wire Wire Line
-	4900 5700 4700 5700
-Connection ~ 4700 5600
-Wire Wire Line
 	6250 6400 6250 6500
 Wire Wire Line
-	5550 6850 5550 6500
-Connection ~ 5550 6500
-Connection ~ 5550 7350
-Wire Wire Line
 	10100 3200 10450 3200
-Connection ~ 7500 5700
-Wire Wire Line
-	7500 5700 7100 5700
 Wire Wire Line
 	3500 4350 3900 4350
 Wire Wire Line
@@ -213,7 +169,7 @@ Wire Wire Line
 Wire Wire Line
 	7100 3100 7450 3100
 Wire Wire Line
-	9450 6100 9450 6750
+	9450 6050 9450 6700
 Wire Wire Line
 	6550 7250 6550 7350
 Wire Wire Line
@@ -241,17 +197,11 @@ Wire Wire Line
 Wire Wire Line
 	8300 900  8600 900 
 Wire Wire Line
-	1700 5500 1600 5500
-Wire Wire Line
-	1600 5500 1600 5400
-Wire Wire Line
 	4000 3850 4000 3200
 Wire Wire Line
 	1450 2700 1450 2900
 Wire Wire Line
 	1450 2900 2200 2900
-Wire Wire Line
-	5550 7450 5550 7350
 Wire Wire Line
 	8950 3200 8200 3200
 Wire Wire Line
@@ -278,7 +228,7 @@ U 1 1 510E4723
 P 7950 1800
 F 0 "R42" V 8030 1800 50  0000 C CNN
 F 1 "100R" V 7950 1800 50  0000 C CNN
-F 2 "SM0402" H 7950 1800 60  0001 C CNN
+F 2 "digikey-footprints:0603" H 7950 1800 60  0001 C CNN
 F 3 "" H 7950 1800 50  0001 C CNN
 	1    7950 1800
 	0    -1   -1   0   
@@ -414,9 +364,9 @@ F6 "I2C_SCL_VCCA" I L 2200 2900 60
 $EndSheet
 Text Label 7600 4800 2    60   ~ 0
 INT_GA
-Text Label 9450 6750 1    60   ~ 0
+Text Label 9450 6700 1    60   ~ 0
 I2C_SCK_VCCA
-Text Label 9550 6750 1    60   ~ 0
+Text Label 9550 6700 1    60   ~ 0
 I2C_SCL_VCCA
 $Comp
 L bitcraze #G1
@@ -427,42 +377,6 @@ F 1 "BITCRAZE" H 10300 7203 60  0001 C CNN
 F 2 "" H 10300 6400 50  0001 C CNN
 F 3 "" H 10300 6400 50  0001 C CNN
 	1    10300 6400
-	1    0    0    -1  
-$EndComp
-Text Notes 1850 5200 0    60   ~ 0
-Structual \nsupport \nheader
-$Comp
-L power:VCC #PWR06
-U 1 1 4E3C65E2
-P 1600 5400
-F 0 "#PWR06" H 1600 5500 30  0001 C CNN
-F 1 "VCC" H 1600 5400 60  0001 C CNN
-F 2 "" H 1600 5400 50  0001 C CNN
-F 3 "" H 1600 5400 50  0001 C CNN
-F 4 "VCC" H 1600 5500 30  0000 C CNN "Value"
-	1    1600 5400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Crazyflie-contol-board-rescue:DGND #PWR07
-U 1 1 4E3C65DC
-P 1600 5800
-F 0 "#PWR07" H 1600 5800 40  0001 C CNN
-F 1 "DGND" H 1600 5730 40  0000 C CNN
-F 2 "" H 1600 5800 50  0001 C CNN
-F 3 "" H 1600 5800 50  0001 C CNN
-	1    1600 5800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Crazyflie-contol-board-rescue:CONN_2 P5
-U 1 1 4E3C65D2
-P 2050 5600
-F 0 "P5" V 2000 5600 40  0000 C CNN
-F 1 "CONN_2" V 2100 5600 40  0000 C CNN
-F 2 "PINHEADER_127_2X1" H 2050 5600 60  0001 C CNN
-F 3 "" H 2050 5600 50  0001 C CNN
-	1    2050 5600
 	1    0    0    -1  
 $EndComp
 Text Label 7200 3300 0    60   ~ 0
@@ -565,12 +479,6 @@ Text Notes 5150 950  0    50   ~ 0
 Coreless\nmotor
 Text Notes 3350 950  0    50   ~ 0
 Coreless\nmotor
-Text Notes 5350 6800 1    60   ~ 0
-Pin24
-Text Notes 5650 6800 1    60   ~ 0
-Pin36
-Text Notes 5950 6800 1    60   ~ 0
-Pin48
 $Comp
 L Crazyflie-contol-board-rescue:MOSFET_N Q4
 U 1 1 4DEA6107
@@ -806,39 +714,6 @@ F 3 "" H 6250 7450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Crazyflie-contol-board-rescue:DGND #PWR0101
-U 1 1 4DE77083
-P 5550 7450
-F 0 "#PWR0101" H 5550 7450 40  0001 C CNN
-F 1 "DGND" H 5550 7380 40  0000 C CNN
-F 2 "" H 5550 7450 50  0001 C CNN
-F 3 "" H 5550 7450 50  0001 C CNN
-	1    5550 7450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Crazyflie-contol-board-rescue:DGND #PWR024
-U 1 1 4DE76DB6
-P 7500 6050
-F 0 "#PWR024" H 7500 6050 40  0001 C CNN
-F 1 "DGND" H 7500 5980 40  0000 C CNN
-F 2 "" H 7500 6050 50  0001 C CNN
-F 3 "" H 7500 6050 50  0001 C CNN
-	1    7500 6050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VCC #PWR026
-U 1 1 4DE21681
-P 5250 6400
-F 0 "#PWR026" H 5250 6500 30  0001 C CNN
-F 1 "VCC" H 5250 6500 30  0000 C CNN
-F 2 "" H 5250 6400 50  0001 C CNN
-F 3 "" H 5250 6400 50  0001 C CNN
-	1    5250 6400
-	1    0    0    -1  
-$EndComp
-$Comp
 L Crazyflie-contol-board-rescue:VCCA #PWR027
 U 1 1 4DE2167E
 P 6250 6400
@@ -858,50 +733,6 @@ F 1 "4.7uF" H 6300 6950 50  0000 L CNN
 F 2 "SM0603_Capa" H 6250 7050 60  0001 C CNN
 F 3 "" H 6250 7050 50  0001 C CNN
 	1    6250 7050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Crazyflie-contol-board-rescue:C C6
-U 1 1 4DE21664
-P 5850 7050
-F 0 "C6" H 5900 7150 50  0000 L CNN
-F 1 "4.7uF" H 5900 6950 50  0000 L CNN
-F 2 "SM0603_Capa" H 5850 7050 60  0001 C CNN
-F 3 "" H 5850 7050 50  0001 C CNN
-	1    5850 7050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Crazyflie-contol-board-rescue:C C5
-U 1 1 4DE21662
-P 5550 7050
-F 0 "C5" H 5600 7150 50  0000 L CNN
-F 1 "100nF" H 5600 6950 50  0000 L CNN
-F 2 "SM0603_Capa" H 5550 7050 60  0001 C CNN
-F 3 "" H 5550 7050 50  0001 C CNN
-	1    5550 7050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Crazyflie-contol-board-rescue:C C4
-U 1 1 4DE21656
-P 5250 7050
-F 0 "C4" H 5300 7150 50  0000 L CNN
-F 1 "100nF" H 5300 6950 50  0000 L CNN
-F 2 "SM0603_Capa" H 5250 7050 60  0001 C CNN
-F 3 "" H 5250 7050 50  0001 C CNN
-	1    5250 7050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VCC #PWR029
-U 1 1 4DE215F6
-P 4700 5400
-F 0 "#PWR029" H 4700 5500 30  0001 C CNN
-F 1 "VCC" H 4700 5500 30  0000 C CNN
-F 2 "" H 4700 5400 50  0001 C CNN
-F 3 "" H 4700 5400 50  0001 C CNN
-	1    4700 5400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -979,25 +810,7 @@ Wire Wire Line
 Wire Wire Line
 	6250 6500 6250 6850
 Wire Wire Line
-	7500 5800 7500 6050
-Wire Wire Line
 	10450 3200 10450 3000
-Wire Wire Line
-	5250 6500 5250 6400
-Wire Wire Line
-	4700 5700 4700 5800
-Wire Wire Line
-	4700 5450 4700 5600
-Wire Wire Line
-	4700 5600 4700 5700
-Wire Wire Line
-	5550 6500 5850 6500
-Wire Wire Line
-	5550 7350 5250 7350
-Wire Wire Line
-	5550 7350 5550 7250
-Wire Wire Line
-	7500 5700 7500 5800
 Wire Wire Line
 	6250 7350 6250 7250
 Wire Wire Line
@@ -1013,7 +826,7 @@ U 1 1 5C74E84C
 P 9300 5000
 F 0 "U11" H 9275 6387 60  0000 C CNN
 F 1 "ESP32-WROOM" H 9275 6281 60  0000 C CNN
-F 2 "footprints-Lib:ESP32-WROOM-32-Espressif-Symbol-Kicad-62379" H 9650 6350 60  0001 C CNN
+F 2 "footprints-Lib:ESP32-WROOM-32" H 9650 6350 60  0001 C CNN
 F 3 "" H 8850 5450 60  0001 C CNN
 	1    9300 5000
 	1    0    0    -1  
@@ -1053,7 +866,7 @@ U 1 1 5C766A94
 P 10750 5750
 F 0 "SW2" V 10704 5868 50  0000 L CNN
 F 1 "BOOT" V 10795 5868 50  0000 L CNN
-F 2 "" H 10750 5750 50  0001 C CNN
+F 2 "digikey-footprints:Switch_Tactile_SMD_B3U-1000P" H 10750 5750 50  0001 C CNN
 F 3 "" H 10750 5750 50  0001 C CNN
 	1    10750 5750
 	0    1    1    0   
@@ -1068,10 +881,10 @@ Wire Wire Line
 	10650 6050 10750 6050
 Connection ~ 6250 6500
 $Comp
-L Crazyflie-contol-board-rescue:VCCA #PWR?
+L Crazyflie-contol-board-rescue:VCCA #PWR0101
 U 1 1 5C763FAA
 P 8000 5200
-F 0 "#PWR?" H 8000 5300 30  0001 C CNN
+F 0 "#PWR0101" H 8000 5300 30  0001 C CNN
 F 1 "VCCA" H 8000 5300 30  0000 C CNN
 F 2 "" H 8000 5200 50  0001 C CNN
 F 3 "" H 8000 5200 50  0001 C CNN
@@ -1083,10 +896,10 @@ Wire Wire Line
 Wire Wire Line
 	8350 5800 8350 5700
 $Comp
-L Crazyflie-contol-board-rescue:AGND #PWR?
+L Crazyflie-contol-board-rescue:AGND #PWR0104
 U 1 1 5C789BE0
 P 8350 5800
-F 0 "#PWR?" H 8350 5800 40  0001 C CNN
+F 0 "#PWR0104" H 8350 5800 40  0001 C CNN
 F 1 "AGND" H 8350 5730 50  0000 C CNN
 F 2 "" H 8350 5800 50  0001 C CNN
 F 3 "" H 8350 5800 50  0001 C CNN
@@ -1094,10 +907,10 @@ F 3 "" H 8350 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Crazyflie-contol-board-rescue:VCCA #PWR?
+L Crazyflie-contol-board-rescue:VCCA #PWR0105
 U 1 1 5C7AEC62
 P 9750 850
-F 0 "#PWR?" H 9750 950 30  0001 C CNN
+F 0 "#PWR0105" H 9750 950 30  0001 C CNN
 F 1 "VCCA" H 9750 950 30  0000 C CNN
 F 2 "" H 9750 850 50  0001 C CNN
 F 3 "" H 9750 850 50  0001 C CNN
@@ -1109,10 +922,10 @@ Wire Wire Line
 Wire Wire Line
 	10100 2750 10100 2650
 $Comp
-L Crazyflie-contol-board-rescue:AGND #PWR?
+L Crazyflie-contol-board-rescue:AGND #PWR0106
 U 1 1 5C7BAAC5
 P 10100 2750
-F 0 "#PWR?" H 10100 2750 40  0001 C CNN
+F 0 "#PWR0106" H 10100 2750 40  0001 C CNN
 F 1 "AGND" H 10100 2680 50  0000 C CNN
 F 2 "" H 10100 2750 50  0001 C CNN
 F 3 "" H 10100 2750 50  0001 C CNN
