@@ -1,0 +1,47 @@
+Id,Designator,Package,Quantity,Designation,price,total,Supplier and ref
+1,U11,ESP32-WROOM-32S,1,ESP32-WROOM,"3,8","3,8",https://www.digikey.com/products/en/rf-if-and-rfid/rf-transceiver-modules/872?k=&pkeyword=&sv=0&pv7=2&sf=0&FV=fffc07ad&mpart=ESP32-WROOM-32&quantity=&ColumnSort=0&page=1&stock=1&pageSize=25
+2,"U9,U7",SOT23_6,2,TPS79301,"0,75","1,5",https://www.digikey.com/product-detail/en/texas-instruments/TPS79301DBVR/296-12154-1-ND/411987
+3,U5,MS5611,1,MS5611-01BA03,"12,48","12,48",https://www.digikey.com/product-detail/en/te-connectivity-measurement-specialties/MS561101BA03-50/223-1622-2-ND/5277445
+4,"C24,C23,C33,C20,C18,C4,C41,C38,C36",SM0603_Capa,9,100nF,,0,
+5,"C22,C7,C37,C34,C31,C30",SM0603_Capa,6,4.7uF,,0,
+6,C21,SM0603_Capa,1,0.22uF,,0,
+7,"R38,R22",SM0603,2,1k,,0,
+8,"R37,R36,R33,R25,R32,R1,R2,R3,R4,R27",SM0603,10,10k,,0,
+9,"Q6,Q5",SOT23GDS,2,2N7002,"0,34","0,68",https://www.digikey.nl/product-detail/nl/on-semiconductor/2N7002/2N7002NCT-ND/244664
+10,P9,PINHEADER_127_1X1,1,CONN_1,,0,
+11,"P2,P4,P1,P3",PINHEADER_127_2X1,4,CONN_2,,0,
+12,D6,SMDLED-0603,1,GREEN LED,"0,209","0,209",https://www.amazon.de/SMD-0603-GR%C3%9CN-WTN-0603-180gr-gr%C3%BCne/dp/B002OD8S00
+13,D5,SMDLED-0603,1,RED LED,"0,189","0,189",https://www.amazon.de/SMD-0603-GR%C3%9CN-WTN-0603-180gr-gr%C3%BCne/dp/B002OD8S00
+14,"D4,D3,D2,D1",sod323,4,BAT54,"0,323","1,292",https://nl.mouser.com/ProductDetail/Infineon-Technologies/BAT5403WE6327HTSA1?qs=sGAEpiMZZMtQ8nqTKtFS%2FAU2i4P1o9FIy7hFmOwHEkE%3D
+15,R31,SM0603,1,100k,,0,
+16,R30,SM0603,1,20k,,0,
+17,"R29,R19",SM0603,2,0R,,0,
+18,R5,SM0603,1,330R,,0,
+19,R6,SM0603,1,220R,,0,
+20,"R28,R18",SM0603,2,30k,,0,
+21,R26,SM0603,1,1.2K,,0,
+22,R24,SM0603,1,1.2k,,0,
+23,R23,SM0603,1,150k,,0,
+24,R21,SM0603,1,300k,,0,
+25,R20,SM0603,1,42.2k,,0,
+26,"R13,R14",SM0603,2,2.2k,,0,
+27,R16,SM0603,1,39k,,0,
+28,R17,SM0603,1,10R,,0,
+29,C17,SM0603_Capa,1,2.2nF,,0,
+30,"C16,C8,C40,C32",SM0603_Capa,4,10nF,,0,
+31,C39,SM0603_Capa,1,10uF,,0,
+32,"C35,C29",SM0603_Capa,2,15pF,,0,
+33,U10,SOT23_6,1,MAX16054,"2,59","2,59",https://www.digikey.com/products/en/integrated-circuits-ics/interface-specialized/754?k=MAX16054&k=&pkeyword=MAX16054&sv=0&pv7=2&sf=0&quantity=&ColumnSort=0&page=1&pageSize=25
+34,"Q4,Q3,Q2,Q1",SOT23GDS,4,"PMV31XN,PMV30UN2","0,327","1,308",https://nl.farnell.com/nexperia/pmv30un2r/mosfet-n-ch-20v-5-4a-sot-23-3/dp/2469652?gclid=Cj0KCQiAwc7jBRD8ARIsAKSUBHJSJC-r6n1W4s3bky1Y_aJ2Z9dbaJSLFh0Q-CTw39O8WKKpUKhBkHwaAqnhEALw_wcB&mckv=sa4KF47Gf_dc|pcrid|84261766207|kword|pmv30un2|match|p|plid||slid||product||pgrid|17079611527|ptaid|kwd-120782333834|&CMP=KNC-GNL-GEN-SKU-MDC
+35,U8,QFN16,1,BQ24075,"2,27","2,27",https://www.digikey.com/product-detail/en/texas-instruments/BQ24075RGTR/296-38874-1-ND/5142986
+36,U6,SOT363,1,NUF2221,"0,44","0,44",https://www.digikey.com/products/en/filters/emi-rfi-filters-lc-rc-networks/835?k=NUF2221&k=&pkeyword=NUF2221&sv=0&pv7=2&pv1989=0&sf=0&quantity=&ColumnSort=0&page=1&pageSize=25
+37,U3,MPU60X0,1,MPU60X0,"7,13","7,13",https://nl.farnell.com/invensense/mpu-6050/gyro-accel-6-axis-i2c-qfn-24/dp/1864742?st=MPU6050
+38,U4,QFN16_HMC5883L,1,HMC5883L,,0,
+39,"D7,D8",SMDLED-0603,2,BLUE LED,"0,199","0,398",https://www.amazon.de/SMD-0603-GR%C3%9CN-WTN-0603-180gr-gr%C3%BCne/dp/B002OD8S00
+40,BT1,JST-B2B-ZR,1,BATTERY,"0,24926","0,24926",https://www.distrelec.nl/nl/pin-header-single-row-straight-polen-jst-b2b-zr/p/14301900?channel=b2c&price_gs=.24926&wt_mc=nl.cse.gshop.nl.-&source=googleps&ext_cid=gpgooaqnlnl-mmpn&kw=%7Bkeyword%7D&ext_cid=gpgooaqnlnl-mmpn&kw=jst%20b2b-zr&&gclid=CjwKCAiAnsnjBRB6EiwATkM1XvCbZCtquxpH6gwclMVRb3q4xJQEISsfy0V4rSYAFQvlYSUkCWnIAxoCfJEQAvD_BwE
+42,P7,ZX62-B-5PA_11_CFK,1,MICRO-B-USB,,0,
+43,"R39,R40,R41",SM0402,3,100R,,0,
+44,"SW2, SW1",Switch_Tactile_SMD_B3U-1000P,2,BOOT,"0,87","1,74",https://www.digikey.nl/product-detail/nl/omron-electronics-inc-emc-div/B3U-1000P/SW1020CT-ND/1534357
+45,R42,SM0603,1,100R,,0,
+46,U12,QFN-24-1EP_4x4mm_new,1,CP2102N-A01-GQFN24,"1,35","1,35",https://www.digikey.com/products/en/integrated-circuits-ics/interface-controllers/753?k=CP2102N-A01-GQFN24&k=&pkeyword=CP2102N-A01-GQFN24&sv=0&pv7=2&sf=0&quantity=&ColumnSort=0&page=1&pageSize=25
+,,,90,,,"37,62526",
