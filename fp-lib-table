@@ -1,5 +1,3 @@
 (fp_lib_table
   (lib (name crumpprtins)(type Github)(uri https://github.com/tylercrumpton/CrumpPrints.pretty)(options "")(descr ""))
-  (lib (name digikey-footprints)(type KiCad)(uri /home/spy/Downloads/digikey-kicad-library/digikey-footprints.pretty)(options "")(descr ""))
-  (lib (name ESP32-footprints-Lib)(type KiCad)(uri /home/spy/Documents/ESP32-Footprints/ESP32-footprints-Lib.pretty)(options "")(descr ""))
 )

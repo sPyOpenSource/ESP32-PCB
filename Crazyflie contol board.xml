@@ -1,0 +1,1730 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/spy/Documents/crazyflie-electronics/drone/Crazyflie contol board.sch</source>
+    <date>do 29 aug 2019 11:34:02 CEST</date>
+    <tool>Eeschema 5.0.2-bee76a0~70~ubuntu16.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Crazyflie control board</title>
+        <company>Bitcraze AB (CC BY-NC-SA)</company>
+        <rev>F</rev>
+        <date>2019-06-05</date>
+        <source>Crazyflie contol board.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/IMU/" tstamps="/4DE1273C/">
+      <title_block>
+        <title>Crazyflie control board</title>
+        <company>Bitcraze AB (CC BY-NC-SA)</company>
+        <rev>F</rev>
+        <date>3 feb 2013</date>
+        <source>IMU.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/POWER/" tstamps="/4DE77332/">
+      <title_block>
+        <title>Crazyflie control board</title>
+        <company>Bitcraze AB (CC BY-NC-SA)</company>
+        <rev>F</rev>
+        <date>3 feb 2013</date>
+        <source>Power.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="R42">
+      <value>100R</value>
+      <footprint>digikey-footprints:0603</footprint>
+      <libsource lib="Crazyflie-contol-board-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>510E4723</tstamp>
+    </comp>
+    <comp ref="R41">
+      <value>100R</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="Crazyflie-contol-board-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>510E4719</tstamp>
+    </comp>
+    <comp ref="R40">
+      <value>100R</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="Crazyflie-contol-board-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>510E4705</tstamp>
+    </comp>
+    <comp ref="R39">
+      <value>100R</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="Crazyflie-contol-board-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>510E46C9</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>2.2k</value>
+      <footprint>ESP32-footprints-Lib:0603_new_new</footprint>
+      <libsource lib="Crazyflie-contol-board-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4F678E8A</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>2.2k</value>
+      <footprint>ESP32-footprints-Lib:0603_new_new</footprint>
+      <libsource lib="Crazyflie-contol-board-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4F678E89</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>CONN_2</value>
+      <footprint>PINHEADER_127_2X1</footprint>
+      <libsource lib="Crazyflie-contol-board-rescue" part="CONN_2" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4E2BF3D0</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>CONN_2</value>
+      <footprint>PINHEADER_127_2X1</footprint>
+      <libsource lib="Crazyflie-contol-board-rescue" part="CONN_2" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4E2BF38B</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>CONN_2</value>
+      <footprint>PINHEADER_127_2X1</footprint>
+      <libsource lib="Crazyflie-contol-board-rescue" part="CONN_2" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4E2BF32C</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>CONN_2</value>
+      <footprint>PINHEADER_127_2X1</footprint>
+      <libsource lib="Crazyflie-contol-board-rescue" part="CONN_2" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4E2BF29C</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>PMV31XN</value>
+      <footprint>SOT23GDS</footprint>
+      <libsource lib="Crazyflie-contol-board-rescue" part="MOSFET_N" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4DEA6107</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="Crazyflie-contol-board-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4DEA6106</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>BAT54</value>
+      <footprint>SOD323</footprint>
+      <libsource lib="Crazyflie-contol-board-rescue" part="DIODESCH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4DEA6102</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>BAT54</value>
+      <footprint>SOD323</footprint>
+      <libsource lib="Crazyflie-contol-board-rescue" part="DIODESCH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4DEA60F9</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="Crazyflie-contol-board-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4DEA60F5</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>PMV31XN</value>
+      <footprint>SOT23GDS</footprint>
+      <libsource lib="Crazyflie-contol-board-rescue" part="MOSFET_N" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4DEA60F4</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>PMV31XN</value>
+      <footprint>SOT23GDS</footprint>
+      <libsource lib="Crazyflie-contol-board-rescue" part="MOSFET_N" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4DEA60EA</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="Crazyflie-contol-board-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4DEA60E9</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>BAT54</value>
+      <footprint>SOD323</footprint>
+      <libsource lib="Crazyflie-contol-board-rescue" part="DIODESCH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4DEA60E5</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>BAT54</value>
+      <footprint>SOD323</footprint>
+      <fields>
+        <field name="Field4">ST Microelectronics</field>
+        <field name="Field5">BAT54JFILM</field>
+      </fields>
+      <libsource lib="Crazyflie-contol-board-rescue" part="DIODESCH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4DE8C24E</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>SM0402</footprint>
+      <libsource lib="Crazyflie-contol-board-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4DE8C08E</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>PMV31XN</value>
+      <footprint>SOT23GDS</footprint>
+      <fields>
+        <field name="Field4">NXP</field>
+        <field name="Field5">PMV31XN</field>
+      </fields>
+      <libsource lib="Crazyflie-contol-board-rescue" part="MOSFET_N" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4DE8C074</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>RED LED</value>
+      <footprint>SMDLED-0603</footprint>
+      <fields>
+        <field name="Field4">General</field>
+        <field name="Field5">Red, If:20mA, vf:2-2.2V, &gt;40mcd</field>
+      </fields>
+      <libsource lib="Crazyflie-contol-board-rescue" part="LED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4DE215CA</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>GREEN LED</value>
+      <footprint>SMDLED-0603</footprint>
+      <fields>
+        <field name="Field4">General</field>
+        <field name="Field5">Green, If:20mA, vf:2-2.2V, &gt;40mcd</field>
+      </fields>
+      <libsource lib="Crazyflie-contol-board-rescue" part="LED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4DE215C4</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>330R</value>
+      <footprint>ESP32-footprints-Lib:0603_new_new</footprint>
+      <fields>
+        <field name="Field4">General</field>
+        <field name="Field5">+/-1%, 0.125W, 25V</field>
+      </fields>
+      <libsource lib="Crazyflie-contol-board-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4DE21585</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>220R</value>
+      <footprint>ESP32-footprints-Lib:0603_new_new</footprint>
+      <libsource lib="Crazyflie-contol-board-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4DE2157C</tstamp>
+    </comp>
+    <comp ref="U12">
+      <value>CP2102N-A01-GQFN24</value>
+      <footprint>ESP32-footprints-Lib:QFN-24-1EP_4x4mm_new_new_new</footprint>
+      <datasheet>http://www.silabs.com/support%20documents/technicaldocs/cp2102n-datasheet.pdf</datasheet>
+      <libsource lib="Interface_USB" part="CP2102N-A01-GQFN24" description="USB to UART master bridge"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C81EE6D</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>BOOT</value>
+      <footprint>ESP32-footprints-Lib:Switch_Tactile_SMD_B3U-1000P_new_new</footprint>
+      <libsource lib="Crazyflie-contol-board-rescue" part="SW_PUSH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C766A94</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>1k</value>
+      <footprint>ESP32-footprints-Lib:0603_new_new</footprint>
+      <libsource lib="Crazyflie-contol-board-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C8DC4A8</tstamp>
+    </comp>
+    <comp ref="U11">
+      <value>ESP32-WROOM</value>
+      <footprint>ESP32-footprints-Lib:ESP32-WROOM-32_new</footprint>
+      <libsource lib="ESP32-footprints-Shem-Lib" part="ESP32-WROOM" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C74E84C</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>22uF</value>
+      <footprint>ESP32-footprints-Lib:0603_new_new</footprint>
+      <libsource lib="Crazyflie-contol-board-rescue" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C89C678</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>ESP32-footprints-Lib:0603_new_new</footprint>
+      <libsource lib="Crazyflie-contol-board-rescue" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C89C739</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>ESP32-footprints-Lib:0603_new_new</footprint>
+      <libsource lib="Crazyflie-contol-board-rescue" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C8D9FC3</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>4.7uF</value>
+      <footprint>ESP32-footprints-Lib:0603_new_new</footprint>
+      <libsource lib="Crazyflie-contol-board-rescue" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C8E610C</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>10k</value>
+      <footprint>ESP32-footprints-Lib:0603_new_new</footprint>
+      <libsource lib="Crazyflie-contol-board-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C8A726B</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>10k</value>
+      <footprint>ESP32-footprints-Lib:0603_new_new</footprint>
+      <libsource lib="Crazyflie-contol-board-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C8A7936</tstamp>
+    </comp>
+    <comp ref="Q7">
+      <value>SS8050-G</value>
+      <footprint>digikey-footprints:SOT-23-3</footprint>
+      <datasheet>http://www.fairchildsemi.com/ds/BC/BC817.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC817" description="0.8A Ic, 45V Vce, NPN Transistor, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C8AD692</tstamp>
+    </comp>
+    <comp ref="Q8">
+      <value>SS8050-G</value>
+      <footprint>digikey-footprints:SOT-23-3</footprint>
+      <datasheet>http://www.fairchildsemi.com/ds/BC/BC817.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC817" description="0.8A Ic, 45V Vce, NPN Transistor, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C8B33BD</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>10k</value>
+      <footprint>ESP32-footprints-Lib:0603_new_new</footprint>
+      <libsource lib="Crazyflie-contol-board-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C8D9042</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100nF</value>
+      <footprint>ESP32-footprints-Lib:0603_new_new</footprint>
+      <libsource lib="Crazyflie-contol-board-rescue" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C8E6F9A</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>100nF</value>
+      <footprint>ESP32-footprints-Lib:0603_new_new</footprint>
+      <libsource lib="Crazyflie-contol-board-rescue" part="C" description=""/>
+      <sheetpath names="/IMU/" tstamps="/4DE1273C/"/>
+      <tstamp>4F699A20</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>MS5611-01BA03</value>
+      <footprint>MS5611</footprint>
+      <fields>
+        <field name="Fält4">Measurement Specialties</field>
+        <field name="Fält5">MS5611-01BA03</field>
+      </fields>
+      <libsource lib="Crazyflie-contol-board-rescue" part="MS5611-01BA01" description=""/>
+      <sheetpath names="/IMU/" tstamps="/4DE1273C/"/>
+      <tstamp>4F6999F7</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>100nF</value>
+      <footprint>ESP32-footprints-Lib:0603_new_new</footprint>
+      <libsource lib="Crazyflie-contol-board-rescue" part="C" description=""/>
+      <sheetpath names="/IMU/" tstamps="/4DE1273C/"/>
+      <tstamp>4F679FC3</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>10nF</value>
+      <footprint>ESP32-footprints-Lib:0603_new_new</footprint>
+      <libsource lib="Crazyflie-contol-board-rescue" part="C" description=""/>
+      <sheetpath names="/IMU/" tstamps="/4DE1273C/"/>
+      <tstamp>4F679C97</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>100nF</value>
+      <footprint>ESP32-footprints-Lib:0603_new_new</footprint>
+      <libsource lib="Crazyflie-contol-board-rescue" part="C" description=""/>
+      <sheetpath names="/IMU/" tstamps="/4DE1273C/"/>
+      <tstamp>4F679A90</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>MPU-9250</value>
+      <footprint>Sensor_Motion:InvenSense_QFN-24_3x3mm_P0.4mm</footprint>
+      <datasheet>https://store.invensense.com/datasheets/invensense/MPU9250REV1.0.pdf</datasheet>
+      <libsource lib="Sensor_Motion" part="MPU-9250" description="InvenSense 9-Axis Motion Sensor, Accelerometer, Gyroscope, Compass, I2C/SPI"/>
+      <sheetpath names="/IMU/" tstamps="/4DE1273C/"/>
+      <tstamp>5D6629B6</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>BLUE LED</value>
+      <footprint>SMDLED-0603</footprint>
+      <fields>
+        <field name="Field4">General</field>
+        <field name="Field5">Blue, If:20mA</field>
+      </fields>
+      <libsource lib="Crazyflie-contol-board-rescue" part="LED" description=""/>
+      <sheetpath names="/POWER/" tstamps="/4DE77332/"/>
+      <tstamp>4EE66F20</tstamp>
+    </comp>
+    <comp ref="R38">
+      <value>1k</value>
+      <footprint>ESP32-footprints-Lib:0603_new_new</footprint>
+      <fields>
+        <field name="Field4">General</field>
+        <field name="Field5">+/-1%, 0.125W, 50V</field>
+      </fields>
+      <libsource lib="Crazyflie-contol-board-rescue" part="R" description=""/>
+      <sheetpath names="/POWER/" tstamps="/4DE77332/"/>
+      <tstamp>4EE66F1C</tstamp>
+    </comp>
+    <comp ref="R37">
+      <value>10k</value>
+      <footprint>ESP32-footprints-Lib:0603_new_new</footprint>
+      <fields>
+        <field name="Field4">Genaral</field>
+        <field name="Field5">+/-1%, 0.125W, 50V</field>
+      </fields>
+      <libsource lib="Crazyflie-contol-board-rescue" part="R" description=""/>
+      <sheetpath names="/POWER/" tstamps="/4DE77332/"/>
+      <tstamp>4EE5B779</tstamp>
+    </comp>
+    <comp ref="Q6">
+      <value>2N7002</value>
+      <footprint>SOT23GDS</footprint>
+      <fields>
+        <field name="Field4">General</field>
+        <field name="Field5">2N7002</field>
+      </fields>
+      <libsource lib="Crazyflie-contol-board-rescue" part="MOSFET_N" description=""/>
+      <sheetpath names="/POWER/" tstamps="/4DE77332/"/>
+      <tstamp>4EE5B71B</tstamp>
+    </comp>
+    <comp ref="R36">
+      <value>10k</value>
+      <footprint>ESP32-footprints-Lib:0603_new_new</footprint>
+      <fields>
+        <field name="Field4">Genaral</field>
+        <field name="Field5">+/-1%, 0.125W, 50V</field>
+      </fields>
+      <libsource lib="Crazyflie-contol-board-rescue" part="R" description=""/>
+      <sheetpath names="/POWER/" tstamps="/4DE77332/"/>
+      <tstamp>4EE4C3FB</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>2N7002</value>
+      <footprint>SOT23GDS</footprint>
+      <fields>
+        <field name="Field4">General</field>
+        <field name="Field5">2N7002</field>
+      </fields>
+      <libsource lib="Crazyflie-contol-board-rescue" part="MOSFET_N" description=""/>
+      <sheetpath names="/POWER/" tstamps="/4DE77332/"/>
+      <tstamp>4EE4C358</tstamp>
+    </comp>
+    <comp ref="P9">
+      <value>CONN_1</value>
+      <footprint>PINHEADER_127_1X1</footprint>
+      <libsource lib="Crazyflie-contol-board-rescue" part="CONN_1" description=""/>
+      <sheetpath names="/POWER/" tstamps="/4DE77332/"/>
+      <tstamp>4EE1369C</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>10k</value>
+      <footprint>ESP32-footprints-Lib:0603_new_new</footprint>
+      <fields>
+        <field name="Field4">Genaral</field>
+        <field name="Field5">+/-1%, 0.125W, 50V</field>
+      </fields>
+      <libsource lib="Crazyflie-contol-board-rescue" part="R" description=""/>
+      <sheetpath names="/POWER/" tstamps="/4DE77332/"/>
+      <tstamp>4E99BD94</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>10k</value>
+      <footprint>ESP32-footprints-Lib:0603_new_new</footprint>
+      <libsource lib="Crazyflie-contol-board-rescue" part="R" description=""/>
+      <sheetpath names="/POWER/" tstamps="/4DE77332/"/>
+      <tstamp>4E7767E3</tstamp>
+    </comp>
+    <comp ref="C33">
+      <value>100nF</value>
+      <footprint>ESP32-footprints-Lib:0603_new_new</footprint>
+      <fields>
+        <field name="Field4">General</field>
+        <field name="Field5">X7R, +/-10%, 25V</field>
+      </fields>
+      <libsource lib="Crazyflie-contol-board-rescue" part="C" description=""/>
+      <sheetpath names="/POWER/" tstamps="/4DE77332/"/>
+      <tstamp>4E591FF3</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>0R</value>
+      <footprint>ESP32-footprints-Lib:0603_new_new</footprint>
+      <fields>
+        <field name="Field4">General</field>
+        <field name="Field5">+/-1%, 0.125W, 50V</field>
+      </fields>
+      <libsource lib="Crazyflie-contol-board-rescue" part="R" description=""/>
+      <sheetpath names="/POWER/" tstamps="/4DE77332/"/>
+      <tstamp>4E2862C3</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>0R</value>
+      <footprint>ESP32-footprints-Lib:0603_new_new</footprint>
+      <libsource lib="Crazyflie-contol-board-rescue" part="R" description=""/>
+      <sheetpath names="/POWER/" tstamps="/4DE77332/"/>
+      <tstamp>4E286282</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>300k</value>
+      <footprint>ESP32-footprints-Lib:0603_new_new</footprint>
+      <fields>
+        <field name="Field4">General</field>
+        <field name="Field5">+/-1%, 0.125W, 50V</field>
+      </fields>
+      <libsource lib="Crazyflie-contol-board-rescue" part="R" description=""/>
+      <sheetpath names="/POWER/" tstamps="/4DE77332/"/>
+      <tstamp>4DF902E0</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>BQ24075</value>
+      <footprint>QFN16</footprint>
+      <fields>
+        <field name="Field4">TI</field>
+        <field name="Field5">BQ24075RGTT</field>
+      </fields>
+      <libsource lib="Crazyflie-contol-board-rescue" part="BQ24075" description=""/>
+      <sheetpath names="/POWER/" tstamps="/4DE77332/"/>
+      <tstamp>4DF65E58</tstamp>
+    </comp>
+    <comp ref="U9">
+      <value>TPS79301</value>
+      <footprint>SOT23_6</footprint>
+      <fields>
+        <field name="Field4">TI</field>
+        <field name="Field5">TPS79301DBVR</field>
+      </fields>
+      <libsource lib="Crazyflie-contol-board-rescue" part="TPS79301" description=""/>
+      <sheetpath names="/POWER/" tstamps="/4DE77332/"/>
+      <tstamp>4DF11880</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>TPS79301</value>
+      <footprint>SOT23_6</footprint>
+      <libsource lib="Crazyflie-contol-board-rescue" part="TPS79301" description=""/>
+      <sheetpath names="/POWER/" tstamps="/4DE77332/"/>
+      <tstamp>4DF1187B</tstamp>
+    </comp>
+    <comp ref="C29">
+      <value>15pF</value>
+      <footprint>ESP32-footprints-Lib:0603_new_new</footprint>
+      <libsource lib="Crazyflie-contol-board-rescue" part="C" description=""/>
+      <sheetpath names="/POWER/" tstamps="/4DE77332/"/>
+      <tstamp>4DF115C1</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>39k</value>
+      <footprint>ESP32-footprints-Lib:0603_new_new</footprint>
+      <fields>
+        <field name="Field4">General</field>
+        <field name="Field5">+/-1%, 0.125W, 50V</field>
+      </fields>
+      <libsource lib="Crazyflie-contol-board-rescue" part="R" description=""/>
+      <sheetpath names="/POWER/" tstamps="/4DE77332/"/>
+      <tstamp>4DF1151E</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>30k</value>
+      <footprint>ESP32-footprints-Lib:0603_new_new</footprint>
+      <fields>
+        <field name="Field4">General</field>
+        <field name="Field5">+/-1%, 0.125W, 50V</field>
+      </fields>
+      <libsource lib="Crazyflie-contol-board-rescue" part="R" description=""/>
+      <sheetpath names="/POWER/" tstamps="/4DE77332/"/>
+      <tstamp>4DF1151D</tstamp>
+    </comp>
+    <comp ref="C35">
+      <value>15pF</value>
+      <footprint>ESP32-footprints-Lib:0603_new_new</footprint>
+      <libsource lib="Crazyflie-contol-board-rescue" part="C" description=""/>
+      <sheetpath names="/POWER/" tstamps="/4DE77332/"/>
+      <tstamp>4DF114A5</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>150k</value>
+      <footprint>ESP32-footprints-Lib:0603_new_new</footprint>
+      <fields>
+        <field name="Field4">General</field>
+        <field name="Field5">+/-1%, 0.125W, 50V</field>
+      </fields>
+      <libsource lib="Crazyflie-contol-board-rescue" part="R" description=""/>
+      <sheetpath names="/POWER/" tstamps="/4DE77332/"/>
+      <tstamp>4DEFE97E</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>30k</value>
+      <footprint>ESP32-footprints-Lib:0603_new_new</footprint>
+      <libsource lib="Crazyflie-contol-board-rescue" part="R" description=""/>
+      <sheetpath names="/POWER/" tstamps="/4DE77332/"/>
+      <tstamp>4DEFE911</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>42.2k</value>
+      <footprint>ESP32-footprints-Lib:0603_new_new</footprint>
+      <fields>
+        <field name="Field4">General</field>
+        <field name="Field5">+/-1%, 0.125W, 50V</field>
+      </fields>
+      <libsource lib="Crazyflie-contol-board-rescue" part="R" description=""/>
+      <sheetpath names="/POWER/" tstamps="/4DE77332/"/>
+      <tstamp>4DEFE906</tstamp>
+    </comp>
+    <comp ref="BT1">
+      <value>BATTERY</value>
+      <footprint>JST-B2B-ZR</footprint>
+      <fields>
+        <field name="Field4">JST</field>
+        <field name="Field5">B2B-ZR</field>
+      </fields>
+      <libsource lib="Crazyflie-contol-board-rescue" part="BATTERY" description=""/>
+      <sheetpath names="/POWER/" tstamps="/4DE77332/"/>
+      <tstamp>4DEFB5AF</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>100k</value>
+      <footprint>ESP32-footprints-Lib:0603_new_new</footprint>
+      <fields>
+        <field name="Field4">General</field>
+        <field name="Field5">+/-1%, 0.125W, 50V</field>
+      </fields>
+      <libsource lib="Crazyflie-contol-board-rescue" part="R" description=""/>
+      <sheetpath names="/POWER/" tstamps="/4DE77332/"/>
+      <tstamp>4DEFB1B3</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>BLUE LED</value>
+      <footprint>SMDLED-0603</footprint>
+      <fields>
+        <field name="Field4">General</field>
+        <field name="Field5">Blue, If:20mA</field>
+      </fields>
+      <libsource lib="Crazyflie-contol-board-rescue" part="LED" description=""/>
+      <sheetpath names="/POWER/" tstamps="/4DE77332/"/>
+      <tstamp>4DEFAA71</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>1k</value>
+      <footprint>ESP32-footprints-Lib:0603_new_new</footprint>
+      <fields>
+        <field name="Field4">General</field>
+        <field name="Field5">+/-1%, 0.125W, 50V</field>
+      </fields>
+      <libsource lib="Crazyflie-contol-board-rescue" part="R" description=""/>
+      <sheetpath names="/POWER/" tstamps="/4DE77332/"/>
+      <tstamp>4DEFAA5F</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>PUSH ON/OFF</value>
+      <footprint>SPST-NO-4x2.5</footprint>
+      <fields>
+        <field name="Field4">Omron</field>
+        <field name="Field5">B3U-3000P</field>
+      </fields>
+      <libsource lib="Crazyflie-contol-board-rescue" part="SW_PUSH" description=""/>
+      <sheetpath names="/POWER/" tstamps="/4DE77332/"/>
+      <tstamp>4DEFA9A9</tstamp>
+    </comp>
+    <comp ref="U10">
+      <value>MAX16054</value>
+      <footprint>SOT23_6</footprint>
+      <fields>
+        <field name="Field4">Maxim</field>
+        <field name="Field5">MAX16054AZT</field>
+      </fields>
+      <libsource lib="Crazyflie-contol-board-rescue" part="MAX16054" description=""/>
+      <sheetpath names="/POWER/" tstamps="/4DE77332/"/>
+      <tstamp>4DEFA8E4</tstamp>
+    </comp>
+    <comp ref="C34">
+      <value>4.7uF</value>
+      <footprint>ESP32-footprints-Lib:0603_new_new</footprint>
+      <fields>
+        <field name="Field4">General</field>
+        <field name="Field5">X7R, +/-10% 6.3V</field>
+      </fields>
+      <libsource lib="Crazyflie-contol-board-rescue" part="C" description=""/>
+      <sheetpath names="/POWER/" tstamps="/4DE77332/"/>
+      <tstamp>4DEA5F6D</tstamp>
+    </comp>
+    <comp ref="C41">
+      <value>100nF</value>
+      <footprint>ESP32-footprints-Lib:0603_new_new</footprint>
+      <libsource lib="Crazyflie-contol-board-rescue" part="C" description=""/>
+      <sheetpath names="/POWER/" tstamps="/4DE77332/"/>
+      <tstamp>4DE8C9A8</tstamp>
+    </comp>
+    <comp ref="R32">
+      <value>10k</value>
+      <footprint>ESP32-footprints-Lib:0603_new_new</footprint>
+      <libsource lib="Crazyflie-contol-board-rescue" part="R" description=""/>
+      <sheetpath names="/POWER/" tstamps="/4DE77332/"/>
+      <tstamp>4DE8C993</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>20k</value>
+      <footprint>ESP32-footprints-Lib:0603_new_new</footprint>
+      <libsource lib="Crazyflie-contol-board-rescue" part="R" description=""/>
+      <sheetpath names="/POWER/" tstamps="/4DE77332/"/>
+      <tstamp>4DE8C98E</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>10k</value>
+      <footprint>ESP32-footprints-Lib:0603_new_new</footprint>
+      <fields>
+        <field name="Field4">Genaral</field>
+        <field name="Field5">+/-1%, 0.125W, 50V</field>
+      </fields>
+      <libsource lib="Crazyflie-contol-board-rescue" part="R" description=""/>
+      <sheetpath names="/POWER/" tstamps="/4DE77332/"/>
+      <tstamp>4DE7E2E1</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>1.2K</value>
+      <footprint>ESP32-footprints-Lib:0603_new_new</footprint>
+      <libsource lib="Crazyflie-contol-board-rescue" part="R" description=""/>
+      <sheetpath names="/POWER/" tstamps="/4DE77332/"/>
+      <tstamp>4DE7E166</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>1.2k</value>
+      <footprint>ESP32-footprints-Lib:0603_new_new</footprint>
+      <fields>
+        <field name="Field4">General</field>
+        <field name="Field5">+/-1%, 0.125W, 50V</field>
+      </fields>
+      <libsource lib="Crazyflie-contol-board-rescue" part="R" description=""/>
+      <sheetpath names="/POWER/" tstamps="/4DE77332/"/>
+      <tstamp>4DE7E145</tstamp>
+    </comp>
+    <comp ref="C36">
+      <value>100nF</value>
+      <footprint>ESP32-footprints-Lib:0603_new_new</footprint>
+      <libsource lib="Crazyflie-contol-board-rescue" part="C" description=""/>
+      <sheetpath names="/POWER/" tstamps="/4DE77332/"/>
+      <tstamp>4DE7E08B</tstamp>
+    </comp>
+    <comp ref="C39">
+      <value>10uF</value>
+      <footprint>ESP32-footprints-Lib:0603_new_new</footprint>
+      <fields>
+        <field name="Field4">General</field>
+        <field name="Field5">X5R, +/-20%, 6.3V</field>
+      </fields>
+      <libsource lib="Crazyflie-contol-board-rescue" part="C" description=""/>
+      <sheetpath names="/POWER/" tstamps="/4DE77332/"/>
+      <tstamp>4DE7E073</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>10R</value>
+      <footprint>ESP32-footprints-Lib:0603_new_new</footprint>
+      <fields>
+        <field name="Field4">General</field>
+        <field name="Field5">+/-1%, 0.125W, 50V</field>
+      </fields>
+      <libsource lib="Crazyflie-contol-board-rescue" part="R" description=""/>
+      <sheetpath names="/POWER/" tstamps="/4DE77332/"/>
+      <tstamp>4DE7DA2E</tstamp>
+    </comp>
+    <comp ref="C30">
+      <value>4.7uF</value>
+      <footprint>ESP32-footprints-Lib:0603_new_new</footprint>
+      <libsource lib="Crazyflie-contol-board-rescue" part="C" description=""/>
+      <sheetpath names="/POWER/" tstamps="/4DE77332/"/>
+      <tstamp>4DE7DA19</tstamp>
+    </comp>
+    <comp ref="C32">
+      <value>10nF</value>
+      <footprint>ESP32-footprints-Lib:0603_new_new</footprint>
+      <fields>
+        <field name="Field4">General</field>
+        <field name="Field5">X7R, +/-10, 25V</field>
+      </fields>
+      <libsource lib="Crazyflie-contol-board-rescue" part="C" description=""/>
+      <sheetpath names="/POWER/" tstamps="/4DE77332/"/>
+      <tstamp>4DE7DA15</tstamp>
+    </comp>
+    <comp ref="C40">
+      <value>10nF</value>
+      <footprint>ESP32-footprints-Lib:0603_new_new</footprint>
+      <fields>
+        <field name="Field4">General</field>
+        <field name="Field5">X7R, +/-10%, 25V</field>
+      </fields>
+      <libsource lib="Crazyflie-contol-board-rescue" part="C" description=""/>
+      <sheetpath names="/POWER/" tstamps="/4DE77332/"/>
+      <tstamp>4DE7DA0D</tstamp>
+    </comp>
+    <comp ref="C37">
+      <value>4.7uF</value>
+      <footprint>ESP32-footprints-Lib:0603_new_new</footprint>
+      <libsource lib="Crazyflie-contol-board-rescue" part="C" description=""/>
+      <sheetpath names="/POWER/" tstamps="/4DE77332/"/>
+      <tstamp>4DE7DA05</tstamp>
+    </comp>
+    <comp ref="C38">
+      <value>100nF</value>
+      <footprint>ESP32-footprints-Lib:0603_new_new</footprint>
+      <libsource lib="Crazyflie-contol-board-rescue" part="C" description=""/>
+      <sheetpath names="/POWER/" tstamps="/4DE77332/"/>
+      <tstamp>4DE7D9FD</tstamp>
+    </comp>
+    <comp ref="C31">
+      <value>4.7uF</value>
+      <footprint>ESP32-footprints-Lib:0603_new_new</footprint>
+      <libsource lib="Crazyflie-contol-board-rescue" part="C" description=""/>
+      <sheetpath names="/POWER/" tstamps="/4DE77332/"/>
+      <tstamp>4DE7D9EB</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>NUF2221</value>
+      <footprint>SOT363</footprint>
+      <fields>
+        <field name="Field4">OnSemi</field>
+        <field name="Field5">NUF2221W1T2G</field>
+      </fields>
+      <libsource lib="Crazyflie-contol-board-rescue" part="NUF2221" description=""/>
+      <sheetpath names="/POWER/" tstamps="/4DE77332/"/>
+      <tstamp>4DE7C1D9</tstamp>
+    </comp>
+    <comp ref="P7">
+      <value>MICRO-B-USB</value>
+      <footprint>ZX62-B-5PA_11_CFK</footprint>
+      <fields>
+        <field name="Field4">Hirose Connectors</field>
+        <field name="Field5">ZX62-B-5PA(11)</field>
+      </fields>
+      <libsource lib="Crazyflie-contol-board-rescue" part="MICRO-B-USB" description=""/>
+      <sheetpath names="/POWER/" tstamps="/4DE77332/"/>
+      <tstamp>4DE7B5DE</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Crazyflie-contol-board-rescue" part="BATTERY">
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">BATTERY</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Crazyflie-contol-board-rescue" part="BQ24075">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BQ24075</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TS" type="input"/>
+        <pin num="2" name="BAT" type="passive"/>
+        <pin num="3" name="BAT" type="power_in"/>
+        <pin num="4" name="/CE" type="input"/>
+        <pin num="5" name="EN2" type="input"/>
+        <pin num="6" name="EN1" type="input"/>
+        <pin num="7" name="/PGOOD" type="output"/>
+        <pin num="8" name="VSS" type="power_in"/>
+        <pin num="9" name="/CHG" type="output"/>
+        <pin num="10" name="OUT" type="power_out"/>
+        <pin num="11" name="OUT" type="passive"/>
+        <pin num="12" name="ILIM" type="input"/>
+        <pin num="13" name="IN" type="power_in"/>
+        <pin num="14" name="TMR" type="input"/>
+        <pin num="15" name="SYSOFF" type="input"/>
+        <pin num="16" name="ISET" type="input"/>
+        <pin num="17" name="TPAD" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Crazyflie-contol-board-rescue" part="C">
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Crazyflie-contol-board-rescue" part="CONN_1">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Crazyflie-contol-board-rescue" part="CONN_2">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="PM" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Crazyflie-contol-board-rescue" part="DIODESCH">
+      <footprints>
+        <fp>D?</fp>
+        <fp>S*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DIODESCH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Crazyflie-contol-board-rescue" part="LED">
+      <footprints>
+        <fp>LED-3MM</fp>
+        <fp>LED-5MM</fp>
+        <fp>LED-10MM</fp>
+        <fp>LED-0603</fp>
+        <fp>LED-0805</fp>
+        <fp>LED-1206</fp>
+        <fp>LEDV</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Crazyflie-contol-board-rescue" part="MAX16054">
+      <footprints>
+        <fp>SOT236</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MAX16054</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="CLR" type="input"/>
+        <pin num="4" name="/OUT" type="output"/>
+        <pin num="5" name="OUT" type="output"/>
+        <pin num="6" name="VCC" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Crazyflie-contol-board-rescue" part="MICRO-B-USB">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">MICRO-B-USB</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_out"/>
+        <pin num="2" name="D-" type="BiDi"/>
+        <pin num="3" name="D+" type="BiDi"/>
+        <pin num="4" name="ID" type="BiDi"/>
+        <pin num="5" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Crazyflie-contol-board-rescue" part="MOSFET_N">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">MOSFET_N</field>
+      </fields>
+      <pins>
+        <pin num="D" name="D" type="passive"/>
+        <pin num="G" name="G" type="input"/>
+        <pin num="S" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Crazyflie-contol-board-rescue" part="MS5611-01BA01">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MS5611-01BA01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="PS" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="CSB" type="input"/>
+        <pin num="5" name="CSB" type="input"/>
+        <pin num="6" name="SDO" type="BiDi"/>
+        <pin num="7" name="SDI/SDA" type="BiDi"/>
+        <pin num="8" name="SCLK" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="Crazyflie-contol-board-rescue" part="NUF2221">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NUF2221</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D1I" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="D2I" type="input"/>
+        <pin num="4" name="D2C" type="input"/>
+        <pin num="5" name="VBUS" type="input"/>
+        <pin num="6" name="D1C" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Crazyflie-contol-board-rescue" part="R">
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+        <fp>R?-*</fp>
+        <fp>SM1206</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Crazyflie-contol-board-rescue" part="SW_PUSH">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_PUSH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Crazyflie-contol-board-rescue" part="TPS79301">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS79301</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="NR" type="passive"/>
+        <pin num="5" name="FB" type="input"/>
+        <pin num="6" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP32-footprints-Shem-Lib" part="ESP32-WROOM">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESP32-WROOM</field>
+        <field name="Footprint">ESP32-footprints-Lib:ESP32-WROOM</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="input"/>
+        <pin num="2" name="3V3" type="input"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="SENSOR_VP" type="input"/>
+        <pin num="5" name="SENSOR_VN" type="input"/>
+        <pin num="6" name="IO34" type="input"/>
+        <pin num="7" name="IO35" type="input"/>
+        <pin num="8" name="IO32" type="input"/>
+        <pin num="9" name="IO33" type="input"/>
+        <pin num="10" name="IO25" type="input"/>
+        <pin num="11" name="IO26" type="input"/>
+        <pin num="12" name="IO27" type="input"/>
+        <pin num="13" name="IO14" type="input"/>
+        <pin num="14" name="IO12" type="input"/>
+        <pin num="15" name="GND" type="input"/>
+        <pin num="16" name="IO13" type="input"/>
+        <pin num="17" name="SD2" type="input"/>
+        <pin num="18" name="SD3" type="input"/>
+        <pin num="19" name="CMD" type="input"/>
+        <pin num="20" name="CLK" type="input"/>
+        <pin num="21" name="SDO" type="input"/>
+        <pin num="22" name="SD1" type="input"/>
+        <pin num="23" name="IO15" type="input"/>
+        <pin num="24" name="IO2" type="input"/>
+        <pin num="25" name="IO0" type="input"/>
+        <pin num="26" name="IO4" type="input"/>
+        <pin num="27" name="IO16" type="input"/>
+        <pin num="28" name="IO17" type="input"/>
+        <pin num="29" name="IO5" type="input"/>
+        <pin num="30" name="IO18" type="input"/>
+        <pin num="31" name="IO19" type="input"/>
+        <pin num="32" name="NC" type="input"/>
+        <pin num="33" name="IO21" type="input"/>
+        <pin num="34" name="RXD0" type="input"/>
+        <pin num="35" name="TXD0" type="input"/>
+        <pin num="36" name="IO22" type="input"/>
+        <pin num="37" name="IO23" type="input"/>
+        <pin num="38" name="GND" type="input"/>
+        <pin num="39" name="GND-PAD" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Interface_USB" part="CP2102N-A01-GQFN24">
+      <description>USB to UART master bridge</description>
+      <docs>http://www.silabs.com/support%20documents/technicaldocs/cp2102n-datasheet.pdf</docs>
+      <footprints>
+        <fp>QFN*4x4mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CP2102N-A01-GQFN24</field>
+        <field name="Footprint">Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RI/CLK" type="BiDi"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="D+" type="BiDi"/>
+        <pin num="4" name="D-" type="BiDi"/>
+        <pin num="5" name="VIO" type="power_in"/>
+        <pin num="6" name="VDD" type="power_in"/>
+        <pin num="7" name="REGIN" type="power_in"/>
+        <pin num="8" name="VBUS" type="input"/>
+        <pin num="9" name="~RSTb" type="input"/>
+        <pin num="10" name="NC" type="NotConnected"/>
+        <pin num="11" name="GPIO.3" type="BiDi"/>
+        <pin num="12" name="GPIO.2" type="BiDi"/>
+        <pin num="13" name="GPIO.1" type="BiDi"/>
+        <pin num="14" name="GPIO.0" type="BiDi"/>
+        <pin num="15" name="~SUSPENDb" type="output"/>
+        <pin num="16" name="NC" type="NotConnected"/>
+        <pin num="17" name="SUSPEND" type="output"/>
+        <pin num="18" name="CTS" type="input"/>
+        <pin num="19" name="RTS" type="output"/>
+        <pin num="20" name="RXD" type="input"/>
+        <pin num="21" name="TXD" type="output"/>
+        <pin num="22" name="DSR" type="input"/>
+        <pin num="23" name="DTR" type="output"/>
+        <pin num="24" name="DCD" type="input"/>
+        <pin num="25" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Sensor_Motion" part="MPU-9250">
+      <description>InvenSense 9-Axis Motion Sensor, Accelerometer, Gyroscope, Compass, I2C/SPI</description>
+      <docs>https://store.invensense.com/datasheets/invensense/MPU9250REV1.0.pdf</docs>
+      <footprints>
+        <fp>*QFN*3x3mm*P0.4mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MPU-9250</field>
+        <field name="Footprint">Sensor_Motion:InvenSense_QFN-24_3x3mm_P0.4mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RESV_VDDIO" type="input"/>
+        <pin num="7" name="AUX_SCL" type="output"/>
+        <pin num="8" name="VDDIO" type="power_in"/>
+        <pin num="9" name="AD0/MISO" type="BiDi"/>
+        <pin num="10" name="REGOUT" type="passive"/>
+        <pin num="11" name="FSYNC" type="input"/>
+        <pin num="12" name="INT" type="output"/>
+        <pin num="13" name="VDD" type="power_in"/>
+        <pin num="18" name="GND" type="power_in"/>
+        <pin num="20" name="RESV_GND" type="power_in"/>
+        <pin num="21" name="AUX_SDA" type="BiDi"/>
+        <pin num="22" name="~CS" type="input"/>
+        <pin num="23" name="SCL/SCLK" type="input"/>
+        <pin num="24" name="SDA/MOSI" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="BC817">
+      <aliases>
+        <alias>BC818</alias>
+        <alias>BC847</alias>
+        <alias>BC848</alias>
+        <alias>BC849</alias>
+        <alias>BC850</alias>
+        <alias>MMBT3904</alias>
+        <alias>MMBT5550L</alias>
+        <alias>MMBT5551L</alias>
+      </aliases>
+      <description>0.8A Ic, 45V Vce, NPN Transistor, SOT-23</description>
+      <docs>http://www.fairchildsemi.com/ds/BC/BC817.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC817</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Crazyflie-contol-board-rescue">
+      <uri>/home/spy/Documents/crazyflie-electronics/drone/Crazyflie contol board-rescue.lib</uri>
+    </library>
+    <library logical="ESP32-footprints-Shem-Lib">
+      <uri>/home/spy/Documents/ESP32-Footprints/ESP32-footprints-Shem-Lib.lib</uri>
+    </library>
+    <library logical="Interface_USB">
+      <uri>/usr/share/kicad/library/Interface_USB.lib</uri>
+    </library>
+    <library logical="Sensor_Motion">
+      <uri>/usr/share/kicad/library/Sensor_Motion.lib</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>/usr/share/kicad/library/Transistor_BJT.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(R6-Pad1)">
+      <node ref="U11" pin="13"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="2" name="/MOTOR4">
+      <node ref="U11" pin="27"/>
+      <node ref="R42" pin="1"/>
+    </net>
+    <net code="3" name="Net-(U11-Pad17)">
+      <node ref="U11" pin="17"/>
+    </net>
+    <net code="4" name="/MOTOR3">
+      <node ref="R41" pin="1"/>
+      <node ref="U11" pin="26"/>
+    </net>
+    <net code="5" name="/MOTOR1">
+      <node ref="U11" pin="16"/>
+      <node ref="R39" pin="1"/>
+    </net>
+    <net code="6" name="Net-(U11-Pad35)">
+      <node ref="U11" pin="35"/>
+      <node ref="U12" pin="20"/>
+    </net>
+    <net code="7" name="Net-(U11-Pad34)">
+      <node ref="U11" pin="34"/>
+      <node ref="U12" pin="21"/>
+    </net>
+    <net code="8" name="Net-(U11-Pad24)">
+      <node ref="U11" pin="24"/>
+    </net>
+    <net code="9" name="/MOTOR2">
+      <node ref="U11" pin="23"/>
+      <node ref="R40" pin="1"/>
+    </net>
+    <net code="10" name="Net-(U11-Pad37)">
+      <node ref="U11" pin="37"/>
+    </net>
+    <net code="11" name="Net-(U11-Pad32)">
+      <node ref="U11" pin="32"/>
+    </net>
+    <net code="12" name="Net-(U11-Pad22)">
+      <node ref="U11" pin="22"/>
+    </net>
+    <net code="13" name="Net-(U11-Pad12)">
+      <node ref="U11" pin="12"/>
+    </net>
+    <net code="14" name="Net-(U11-Pad31)">
+      <node ref="U11" pin="31"/>
+    </net>
+    <net code="15" name="Net-(U11-Pad21)">
+      <node ref="U11" pin="21"/>
+    </net>
+    <net code="16" name="Net-(U11-Pad20)">
+      <node ref="U11" pin="20"/>
+    </net>
+    <net code="17" name="Net-(U11-Pad8)">
+      <node ref="U11" pin="8"/>
+    </net>
+    <net code="18" name="DGND">
+      <node ref="C37" pin="2"/>
+      <node ref="D7" pin="2"/>
+      <node ref="C40" pin="2"/>
+      <node ref="R29" pin="1"/>
+      <node ref="P7" pin="5"/>
+      <node ref="C4" pin="1"/>
+      <node ref="SW2" pin="2"/>
+      <node ref="C5" pin="1"/>
+      <node ref="D8" pin="2"/>
+      <node ref="U6" pin="2"/>
+      <node ref="R28" pin="1"/>
+      <node ref="U11" pin="15"/>
+      <node ref="C3" pin="1"/>
+      <node ref="U12" pin="2"/>
+      <node ref="U11" pin="38"/>
+      <node ref="U11" pin="39"/>
+      <node ref="U12" pin="25"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C36" pin="2"/>
+      <node ref="U11" pin="1"/>
+    </net>
+    <net code="19" name="Net-(U11-Pad29)">
+      <node ref="U11" pin="29"/>
+    </net>
+    <net code="20" name="Net-(U11-Pad19)">
+      <node ref="U11" pin="19"/>
+    </net>
+    <net code="21" name="Net-(U11-Pad18)">
+      <node ref="U11" pin="18"/>
+    </net>
+    <net code="22" name="Net-(U12-Pad22)">
+      <node ref="U12" pin="22"/>
+    </net>
+    <net code="23" name="Net-(U12-Pad8)">
+      <node ref="U12" pin="8"/>
+    </net>
+    <net code="24" name="/USBD+">
+      <node ref="U6" pin="1"/>
+      <node ref="U12" pin="3"/>
+    </net>
+    <net code="25" name="Net-(U12-Pad24)">
+      <node ref="U12" pin="24"/>
+    </net>
+    <net code="26" name="Net-(U12-Pad18)">
+      <node ref="U12" pin="18"/>
+    </net>
+    <net code="27" name="Net-(U12-Pad17)">
+      <node ref="U12" pin="17"/>
+    </net>
+    <net code="28" name="Net-(U12-Pad16)">
+      <node ref="U12" pin="16"/>
+    </net>
+    <net code="29" name="Net-(U12-Pad15)">
+      <node ref="U12" pin="15"/>
+    </net>
+    <net code="30" name="Net-(U12-Pad14)">
+      <node ref="U12" pin="14"/>
+    </net>
+    <net code="31" name="Net-(U12-Pad13)">
+      <node ref="U12" pin="13"/>
+    </net>
+    <net code="32" name="Net-(U12-Pad12)">
+      <node ref="U12" pin="12"/>
+    </net>
+    <net code="33" name="Net-(U12-Pad11)">
+      <node ref="U12" pin="11"/>
+    </net>
+    <net code="34" name="Net-(U11-Pad5)">
+      <node ref="U11" pin="5"/>
+    </net>
+    <net code="35" name="Net-(U11-Pad4)">
+      <node ref="U11" pin="4"/>
+    </net>
+    <net code="36" name="Net-(C5-Pad2)">
+      <node ref="Q7" pin="3"/>
+      <node ref="R9" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="U11" pin="3"/>
+    </net>
+    <net code="37" name="Net-(R7-Pad2)">
+      <node ref="R7" pin="2"/>
+      <node ref="U12" pin="9"/>
+    </net>
+    <net code="38" name="Net-(R7-Pad1)">
+      <node ref="U12" pin="5"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="39" name="Net-(Q7-Pad2)">
+      <node ref="U12" pin="19"/>
+      <node ref="Q7" pin="2"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="40" name="Net-(Q7-Pad1)">
+      <node ref="R8" pin="1"/>
+      <node ref="Q7" pin="1"/>
+    </net>
+    <net code="41" name="/USBD-">
+      <node ref="U6" pin="3"/>
+      <node ref="U12" pin="4"/>
+    </net>
+    <net code="42" name="/MPU_FSYNC">
+      <node ref="U3" pin="11"/>
+    </net>
+    <net code="43" name="/TDO">
+      <node ref="U11" pin="11"/>
+    </net>
+    <net code="44" name="Net-(Q8-Pad1)">
+      <node ref="R10" pin="2"/>
+      <node ref="Q8" pin="1"/>
+    </net>
+    <net code="45" name="Net-(Q8-Pad2)">
+      <node ref="U12" pin="23"/>
+      <node ref="Q8" pin="2"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="46" name="Net-(Q4-PadG)">
+      <node ref="R4" pin="1"/>
+      <node ref="Q4" pin="G"/>
+      <node ref="R42" pin="2"/>
+    </net>
+    <net code="47" name="Net-(Q3-PadG)">
+      <node ref="Q3" pin="G"/>
+      <node ref="R41" pin="2"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="48" name="Net-(Q2-PadG)">
+      <node ref="R40" pin="2"/>
+      <node ref="R2" pin="1"/>
+      <node ref="Q2" pin="G"/>
+    </net>
+    <net code="49" name="Net-(Q1-PadG)">
+      <node ref="R39" pin="2"/>
+      <node ref="R1" pin="1"/>
+      <node ref="Q1" pin="G"/>
+    </net>
+    <net code="50" name="Net-(Q8-Pad3)">
+      <node ref="U11" pin="25"/>
+      <node ref="SW2" pin="1"/>
+      <node ref="Q8" pin="3"/>
+    </net>
+    <net code="51" name="Net-(R5-Pad1)">
+      <node ref="U11" pin="14"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="52" name="/EN2">
+      <node ref="U8" pin="5"/>
+      <node ref="U11" pin="6"/>
+    </net>
+    <net code="53" name="/SYSOFF">
+      <node ref="U11" pin="7"/>
+      <node ref="U10" pin="3"/>
+      <node ref="R31" pin="2"/>
+    </net>
+    <net code="54" name="/CHG">
+      <node ref="U11" pin="28"/>
+      <node ref="U8" pin="9"/>
+    </net>
+    <net code="55" name="+BATT">
+      <node ref="U10" pin="6"/>
+      <node ref="R30" pin="2"/>
+      <node ref="U8" pin="3"/>
+      <node ref="BT1" pin="1"/>
+      <node ref="D1" pin="2"/>
+      <node ref="D4" pin="2"/>
+      <node ref="D3" pin="2"/>
+      <node ref="P4" pin="1"/>
+      <node ref="P3" pin="1"/>
+      <node ref="P2" pin="1"/>
+      <node ref="P1" pin="1"/>
+      <node ref="U8" pin="2"/>
+      <node ref="D2" pin="2"/>
+      <node ref="C39" pin="1"/>
+    </net>
+    <net code="56" name="/I2C_SCL_VCCA">
+      <node ref="U3" pin="23"/>
+      <node ref="U5" pin="8"/>
+      <node ref="R14" pin="2"/>
+      <node ref="U11" pin="36"/>
+    </net>
+    <net code="57" name="/I2C_SCK_VCCA">
+      <node ref="U5" pin="7"/>
+      <node ref="R13" pin="2"/>
+      <node ref="U3" pin="24"/>
+      <node ref="U11" pin="33"/>
+    </net>
+    <net code="58" name="/INT_GA">
+      <node ref="U11" pin="9"/>
+      <node ref="U3" pin="12"/>
+    </net>
+    <net code="59" name="Net-(D6-Pad2)">
+      <node ref="R6" pin="2"/>
+      <node ref="D6" pin="2"/>
+    </net>
+    <net code="60" name="Net-(D4-Pad1)">
+      <node ref="Q4" pin="D"/>
+      <node ref="P4" pin="2"/>
+      <node ref="D4" pin="1"/>
+    </net>
+    <net code="61" name="GND">
+      <node ref="U8" pin="17"/>
+      <node ref="R27" pin="1"/>
+      <node ref="BT1" pin="2"/>
+      <node ref="R32" pin="1"/>
+      <node ref="Q6" pin="S"/>
+      <node ref="R26" pin="1"/>
+      <node ref="C41" pin="2"/>
+      <node ref="R24" pin="1"/>
+      <node ref="C34" pin="2"/>
+      <node ref="U8" pin="4"/>
+      <node ref="R25" pin="1"/>
+      <node ref="C39" pin="2"/>
+      <node ref="U8" pin="8"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="R29" pin="2"/>
+      <node ref="U9" pin="2"/>
+      <node ref="U7" pin="2"/>
+      <node ref="C33" pin="2"/>
+      <node ref="R31" pin="1"/>
+      <node ref="U10" pin="2"/>
+      <node ref="R19" pin="2"/>
+      <node ref="R37" pin="1"/>
+      <node ref="Q4" pin="S"/>
+      <node ref="R4" pin="2"/>
+      <node ref="Q1" pin="S"/>
+      <node ref="R1" pin="2"/>
+      <node ref="C38" pin="2"/>
+      <node ref="C31" pin="2"/>
+      <node ref="P9" pin="1"/>
+      <node ref="R36" pin="1"/>
+      <node ref="R2" pin="2"/>
+      <node ref="Q2" pin="S"/>
+      <node ref="R3" pin="2"/>
+      <node ref="Q3" pin="S"/>
+    </net>
+    <net code="62" name="VCCA">
+      <node ref="C30" pin="1"/>
+      <node ref="C16" pin="1"/>
+      <node ref="R16" pin="2"/>
+      <node ref="C29" pin="1"/>
+      <node ref="U7" pin="6"/>
+      <node ref="U3" pin="9"/>
+      <node ref="U3" pin="1"/>
+      <node ref="U5" pin="1"/>
+      <node ref="U5" pin="2"/>
+      <node ref="C24" pin="1"/>
+      <node ref="U3" pin="22"/>
+      <node ref="R13" pin="1"/>
+      <node ref="R14" pin="1"/>
+      <node ref="U3" pin="13"/>
+      <node ref="U3" pin="8"/>
+      <node ref="C20" pin="1"/>
+    </net>
+    <net code="63" name="Net-(D2-Pad1)">
+      <node ref="Q2" pin="D"/>
+      <node ref="D2" pin="1"/>
+      <node ref="P2" pin="2"/>
+    </net>
+    <net code="64" name="Net-(D5-Pad2)">
+      <node ref="R5" pin="2"/>
+      <node ref="D5" pin="2"/>
+    </net>
+    <net code="65" name="/PGOOD">
+      <node ref="U8" pin="7"/>
+      <node ref="R21" pin="1"/>
+      <node ref="R23" pin="2"/>
+      <node ref="U11" pin="30"/>
+    </net>
+    <net code="66" name="/EN1">
+      <node ref="U11" pin="10"/>
+      <node ref="U8" pin="6"/>
+    </net>
+    <net code="67" name="Net-(D1-Pad1)">
+      <node ref="P1" pin="2"/>
+      <node ref="D1" pin="1"/>
+      <node ref="Q1" pin="D"/>
+    </net>
+    <net code="68" name="Net-(U12-Pad1)">
+      <node ref="U12" pin="1"/>
+    </net>
+    <net code="69" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1"/>
+      <node ref="Q3" pin="D"/>
+      <node ref="P3" pin="2"/>
+    </net>
+    <net code="70" name="/POWER/VUSB">
+      <node ref="P7" pin="1"/>
+      <node ref="U8" pin="13"/>
+      <node ref="C36" pin="1"/>
+      <node ref="R37" pin="2"/>
+      <node ref="Q6" pin="G"/>
+    </net>
+    <net code="71" name="VCC">
+      <node ref="U6" pin="5"/>
+      <node ref="R9" pin="1"/>
+      <node ref="D5" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="D6" pin="1"/>
+      <node ref="R38" pin="2"/>
+      <node ref="C37" pin="1"/>
+      <node ref="R22" pin="2"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C35" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U11" pin="2"/>
+      <node ref="U12" pin="6"/>
+      <node ref="R20" pin="2"/>
+      <node ref="U12" pin="7"/>
+      <node ref="U9" pin="6"/>
+      <node ref="R21" pin="2"/>
+    </net>
+    <net code="72" name="/POWER/VBAT">
+      <node ref="Q5" pin="S"/>
+      <node ref="C41" pin="1"/>
+      <node ref="R32" pin="2"/>
+    </net>
+    <net code="73" name="Net-(U12-Pad10)">
+      <node ref="U12" pin="10"/>
+    </net>
+    <net code="74" name="Net-(U3-Pad21)">
+      <node ref="U3" pin="21"/>
+    </net>
+    <net code="75" name="Net-(U3-Pad7)">
+      <node ref="U3" pin="7"/>
+    </net>
+    <net code="76" name="AGND">
+      <node ref="C16" pin="2"/>
+      <node ref="C32" pin="2"/>
+      <node ref="R18" pin="1"/>
+      <node ref="C20" pin="2"/>
+      <node ref="C24" pin="2"/>
+      <node ref="U5" pin="5"/>
+      <node ref="U5" pin="4"/>
+      <node ref="U5" pin="3"/>
+      <node ref="C30" pin="2"/>
+      <node ref="C18" pin="2"/>
+      <node ref="R19" pin="1"/>
+      <node ref="U3" pin="18"/>
+      <node ref="U3" pin="20"/>
+    </net>
+    <net code="77" name="Net-(C18-Pad1)">
+      <node ref="C18" pin="1"/>
+      <node ref="U3" pin="10"/>
+    </net>
+    <net code="78" name="Net-(U5-Pad6)">
+      <node ref="U5" pin="6"/>
+    </net>
+    <net code="79" name="Net-(D7-Pad1)">
+      <node ref="D7" pin="1"/>
+      <node ref="R22" pin="1"/>
+    </net>
+    <net code="80" name="Net-(SW1-Pad2)">
+      <node ref="SW1" pin="2"/>
+      <node ref="U10" pin="1"/>
+    </net>
+    <net code="81" name="VCOM">
+      <node ref="C38" pin="1"/>
+      <node ref="U8" pin="10"/>
+      <node ref="U8" pin="11"/>
+      <node ref="C34" pin="1"/>
+      <node ref="Q5" pin="G"/>
+      <node ref="R36" pin="2"/>
+      <node ref="R17" pin="2"/>
+      <node ref="U9" pin="3"/>
+      <node ref="U9" pin="1"/>
+      <node ref="C33" pin="1"/>
+    </net>
+    <net code="82" name="Net-(U10-Pad5)">
+      <node ref="U10" pin="5"/>
+    </net>
+    <net code="83" name="Net-(P7-Pad4)">
+      <node ref="P7" pin="4"/>
+    </net>
+    <net code="84" name="Net-(Q5-PadD)">
+      <node ref="R30" pin="1"/>
+      <node ref="Q5" pin="D"/>
+    </net>
+    <net code="85" name="Net-(R26-Pad2)">
+      <node ref="R26" pin="2"/>
+      <node ref="U8" pin="16"/>
+    </net>
+    <net code="86" name="Net-(R24-Pad2)">
+      <node ref="R24" pin="2"/>
+      <node ref="U8" pin="12"/>
+    </net>
+    <net code="87" name="Net-(R27-Pad2)">
+      <node ref="R27" pin="2"/>
+      <node ref="U8" pin="1"/>
+    </net>
+    <net code="88" name="Net-(R25-Pad2)">
+      <node ref="U8" pin="14"/>
+      <node ref="R25" pin="2"/>
+    </net>
+    <net code="89" name="Net-(C29-Pad2)">
+      <node ref="C29" pin="2"/>
+      <node ref="R16" pin="1"/>
+      <node ref="R18" pin="2"/>
+      <node ref="U7" pin="5"/>
+    </net>
+    <net code="90" name="Net-(C35-Pad2)">
+      <node ref="U9" pin="5"/>
+      <node ref="C35" pin="2"/>
+      <node ref="R23" pin="1"/>
+      <node ref="R20" pin="1"/>
+      <node ref="R28" pin="2"/>
+    </net>
+    <net code="91" name="Net-(C40-Pad1)">
+      <node ref="C40" pin="1"/>
+      <node ref="U9" pin="4"/>
+    </net>
+    <net code="92" name="Net-(C32-Pad1)">
+      <node ref="U7" pin="4"/>
+      <node ref="C32" pin="1"/>
+    </net>
+    <net code="93" name="Net-(Q6-PadD)">
+      <node ref="Q6" pin="D"/>
+      <node ref="U8" pin="15"/>
+      <node ref="R33" pin="2"/>
+    </net>
+    <net code="94" name="/POWER/D+">
+      <node ref="P7" pin="3"/>
+      <node ref="U6" pin="6"/>
+    </net>
+    <net code="95" name="/POWER/D-">
+      <node ref="U6" pin="4"/>
+      <node ref="P7" pin="2"/>
+    </net>
+    <net code="96" name="Net-(C31-Pad1)">
+      <node ref="R17" pin="1"/>
+      <node ref="C31" pin="1"/>
+      <node ref="U7" pin="1"/>
+      <node ref="U7" pin="3"/>
+    </net>
+    <net code="97" name="Net-(D8-Pad1)">
+      <node ref="R38" pin="1"/>
+      <node ref="D8" pin="1"/>
+    </net>
+    <net code="98" name="Net-(R33-Pad1)">
+      <node ref="R33" pin="1"/>
+      <node ref="U10" pin="4"/>
+    </net>
+  </nets>
+</export>
