@@ -27,8 +27,6 @@ Wire Wire Line
 Wire Wire Line
 	1050 1800 650  1800
 Wire Wire Line
-	9050 5200 9500 5200
-Wire Wire Line
 	1250 3550 1250 3850
 Wire Wire Line
 	1250 3850 2200 3850
@@ -98,13 +96,9 @@ Wire Wire Line
 Wire Wire Line
 	1950 2000 1950 2400
 Wire Wire Line
-	9050 4300 9700 4300
-Wire Wire Line
 	7800 6000 7800 6450
 Wire Wire Line
 	2200 5400 1700 5400
-Wire Wire Line
-	3500 5650 3900 5650
 Connection ~ 10950 6150
 Wire Wire Line
 	10600 6350 10950 6350
@@ -115,15 +109,11 @@ Wire Wire Line
 Wire Wire Line
 	10600 6150 10950 6150
 Wire Wire Line
-	3500 5550 3900 5550
-Wire Wire Line
 	2200 5300 1700 5300
 Wire Wire Line
 	2200 5500 1700 5500
 Wire Wire Line
 	10950 6350 10950 6150
-Wire Wire Line
-	9050 4600 9700 4600
 Wire Wire Line
 	1650 1000 1650 900 
 Connection ~ 1950 900 
@@ -149,8 +139,6 @@ Wire Wire Line
 	1450 3550 1450 3750
 Wire Wire Line
 	1450 3750 2200 3750
-Wire Wire Line
-	9050 5300 9500 5300
 Wire Wire Line
 	2450 1800 2850 1800
 Wire Wire Line
@@ -297,11 +285,11 @@ F2 "INT_GA" O R 3500 3750 60
 F3 "I2C_SDA_VCCA" B L 2200 3850 60 
 F4 "I2C_SCL_VCCA" I L 2200 3750 60 
 $EndSheet
-Text Label 5300 4850 0    60   ~ 0
+Text Label 5350 5050 0    60   ~ 0
 INT_GA
-Text Label 9700 4600 2    60   ~ 0
+Text Label 10600 4600 2    60   ~ 0
 I2C_SCK_VCCA
-Text Label 9700 4300 2    60   ~ 0
+Text Label 10600 4300 2    60   ~ 0
 I2C_SCL_VCCA
 Text Notes 650  7600 1    60   ~ 0
 Mount pull-down (0R) and don't mount \npull-up to comply with ARM 10-pin spec.
@@ -545,29 +533,29 @@ F 5 "PMV31XN" H 1850 1800 60  0001 C CNN "Field5"
 	1    1850 1800
 	1    0    0    -1  
 $EndComp
-Text Label 9500 5300 2    60   ~ 0
+Text Label 10600 5300 2    60   ~ 0
 MOTOR3
-Text Label 9500 5200 2    60   ~ 0
+Text Label 10600 5200 2    60   ~ 0
 MOTOR4
 Text Label 10600 4200 2    60   ~ 0
 MOTOR2
 Text Label 7800 6450 1    60   ~ 0
 MOTOR1
-Text Label 5300 5150 0    60   ~ 0
+Text Label 5350 5350 0    60   ~ 0
 EN2
-Text Label 5300 4950 0    60   ~ 0
+Text Label 5350 5150 0    60   ~ 0
 EN1
-Text Label 5300 5050 0    60   ~ 0
+Text Label 5350 5250 0    60   ~ 0
 TDO
-Text Label 5300 4700 0    60   ~ 0
+Text Label 5350 4950 0    60   ~ 0
 SYSOFF
-Text Label 10050 4900 2    60   ~ 0
+Text Label 10600 4900 2    60   ~ 0
 PGOOD
-Text Label 10050 5100 2    60   ~ 0
+Text Label 10600 5100 2    60   ~ 0
 CHG
-Text Label 3900 5650 2    60   ~ 0
+Text Label 4200 5650 2    60   ~ 0
 PGOOD
-Text Label 3900 5550 2    60   ~ 0
+Text Label 4200 5550 2    60   ~ 0
 CHG
 Text Label 1700 5500 0    60   ~ 0
 EN2
@@ -974,14 +962,6 @@ F 3 "" H 5750 4350 50  0001 C CNN
 	1    5750 4350
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	6750 5250 7200 5250
-Wire Wire Line
-	6850 5150 7200 5150
-Wire Wire Line
-	7000 5050 7200 5050
-Wire Wire Line
-	10050 4900 9050 4900
 $Comp
 L Crazyflie-contol-board-rescue:VCC-power #PWR0113
 U 1 1 5C96E5CF
@@ -995,15 +975,13 @@ F 3 "" H 7500 1800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4550 6950 4650 6950
-Wire Wire Line
-	5300 4700 7100 4700
 Text Label 7900 2200 0    50   ~ 0
 USBD-
 Wire Wire Line
 	3500 5300 4200 5300
-Text Label 4200 5300 0    50   ~ 0
+Text Label 4200 5300 2    50   ~ 0
 USBD-
-Text Label 4200 5400 0    50   ~ 0
+Text Label 4200 5400 2    50   ~ 0
 USBD+
 Text Label 7900 2100 0    50   ~ 0
 USBD+
@@ -1063,20 +1041,6 @@ Wire Wire Line
 	9650 1700 9650 3500
 Wire Wire Line
 	9650 1700 9550 1700
-Wire Wire Line
-	9050 5100 10050 5100
-Wire Wire Line
-	7000 4850 7000 5050
-Wire Wire Line
-	5300 4850 7000 4850
-Wire Wire Line
-	6850 4950 6850 5150
-Wire Wire Line
-	5300 4950 6850 4950
-Wire Wire Line
-	6750 5050 6750 5250
-Wire Wire Line
-	5300 5050 6750 5050
 Connection ~ 7100 4350
 Wire Wire Line
 	5950 3700 5950 4350
@@ -1086,21 +1050,9 @@ Wire Wire Line
 	7200 5650 7200 6000
 Connection ~ 7200 6000
 Wire Wire Line
-	7100 4950 7200 4950
-Wire Wire Line
-	7100 4700 7100 4950
-Wire Wire Line
-	5300 5150 6650 5150
-Wire Wire Line
-	6650 5150 6650 5350
-Wire Wire Line
-	6650 5350 7200 5350
-Wire Wire Line
 	9450 6350 8600 6350
 Wire Wire Line
 	9050 4200 10600 4200
-Wire Wire Line
-	9050 4800 9150 4800
 Wire Wire Line
 	9150 6150 9450 6150
 Wire Wire Line
@@ -1111,9 +1063,9 @@ Connection ~ 9650 3500
 Wire Wire Line
 	6900 3500 9650 3500
 Text Label 9150 6150 0    50   ~ 0
-Red
-Text Label 9150 4800 0    50   ~ 0
-Red
+RED
+Text Label 10600 4800 2    50   ~ 0
+RED
 Wire Wire Line
 	10000 3200 5950 3200
 Wire Wire Line
@@ -1134,4 +1086,32 @@ Wire Wire Line
 	9200 5600 9200 5750
 Wire Wire Line
 	8600 6350 8600 6000
+Wire Wire Line
+	9050 4600 10600 4600
+Wire Wire Line
+	9050 4800 10600 4800
+Wire Wire Line
+	9050 4900 10600 4900
+Wire Wire Line
+	9050 5100 10600 5100
+Wire Wire Line
+	9050 5200 10600 5200
+Wire Wire Line
+	9050 5300 10600 5300
+Wire Wire Line
+	3500 5550 4200 5550
+Wire Wire Line
+	3500 5650 4200 5650
+Wire Wire Line
+	9050 4300 10600 4300
+Wire Wire Line
+	5350 4950 7200 4950
+Wire Wire Line
+	5350 5050 7200 5050
+Wire Wire Line
+	5350 5250 7200 5250
+Wire Wire Line
+	5350 5150 7200 5150
+Wire Wire Line
+	5350 5350 7200 5350
 $EndSCHEMATC

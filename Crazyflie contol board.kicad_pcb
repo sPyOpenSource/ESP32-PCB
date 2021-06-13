@@ -78,7 +78,7 @@
     (aux_axis_origin 139.99972 101.0031)
     (visible_elements 7FFFFFFF)
     (pcbplotparams
-      (layerselection 0x00030_ffffffff)
+      (layerselection 0x010f0_ffffffff)
       (usegerberextensions true)
       (usegerberattributes false)
       (usegerberadvancedattributes false)
@@ -168,7 +168,7 @@
   (net 59 "Net-(C5-Pad2)")
   (net 60 /USBD+)
   (net 61 /USBD-)
-  (net 62 /Red)
+  (net 62 /RED)
 
   (net_class Default "This is the default net class."
     (clearance 0.1524)
@@ -185,7 +185,7 @@
     (add_net /INT_GA)
     (add_net /PGOOD)
     (add_net /POWER/VUSB)
-    (add_net /Red)
+    (add_net /RED)
     (add_net /SYSOFF)
     (add_net /USBD+)
     (add_net /USBD-)
@@ -1229,7 +1229,7 @@
     (fp_line (start 1.143 0.635) (end -1.143 0.635) (layer F.SilkS) (width 0.127))
     (fp_line (start -1.143 0.635) (end -1.143 -0.635) (layer F.SilkS) (width 0.127))
     (pad 1 smd rect (at -0.762 0) (size 0.635 1.143) (layers Front_L1 F.Paste F.Mask)
-      (net 62 /Red))
+      (net 62 /RED))
     (pad 2 smd rect (at 0.762 0) (size 0.635 1.143) (layers Front_L1 F.Paste F.Mask)
       (net 24 "Net-(D5-Pad2)"))
     (model ../kicad-libs/3d-models/R0603.wrl
@@ -2255,7 +2255,7 @@
     (fp_text reference D7 (at 2.243268 0.084414 225) (layer F.SilkS)
       (effects (font (size 0.8001 0.8001) (thickness 0.20066)))
     )
-    (fp_text value "BLUE LED" (at 0.249651 -1.298545 225) (layer F.SilkS) hide
+    (fp_text value "BLUE LED" (at -0.084414 -2.717426 225) (layer F.SilkS) hide
       (effects (font (size 0.8001 0.8001) (thickness 0.20066)))
     )
     (fp_line (start 0.14986 -0.35052) (end 0.14986 0.35052) (layer F.SilkS) (width 0.127))
@@ -2507,7 +2507,7 @@
       (net 34 /I2C_SCK_VCCA))
     (pad 32 smd oval (at -9 2.37 180) (size 2.5 0.9) (layers Back_L4 B.Paste B.Mask))
     (pad 31 smd oval (at -9 3.64 180) (size 2.5 0.9) (layers Back_L4 B.Paste B.Mask)
-      (net 62 /Red))
+      (net 62 /RED))
     (pad 30 smd oval (at -9 4.91 180) (size 2.5 0.9) (layers Back_L4 B.Paste B.Mask)
       (net 36 /PGOOD))
     (pad 29 smd oval (at -9 6.18 180) (size 2.5 0.9) (layers Back_L4 B.Paste B.Mask))
