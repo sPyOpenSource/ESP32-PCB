@@ -1,0 +1,64 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Device_Battery_Cell
+#
+DEF Device_Battery_Cell BT 0 0 N N 1 F N
+F0 "BT" 100 100 50 H V L CNN
+F1 "Device_Battery_Cell" 100 0 50 H V L CNN
+F2 "" 0 60 50 V I C CNN
+F3 "" 0 60 50 V I C CNN
+DRAW
+S -90 70 90 60 0 1 0 F
+S -62 47 58 27 0 1 0 F
+P 2 0 1 0 0 30 0 0 N
+P 2 0 1 0 0 70 0 100 N
+P 2 0 1 10 20 135 60 135 N
+P 2 0 1 10 40 155 40 115 N
+X + 1 0 200 100 D 50 50 1 1 P
+X - 2 0 -100 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Header_header3
+#
+DEF Header_header3 J 0 40 Y Y 1 F N
+F0 "J" 0 -100 50 H V C CNN
+F1 "Header_header3" 0 250 50 H V C CNN
+F2 "" 0 -100 50 H I C CNN
+F3 "" 0 -100 50 H I C CNN
+DRAW
+X ~ 1 -100 50 100 D 50 50 1 1 I
+X ~ 2 0 50 100 D 50 50 1 1 I
+X ~ 3 100 50 100 D 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# minikame-rescue_header-Header
+#
+DEF minikame-rescue_header-Header J 0 40 Y Y 1 F N
+F0 "J" 0 350 50 H V C CNN
+F1 "minikame-rescue_header-Header" -50 -100 50 H V C CNN
+F2 "" -150 0 50 H I C CNN
+F3 "" -150 0 50 H I C CNN
+DRAW
+X ~ 1 -700 150 100 D 50 50 1 1 I
+X ~ 10 200 150 100 D 50 50 1 1 I
+X ~ 11 300 150 100 D 50 50 1 1 I
+X ~ 12 400 150 100 D 50 50 1 1 I
+X ~ 13 500 150 100 D 50 50 1 1 I
+X ~ 14 600 150 100 D 50 50 1 1 I
+X ~ 15 700 150 100 D 50 50 1 1 I
+X ~ 16 800 150 100 D 50 50 1 1 I
+X ~ 2 -600 150 100 D 50 50 1 1 I
+X ~ 3 -500 150 100 D 50 50 1 1 I
+X ~ 4 -400 150 100 D 50 50 1 1 I
+X ~ 5 -300 150 100 D 50 50 1 1 I
+X ~ 6 -200 150 100 D 50 50 1 1 I
+X ~ 7 -100 150 100 D 50 50 1 1 I
+X ~ 8 0 150 100 D 50 50 1 1 I
+X ~ 9 100 150 100 D 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

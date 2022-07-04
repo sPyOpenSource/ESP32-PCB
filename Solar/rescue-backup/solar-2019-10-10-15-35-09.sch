@@ -1,0 +1,787 @@
+EESchema Schematic File Version 2  date Mon 21 Jul 2014 06:24:24 PM CEST
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:irfiz44n
+LIBS:connectors
+LIBS:solar-cache
+EELAYER 25  0
+EELAYER END
+$Descr A4 11700 8267
+encoding utf-8
+Sheet 1 1
+Title "Peak Power Solar Charger"
+Date "21 jul 2014"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text GLabel 8700 2100 1    60   Input ~ 0
+Bat+
+Text GLabel 1800 1950 1    60   Input ~ 0
+Sol+
+Text GLabel 3900 1950 1    60   Input ~ 0
+FET-in
+Text GLabel 6150 2800 1    60   Input ~ 0
+FET-out
+Wire Wire Line
+	800  7500 3500 7500
+Connection ~ 3750 5100
+Connection ~ 3750 4900
+Connection ~ 8550 4750
+Connection ~ 8350 4750
+Connection ~ 7550 4750
+Connection ~ 7350 4750
+Connection ~ 7150 4750
+Wire Wire Line
+	1050 2100 1150 2100
+Connection ~ 2450 7500
+Wire Wire Line
+	6950 4750 6950 4500
+Wire Wire Line
+	6950 4500 6350 4500
+Wire Wire Line
+	6350 4500 6350 4550
+Connection ~ 8700 2100
+Wire Wire Line
+	8700 2200 8700 2100
+Wire Wire Line
+	9000 2800 8700 2800
+Wire Wire Line
+	9000 3300 8700 3300
+Wire Wire Line
+	9000 3300 9000 3200
+Connection ~ 1400 3050
+Wire Wire Line
+	4850 5300 5550 5300
+Wire Wire Line
+	5550 5300 5550 3300
+Connection ~ 5300 2450
+Wire Wire Line
+	5050 4900 5050 2450
+Wire Wire Line
+	5050 4900 4850 4900
+Wire Wire Line
+	4050 4300 3750 4300
+Wire Wire Line
+	3750 4300 3750 4700
+Connection ~ 3200 1950
+Connection ~ 2800 7500
+Wire Wire Line
+	3150 7500 3150 7350
+Connection ~ 3150 6300
+Wire Wire Line
+	3150 6300 3150 6950
+Connection ~ 800  5750
+Connection ~ 2450 6300
+Wire Wire Line
+	2450 6450 2450 6300
+Wire Wire Line
+	2600 6950 2450 6950
+Wire Wire Line
+	2600 6950 2600 5950
+Wire Wire Line
+	1600 6300 800  6300
+Wire Wire Line
+	2450 6950 2450 7000
+Connection ~ 800  6300
+Wire Wire Line
+	800  6900 800  5750
+Wire Wire Line
+	2600 5350 2800 5350
+Wire Wire Line
+	1500 5950 1500 7700
+Connection ~ 2900 4850
+Wire Wire Line
+	2900 5050 2900 1950
+Connection ~ 1150 4850
+Wire Wire Line
+	2900 4850 900  4850
+Connection ~ 2900 3950
+Wire Wire Line
+	1500 5550 1400 5550
+Wire Wire Line
+	1500 5350 1300 5350
+Wire Wire Line
+	1400 2550 1700 2550
+Wire Wire Line
+	1400 2550 1400 2500
+Connection ~ 1250 4650
+Wire Wire Line
+	1250 4650 900  4650
+Wire Wire Line
+	900  4650 900  3950
+Wire Wire Line
+	1500 4150 1250 4150
+Wire Wire Line
+	900  3950 1500 3950
+Wire Wire Line
+	2600 3550 2700 3550
+Wire Wire Line
+	2700 3550 2700 3400
+Wire Wire Line
+	2700 3400 2400 3400
+Wire Wire Line
+	2400 3400 2400 1950
+Wire Wire Line
+	1500 3550 900  3550
+Connection ~ 7600 2100
+Wire Wire Line
+	7350 2100 10400 2100
+Connection ~ 7600 2800
+Wire Wire Line
+	7600 3100 7600 2100
+Connection ~ 6300 2800
+Wire Wire Line
+	6300 3100 6300 2100
+Connection ~ 3400 1950
+Wire Wire Line
+	3400 1950 3400 2100
+Wire Wire Line
+	6900 2800 7600 2800
+Wire Wire Line
+	4300 2450 4650 2450
+Wire Wire Line
+	4650 2450 4650 2250
+Wire Wire Line
+	5850 3100 5850 2650
+Wire Wire Line
+	5050 2450 5550 2450
+Wire Wire Line
+	4850 1950 5850 1950
+Wire Wire Line
+	5850 1950 5850 2250
+Connection ~ 5850 2800
+Wire Wire Line
+	5850 3700 5850 3500
+Connection ~ 6300 3500
+Wire Wire Line
+	2900 1950 4450 1950
+Connection ~ 4300 1950
+Wire Wire Line
+	3400 2500 3400 3500
+Connection ~ 5850 3500
+Wire Wire Line
+	6700 2100 6850 2100
+Wire Wire Line
+	2400 1950 1050 1950
+Wire Wire Line
+	3400 3500 10400 3500
+Wire Wire Line
+	10400 3500 10400 2250
+Connection ~ 7600 3500
+Wire Wire Line
+	2600 3950 2900 3950
+Wire Wire Line
+	900  3550 900  3450
+Wire Wire Line
+	1250 4550 1250 4700
+Wire Wire Line
+	1400 2000 1400 1950
+Connection ~ 1400 1950
+Wire Wire Line
+	1400 3050 1400 3250
+Wire Wire Line
+	1700 3000 1700 3050
+Wire Wire Line
+	800  5350 800  5500
+Wire Wire Line
+	1400 5550 1400 4850
+Connection ~ 1400 4850
+Wire Wire Line
+	1150 5250 650  5250
+Wire Wire Line
+	650  5250 650  5300
+Connection ~ 900  5250
+Wire Wire Line
+	2600 5550 2900 5550
+Connection ~ 1500 7500
+Wire Wire Line
+	800  7500 800  7300
+Wire Wire Line
+	2800 5350 2800 7100
+Wire Wire Line
+	2200 6300 3700 6300
+Wire Wire Line
+	3700 6300 3700 6150
+Wire Wire Line
+	3500 6950 3500 6300
+Connection ~ 3500 6300
+Wire Wire Line
+	3500 7500 3500 7350
+Connection ~ 3150 7500
+Wire Wire Line
+	3200 1950 3200 4900
+Connection ~ 3200 4700
+Wire Wire Line
+	3500 5550 3500 5300
+Connection ~ 3500 5300
+Wire Wire Line
+	4450 4300 4850 4300
+Wire Wire Line
+	4850 4300 4850 4700
+Wire Wire Line
+	4850 4700 5250 4700
+Wire Wire Line
+	3750 4700 3200 4700
+Wire Wire Line
+	3200 5300 3750 5300
+Wire Wire Line
+	4850 5100 5400 5100
+Wire Wire Line
+	5400 5100 5400 2800
+Wire Wire Line
+	5400 2800 6300 2800
+Connection ~ 5250 5100
+Wire Wire Line
+	3400 3050 1150 3050
+Connection ~ 3400 3050
+Connection ~ 1700 3050
+Wire Wire Line
+	8700 3300 8700 3500
+Connection ~ 8700 3500
+Wire Wire Line
+	8700 2800 8700 2700
+Wire Wire Line
+	6750 4450 6750 4750
+Wire Wire Line
+	1700 2550 1700 2600
+Wire Wire Line
+	1150 3050 1150 2100
+Wire Wire Line
+	800  5750 1500 5750
+Text GLabel 3750 5100 0    80   Input ~ 0
+~SD
+Text GLabel 3750 4900 0    80   Input ~ 0
+PWM
+Text GLabel 1250 4150 0    60   Input ~ 0
+I_Sol
+Text GLabel 9000 2800 2    80   Input ~ 0
+U_Bat
+Text GLabel 8550 4750 1    80   Input ~ 0
+PWM
+Text GLabel 8350 4750 1    80   Input ~ 0
+~SD
+Text GLabel 7550 4750 1    80   Input ~ 0
+U_Bat
+Text GLabel 7350 4750 1    80   Input ~ 0
+I_Sol
+Text GLabel 1700 2550 2    80   Input ~ 0
+U_Sol
+Text GLabel 7150 4750 1    80   Input ~ 0
+U_Sol
+NoConn ~ 2600 5750
+NoConn ~ 8150 4750
+NoConn ~ 7750 4750
+NoConn ~ 7950 4750
+NoConn ~ 8750 4750
+NoConn ~ 8950 4750
+$Comp
+L GND #PWR01
+U 1 1 53C81DB7
+P 6350 4550
+F 0 "#PWR01" H 6350 4550 30  0001 C CNN
+F 1 "GND" H 6350 4480 30  0001 C CNN
+	1    6350 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3,3V #PWR02
+U 1 1 53C81D9E
+P 6750 4450
+F 0 "#PWR02" H 6750 4410 30  0001 C CNN
+F 1 "+3,3V" H 6750 4560 30  0000 C CNN
+	1    6750 4450
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6750 6200
+NoConn ~ 6950 6200
+NoConn ~ 7150 6200
+NoConn ~ 7350 6200
+NoConn ~ 7550 6200
+NoConn ~ 7750 6200
+NoConn ~ 7950 6200
+NoConn ~ 8150 6200
+NoConn ~ 8350 6200
+NoConn ~ 8550 6200
+NoConn ~ 8750 6200
+NoConn ~ 8950 6200
+NoConn ~ 9150 6200
+$Comp
+L MERKURBOARD IC2
+U 1 1 53C81D49
+P 7950 4900
+F 0 "IC2" H 8500 3500 60  0000 C CNN
+F 1 "MERKURBOARD" H 8500 6300 60  0000 C CNN
+	1    7950 4900
+	0    1    1    0   
+$EndComp
+$Comp
+L C C4
+U 1 1 53C81785
+P 9000 3000
+F 0 "C4" H 9050 3100 50  0000 L CNN
+F 1 "0.1µF" H 9050 2900 50  0000 L CNN
+	1    9000 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R10
+U 1 1 53C81781
+P 8700 3050
+F 0 "R10" V 8780 3050 50  0000 C CNN
+F 1 "560" V 8700 3050 50  0000 C CNN
+	1    8700 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R8
+U 1 1 53C8177D
+P 8700 2450
+F 0 "R8" V 8780 2450 50  0000 C CNN
+F 1 "10k" V 8700 2450 50  0000 C CNN
+	1    8700 2450
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1500 3750
+NoConn ~ 2600 4150
+NoConn ~ 2600 3750
+$Comp
+L C C7
+U 1 1 53C81553
+P 5250 4900
+F 0 "C7" H 5150 5000 50  0000 L CNN
+F 1 "0.1µF" H 5000 4800 50  0000 L CNN
+	1    5250 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 53C814F0
+P 3500 5550
+F 0 "#PWR03" H 3500 5550 30  0001 C CNN
+F 1 "GND" H 3500 5480 30  0001 C CNN
+	1    3500 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C12
+U 1 1 53C814BD
+P 3200 5100
+F 0 "C12" H 3250 5200 50  0000 L CNN
+F 1 "0.1µF" H 3250 5000 50  0000 L CNN
+	1    3200 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D4
+U 1 1 53C814A6
+P 4250 4300
+F 0 "D4" H 4250 4400 40  0000 C CNN
+F 1 "LL4148 (1N4148)" H 4250 4200 40  0000 C CNN
+	1    4250 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L IR2104 IC3
+U 1 1 53C81449
+P 3900 5050
+F 0 "IC3" H 4300 4600 60  0000 C CNN
+F 1 "IR2104" H 4300 5550 60  0000 C CNN
+	1    3900 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1 C14
+U 1 1 53C81101
+P 3500 7150
+F 0 "C14" H 3550 7250 50  0000 L CNN
+F 1 "22µF" H 3550 7050 50  0000 L CNN
+	1    3500 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1 C13
+U 1 1 53C810FC
+P 3150 7150
+F 0 "C13" H 3200 7250 50  0000 L CNN
+F 1 "22µF" H 3200 7050 50  0000 L CNN
+	1    3150 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3,3V #PWR04
+U 1 1 53C81092
+P 3700 6150
+F 0 "#PWR04" H 3700 6110 30  0001 C CNN
+F 1 "+3,3V" H 3700 6260 30  0000 C CNN
+	1    3700 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R3
+U 1 1 53C80EA9
+P 2450 7250
+F 0 "R3" V 2530 7250 50  0000 C CNN
+F 1 "3k9" V 2450 7250 50  0000 C CNN
+	1    2450 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R4
+U 1 1 53C80EA4
+P 2450 6700
+F 0 "R4" V 2530 6700 50  0000 C CNN
+F 1 "12k" V 2450 6700 50  0000 C CNN
+	1    2450 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D3
+U 1 1 53C80E46
+P 800 7100
+F 0 "D3" H 800 7200 40  0000 C CNN
+F 1 "PMEG6020EP(SB1100)" H 800 7000 40  0000 C CNN
+	1    800  7100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L INDUCTOR L1
+U 1 1 53C80DD8
+P 1900 6300
+F 0 "L1" V 1850 6300 40  0000 C CNN
+F 1 "10µH" V 2000 6300 40  0000 C CNN
+	1    1900 6300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR05
+U 1 1 53C80C76
+P 1500 7700
+F 0 "#PWR05" H 1500 7700 30  0001 C CNN
+F 1 "GND" H 1500 7630 30  0001 C CNN
+	1    1500 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C15
+U 1 1 53C80C54
+P 2800 7300
+F 0 "C15" H 2850 7400 50  0000 L CNN
+F 1 "0.1µF" H 2850 7200 50  0000 L CNN
+	1    2800 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R11
+U 1 1 53C80BF5
+P 2900 5300
+F 0 "R11" V 2980 5300 50  0000 C CNN
+F 1 "1M" V 2900 5300 50  0000 C CNN
+	1    2900 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR06
+U 1 1 53C80BCF
+P 650 5300
+F 0 "#PWR06" H 650 5300 30  0001 C CNN
+F 1 "GND" H 650 5230 30  0001 C CNN
+	1    650  5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1 C10
+U 1 1 53C80B85
+P 1150 5050
+F 0 "C10" H 1200 5150 50  0000 L CNN
+F 1 "10µF" H 1200 4950 50  0000 L CNN
+	1    1150 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1 C8
+U 1 1 53C80B76
+P 900 5050
+F 0 "C8" H 950 5150 50  0000 L CNN
+F 1 "10µF" H 950 4950 50  0000 L CNN
+	1    900  5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C11
+U 1 1 53C80A8C
+P 800 5550
+F 0 "C11" H 850 5650 50  0000 L CNN
+F 1 "0.1µF" H 850 5450 50  0000 L CNN
+	1    800  5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 53C80A76
+P 1050 5350
+F 0 "R2" V 1130 5350 50  0000 C CNN
+F 1 "22" V 1050 5350 50  0000 C CNN
+	1    1050 5350
+	0    1    1    0   
+$EndComp
+$Comp
+L NR111E IC4
+U 1 1 53C80A5D
+P 1650 5550
+F 0 "IC4" H 2050 4950 60  0000 C CNN
+F 1 "NR111E" H 2050 5900 60  0000 C CNN
+	1    1650 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C3
+U 1 1 53C8086D
+P 1700 2800
+F 0 "C3" H 1750 2900 50  0000 L CNN
+F 1 "0.1µF" H 1750 2700 50  0000 L CNN
+	1    1700 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR07
+U 1 1 53C8084D
+P 1400 3250
+F 0 "#PWR07" H 1400 3250 30  0001 C CNN
+F 1 "GND" H 1400 3180 30  0001 C CNN
+	1    1400 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R9
+U 1 1 53C80831
+P 1400 2800
+F 0 "R9" V 1480 2800 50  0000 C CNN
+F 1 "560" V 1400 2800 50  0000 C CNN
+	1    1400 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R7
+U 1 1 53C8082B
+P 1400 2250
+F 0 "R7" V 1480 2250 50  0000 C CNN
+F 1 "10k" V 1400 2250 50  0000 C CNN
+	1    1400 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR08
+U 1 1 53C80761
+P 1250 4700
+F 0 "#PWR08" H 1250 4700 30  0001 C CNN
+F 1 "GND" H 1250 4630 30  0001 C CNN
+	1    1250 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3,3V #PWR09
+U 1 1 53C80703
+P 900 3450
+F 0 "#PWR09" H 900 3410 30  0001 C CNN
+F 1 "+3,3V" H 900 3560 30  0000 C CNN
+	1    900  3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L MAX4173H IC1
+U 1 1 53C80639
+P 1650 3750
+F 0 "IC1" H 2050 3150 60  0000 C CNN
+F 1 "MAX4173H" H 2050 4100 60  0000 C CNN
+	1    1650 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C6
+U 1 1 53C8045F
+P 1250 4350
+F 0 "C6" H 1300 4450 50  0000 L CNN
+F 1 "0.1µF" H 1300 4250 50  0000 L CNN
+	1    1250 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C9
+U 1 1 53C80453
+P 900 3750
+F 0 "C9" H 950 3850 50  0000 L CNN
+F 1 "0.1µF" H 950 3650 50  0000 L CNN
+	1    900  3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L BATTERY_OUTPUT J2
+U 1 1 53C7FD8D
+P 10450 1950
+F 0 "J2" H 10500 1500 60  0000 C CNN
+F 1 "BATTERY_OUTPUT" H 10550 1950 60  0000 C CNN
+	1    10450 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L SOLAR_INPUT J1
+U 1 1 53C7FBAD
+P 950 1800
+F 0 "J1" H 950 1350 60  0000 C CNN
+F 1 "SOLAR_INPUT" H 1050 1800 60  0000 C CNN
+	1    950  1800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R5
+U 1 1 53C7F412
+P 7100 2100
+F 0 "R5" V 7180 2100 50  0000 C CNN
+F 1 "200" V 7100 2100 50  0000 C CNN
+	1    7100 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L CP1 C2
+U 1 1 53C7F375
+P 3400 2300
+F 0 "C2" H 3450 2400 50  0000 L CNN
+F 1 "100µF 40V" H 3450 2200 50  0000 L CNN
+	1    3400 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 53C7F29B
+P 2650 1950
+F 0 "R1" V 2730 1950 50  0000 C CNN
+F 1 "0.005" V 2650 1950 50  0000 C CNN
+	1    2650 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR010
+U 1 1 53C7F14E
+P 5850 3700
+F 0 "#PWR010" H 5850 3700 30  0001 C CNN
+F 1 "GND" H 5850 3630 30  0001 C CNN
+	1    5850 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L INDUCTOR L2
+U 1 1 53C7F076
+P 6600 2800
+F 0 "L2" V 6550 2800 40  0000 C CNN
+F 1 "33µH" V 6700 2800 40  0000 C CNN
+	1    6600 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CP1 C5
+U 1 1 53C7EFA2
+P 7600 3300
+F 0 "C5" H 7650 3400 50  0000 L CNN
+F 1 "220µF 20V" H 7650 3200 50  0000 L CNN
+	1    7600 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D2
+U 1 1 53C7EBC3
+P 4850 2450
+F 0 "D2" H 4850 2550 40  0000 C CNN
+F 1 "LL4148 (1N4148)" H 4850 2350 40  0000 C CNN
+	1    4850 2450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L C C1
+U 1 1 53C7EB76
+P 6500 2100
+F 0 "C1" H 6550 2200 50  0000 L CNN
+F 1 "0.1µF" H 6550 2000 50  0000 L CNN
+	1    6500 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R6
+U 1 1 53C7EB48
+P 4300 2200
+F 0 "R6" V 4380 2200 50  0000 C CNN
+F 1 "470k" V 4300 2200 50  0000 C CNN
+	1    4300 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D1
+U 1 1 53C7EACC
+P 6300 3300
+F 0 "D1" H 6300 3400 40  0000 C CNN
+F 1 "PMEG6020EP(SB1100)" H 6300 3200 40  0000 C CNN
+	1    6300 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L IRFIZ44N Q1
+U 1 1 53C7E9CE
+P 4650 2050
+F 0 "Q1" H 4650 1902 40  0000 R CNN
+F 1 "IRFIZ44N" H 4650 2199 40  0000 R CNN
+F 2 "TO220" H 4471 2151 29  0000 C CNN
+	1    4650 2050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L IRFIZ44N Q2
+U 1 1 53C7E9A4
+P 5750 2450
+F 0 "Q2" H 5750 2302 40  0000 R CNN
+F 1 "IRFIZ44N" H 5750 2599 40  0000 R CNN
+F 2 "TO220" H 5571 2551 29  0000 C CNN
+	1    5750 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L IRFIZ44N Q3
+U 1 1 53C7E997
+P 5750 3300
+F 0 "Q3" H 5750 3152 40  0000 R CNN
+F 1 "IRFIZ44N" H 5750 3449 40  0000 R CNN
+F 2 "TO220" H 5571 3401 29  0000 C CNN
+	1    5750 3300
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

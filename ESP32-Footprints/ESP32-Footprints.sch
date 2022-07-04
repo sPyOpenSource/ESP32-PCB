@@ -1,0 +1,27 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ESP32-footprints-Shem-Lib:ESP32-WROOM U1
+U 1 1 5C6D8467
+P 5050 3800
+F 0 "U1" H 4350 5050 60  0000 C CNN
+F 1 "ESP32-WROOM" H 5100 5100 60  0000 C CNN
+F 2 "footprints-Lib:ESP32-WROOM-32-Espressif-Symbol-Kicad-62379" H 5400 5150 60  0001 C CNN
+F 3 "" H 4600 4250 60  0001 C CNN
+	1    5050 3800
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

@@ -1,0 +1,860 @@
+EESchema Schematic File Version 4
+LIBS:solar-cache
+EELAYER 26 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title "Peak Power Solar Charger"
+Date "2020-04-25"
+Rev "V2.0"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text GLabel 11650 2750 1    60   Input ~ 0
+Bat+
+Wire Wire Line
+	3650 2750 3750 2750
+Connection ~ 11650 2750
+Wire Wire Line
+	11650 2850 11650 2750
+Wire Wire Line
+	11950 3450 11650 3450
+Connection ~ 4000 3700
+Wire Wire Line
+	4000 3200 4300 3200
+Wire Wire Line
+	4000 3200 4000 3150
+Connection ~ 3850 5300
+Wire Wire Line
+	3850 5300 3500 5300
+Wire Wire Line
+	3500 5300 3500 4600
+Wire Wire Line
+	4100 4800 3850 4800
+Wire Wire Line
+	3500 4600 4100 4600
+Wire Wire Line
+	4100 4200 3500 4200
+Connection ~ 10550 3450
+Wire Wire Line
+	10550 3750 10550 3450
+Connection ~ 6350 2600
+Wire Wire Line
+	6350 2600 6350 2750
+Wire Wire Line
+	9850 3450 10550 3450
+Wire Wire Line
+	8800 3750 8800 3450
+Connection ~ 8800 3450
+Wire Wire Line
+	13350 4150 13350 2900
+Wire Wire Line
+	3500 4200 3500 4100
+Wire Wire Line
+	3850 5200 3850 5300
+Wire Wire Line
+	4000 3700 4000 3900
+Connection ~ 11650 4150
+Wire Wire Line
+	4300 3200 4300 3250
+Wire Wire Line
+	3750 3700 3750 2750
+Text GLabel 3850 4800 0    60   Input ~ 0
+I_Sol
+Text GLabel 11950 3450 2    80   Input ~ 0
+U_Bat
+Text GLabel 4300 3200 2    80   Input ~ 0
+U_Sol
+NoConn ~ 4100 4400
+NoConn ~ 5200 4800
+NoConn ~ 5200 4400
+$Comp
+L solar-rescue:GND-power #PWR0104
+U 1 1 53C8084D
+P 4000 3900
+F 0 "#PWR0104" H 4000 3900 30  0001 C CNN
+F 1 "GND" H 4000 3830 30  0001 C CNN
+F 2 "" H 4000 3900 50  0001 C CNN
+F 3 "" H 4000 3900 50  0001 C CNN
+	1    4000 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L solar-rescue:GND-power #PWR0105
+U 1 1 53C80761
+P 3850 5350
+F 0 "#PWR0105" H 3850 5350 30  0001 C CNN
+F 1 "GND" H 3850 5280 30  0001 C CNN
+F 2 "" H 3850 5350 50  0001 C CNN
+F 3 "" H 3850 5350 50  0001 C CNN
+	1    3850 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L connectors:MAX4173H IC1
+U 1 1 53C80639
+P 4250 4400
+F 0 "IC1" H 4650 3800 60  0000 C CNN
+F 1 "MAX4173H" H 4650 4750 60  0000 C CNN
+F 2 "" H 4250 4400 50  0001 C CNN
+F 3 "" H 4250 4400 50  0001 C CNN
+	1    4250 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L connectors:Battery_Output J4
+U 1 1 53C7FD8D
+P 13400 2600
+F 0 "J4" H 13450 2150 60  0000 C CNN
+F 1 "BATTERY_OUTPUT" H 13500 2600 60  0000 C CNN
+F 2 "digikey-footprints:1210" H 13400 2600 50  0001 C CNN
+F 3 "" H 13400 2600 50  0001 C CNN
+	1    13400 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L connectors:SOLAR_INPUT J1
+U 1 1 53C7FBAD
+P 3550 2450
+F 0 "J1" H 3550 2000 60  0000 C CNN
+F 1 "SOLAR_INPUT" H 3650 2450 60  0000 C CNN
+F 2 "digikey-footprints:1210" H 3550 2450 50  0001 C CNN
+F 3 "" H 3550 2450 50  0001 C CNN
+	1    3550 2450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L solar-rescue:GND-power #PWR0106
+U 1 1 53C7F14E
+P 8800 4350
+F 0 "#PWR0106" H 8800 4350 30  0001 C CNN
+F 1 "GND" H 8800 4280 30  0001 C CNN
+F 2 "" H 8800 4350 50  0001 C CNN
+F 3 "" H 8800 4350 50  0001 C CNN
+	1    8800 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L irfiz44n:IRFIZ44N Q2
+U 1 1 53C7E9A4
+P 8700 3100
+F 0 "Q2" H 8700 2952 40  0000 R CNN
+F 1 "IRFIZ44N" H 8700 3249 40  0000 R CNN
+F 2 "digikey-footprints:SOT-223" H 8700 2900 29  0000 C CNN
+F 3 "" H 8700 3100 50  0001 C CNN
+	1    8700 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11650 2750 12700 2750
+Wire Wire Line
+	4000 3700 3750 3700
+Wire Wire Line
+	3850 5300 3850 5350
+Wire Wire Line
+	10550 2750 11650 2750
+Wire Wire Line
+	10550 3450 10550 2750
+Wire Wire Line
+	4300 3700 4000 3700
+Wire Wire Line
+	11650 4150 11950 4150
+Wire Wire Line
+	8000 3100 8500 3100
+$Comp
+L solar-rescue:+3.3V-power #PWR0107
+U 1 1 5DA1E6EE
+P 9750 7950
+F 0 "#PWR0107" H 9750 7800 50  0001 C CNN
+F 1 "+3.3V" H 9765 8123 50  0000 C CNN
+F 2 "" H 9750 7950 50  0001 C CNN
+F 3 "" H 9750 7950 50  0001 C CNN
+	1    9750 7950
+	1    0    0    -1  
+$EndComp
+$Comp
+L solar-rescue:LED-Device D5
+U 1 1 5CD4CF59
+P 8550 8150
+F 0 "D5" H 8550 8060 50  0000 C CNN
+F 1 "COMMS" H 8540 8240 50  0000 C CNN
+F 2 "digikey-footprints:0603" H 8550 8150 50  0001 C CNN
+F 3 "~" H 8550 8150 50  0001 C CNN
+	1    8550 8150
+	-1   0    0    1   
+$EndComp
+$Comp
+L solar-rescue:R-Device R14
+U 1 1 5CD4DABA
+P 8100 8150
+F 0 "R14" V 8020 8150 50  0000 C CNN
+F 1 "560R" V 8180 8150 50  0000 C CNN
+F 2 "digikey-footprints:0603" V 8030 8150 50  0001 C CNN
+F 3 "~" H 8100 8150 50  0001 C CNN
+	1    8100 8150
+	0    1    1    0   
+$EndComp
+$Comp
+L solar-rescue:Conn_01x02_Male-Connector RX1
+U 1 1 5CD589E5
+P 10350 8050
+F 0 "RX1" H 10160 7930 50  0000 L CNN
+F 1 "Receive" H 10040 8050 50  0000 L CNN
+F 2 "Connectors_JST:JST_PH_S2B-PH-K_02x2.00mm_Angled" H 10350 8050 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2057211.pdf" H 10350 8050 50  0001 C CNN
+	1    10350 8050
+	-1   0    0    1   
+$EndComp
+$Comp
+L solar-rescue:Conn_01x02_Male-Connector TX1
+U 1 1 5CD595C3
+P 10350 7500
+F 0 "TX1" H 10322 7382 50  0000 R CNN
+F 1 "Transmit" H 10322 7473 50  0000 R CNN
+F 2 "Connectors_JST:JST_PH_S2B-PH-K_02x2.00mm_Angled" H 10350 7500 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2057211.pdf" H 10350 7500 50  0001 C CNN
+	1    10350 7500
+	-1   0    0    1   
+$EndComp
+$Comp
+L solar-rescue:R-Device R9
+U 1 1 5DA1E6F8
+P 9950 8350
+F 0 "R9" V 9743 8350 50  0000 C CNN
+F 1 "4K7" V 9834 8350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 9880 8350 50  0001 C CNN
+F 3 "~" H 9950 8350 50  0001 C CNN
+	1    9950 8350
+	-1   0    0    1   
+$EndComp
+$Comp
+L solar-rescue:GND-power #PWR0109
+U 1 1 5DA1E6F9
+P 9150 7650
+F 0 "#PWR0109" H 9150 7400 50  0001 C CNN
+F 1 "GND" H 9155 7477 50  0000 C CNN
+F 2 "" H 9150 7650 50  0001 C CNN
+F 3 "" H 9150 7650 50  0001 C CNN
+	1    9150 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L solar-rescue:R-Device R10
+U 1 1 5DA1E6FB
+P 9100 7350
+F 0 "R10" V 8893 7350 50  0000 C CNN
+F 1 "220R" V 8984 7350 50  0000 C CNN
+F 2 "digikey-footprints:0603" V 9030 7350 50  0001 C CNN
+F 3 "~" H 9100 7350 50  0001 C CNN
+	1    9100 7350
+	0    1    1    0   
+$EndComp
+Text Notes 3500 5780 0    50   ~ 0
+Sensor like\nhttps://www.dfrobot.com/product-580.html\n(work in progress)
+$Comp
+L solar-rescue:R-Device R7
+U 1 1 5DAEC9B2
+P 4650 2600
+F 0 "R7" H 4720 2646 50  0000 L CNN
+F 1 "0.005R" H 4720 2555 50  0000 L CNN
+F 2 "digikey-footprints:0603" V 4580 2600 50  0001 C CNN
+F 3 "~" H 4650 2600 50  0001 C CNN
+	1    4650 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L solar-rescue:R-Device R12
+U 1 1 5DB0B096
+P 11650 3000
+F 0 "R12" H 11720 3046 50  0000 L CNN
+F 1 "10k" H 11720 2955 50  0000 L CNN
+F 2 "digikey-footprints:0603" V 11580 3000 50  0001 C CNN
+F 3 "~" H 11650 3000 50  0001 C CNN
+	1    11650 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L solar-rescue:R-Device R13
+U 1 1 5DB65182
+P 11650 3600
+F 0 "R13" H 11720 3646 50  0000 L CNN
+F 1 "560R" H 11720 3555 50  0000 L CNN
+F 2 "digikey-footprints:0603" V 11580 3600 50  0001 C CNN
+F 3 "~" H 11650 3600 50  0001 C CNN
+	1    11650 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L solar-rescue:R-Device R2
+U 1 1 5DB833FE
+P 4000 3000
+F 0 "R2" H 4070 3046 50  0000 L CNN
+F 1 "10k" H 4070 2955 50  0000 L CNN
+F 2 "digikey-footprints:0603" V 3930 3000 50  0001 C CNN
+F 3 "~" H 4000 3000 50  0001 C CNN
+	1    4000 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L solar-rescue:R-Device R3
+U 1 1 5DBA1460
+P 4000 3550
+F 0 "R3" H 4070 3596 50  0000 L CNN
+F 1 "560R" H 4070 3505 50  0000 L CNN
+F 2 "digikey-footprints:0603" V 3930 3550 50  0001 C CNN
+F 3 "~" H 4000 3550 50  0001 C CNN
+	1    4000 3550
+	-1   0    0    1   
+$EndComp
+$Comp
+L solar-rescue:C-Device C4
+U 1 1 5DCEFCCD
+P 3850 5050
+F 0 "C4" H 3965 5096 50  0000 L CNN
+F 1 "0.1uF" H 3965 5005 50  0000 L CNN
+F 2 "digikey-footprints:0603" H 3888 4900 50  0001 C CNN
+F 3 "~" H 3850 5050 50  0001 C CNN
+	1    3850 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L solar-rescue:C-Device C1
+U 1 1 5DD0E043
+P 3500 4450
+F 0 "C1" H 3615 4496 50  0000 L CNN
+F 1 "0.1uF" H 3615 4405 50  0000 L CNN
+F 2 "digikey-footprints:0603" H 3538 4300 50  0001 C CNN
+F 3 "~" H 3500 4450 50  0001 C CNN
+	1    3500 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L solar-rescue:C-Device C6
+U 1 1 5DD0E207
+P 4300 3400
+F 0 "C6" H 4415 3446 50  0000 L CNN
+F 1 "0.1uF" H 4415 3355 50  0000 L CNN
+F 2 "digikey-footprints:0603" H 4338 3250 50  0001 C CNN
+F 3 "~" H 4300 3400 50  0001 C CNN
+	1    4300 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L solar-rescue:L-Device L2
+U 1 1 5DD4B215
+P 9700 3450
+F 0 "L2" H 9753 3496 50  0000 L CNN
+F 1 "33uH" H 9753 3405 50  0000 L CNN
+F 2 "ESP32-footprints-Lib:7447779139" H 9700 3450 50  0001 C CNN
+F 3 "~" H 9700 3450 50  0001 C CNN
+	1    9700 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L solar-rescue:Conn_01x16_Female-Connector J2
+U 1 1 5DA13F24
+P 6550 7850
+F 0 "J2" H 6577 7826 50  0000 L CNN
+F 1 "Left" H 6577 7735 50  0000 L CNN
+F 2 "ESP32-footprints-Lib:PIN16" H 6550 7850 50  0001 C CNN
+F 3 "~" H 6550 7850 50  0001 C CNN
+	1    6550 7850
+	1    0    0    -1  
+$EndComp
+$Comp
+L solar-rescue:Conn_01x16_Female-Connector J3
+U 1 1 5DA141A1
+P 7300 7950
+F 0 "J3" H 7327 7926 50  0000 L CNN
+F 1 "Right" H 7327 7835 50  0000 L CNN
+F 2 "ESP32-footprints-Lib:PIN16" H 7300 7950 50  0001 C CNN
+F 3 "~" H 7300 7950 50  0001 C CNN
+	1    7300 7950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8800 4150 8800 4350
+Text GLabel 7750 7250 2    80   Input ~ 0
+PWM
+Text GLabel 6000 7750 0    60   Input ~ 0
+I_Sol
+Connection ~ 11650 3450
+$Comp
+L solar-rescue:C-Device C15
+U 1 1 5DAC36DA
+P 11950 3700
+F 0 "C15" H 12065 3746 50  0000 L CNN
+F 1 "0.1uF" H 12065 3655 50  0000 L CNN
+F 2 "digikey-footprints:0603" H 11988 3550 50  0001 C CNN
+F 3 "~" H 11950 3700 50  0001 C CNN
+	1    11950 3700
+	1    0    0    -1  
+$EndComp
+Connection ~ 3500 4600
+$Comp
+L solar-rescue:+3.3V-power #PWR0113
+U 1 1 5DB6A212
+P 3500 4100
+F 0 "#PWR0113" H 3500 3950 50  0001 C CNN
+F 1 "+3.3V" H 3515 4273 50  0000 C CNN
+F 2 "" H 3500 4100 50  0001 C CNN
+F 3 "" H 3500 4100 50  0001 C CNN
+	1    3500 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 3550 4300 3700
+Wire Wire Line
+	10550 4050 10550 4150
+Connection ~ 10550 4150
+Wire Wire Line
+	10550 4150 11650 4150
+Wire Wire Line
+	4000 2600 4000 2850
+Wire Wire Line
+	3500 4300 3500 4200
+Connection ~ 3500 4200
+Wire Wire Line
+	4000 3400 4000 3200
+Connection ~ 4000 3200
+Wire Wire Line
+	3850 4900 3850 4800
+Wire Wire Line
+	11950 3550 11950 3450
+Wire Wire Line
+	11650 3150 11650 3450
+$Comp
+L solar-rescue:PC817-Isolator U1
+U 1 1 5CD55A2D
+P 9600 7450
+F 0 "U1" H 9600 7775 50  0000 C CNN
+F 1 "HMHA2801" H 9600 7684 50  0000 C CNN
+F 2 "Housings_SSOP:SOP-4_4.4x2.8mm_Pitch1.27mm" H 9400 7250 50  0001 L CIN
+F 3 "https://uk.farnell.com/on-semiconductor/hmha2801/optocoupler-single-channel/dp/1652504" H 9600 7450 50  0001 L CNN
+	1    9600 7450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9900 7550 9900 7500
+Wire Wire Line
+	9900 7500 10150 7500
+Wire Wire Line
+	10150 7400 9900 7400
+Wire Wire Line
+	9900 7400 9900 7350
+Wire Wire Line
+	9300 7550 9150 7550
+Wire Wire Line
+	9150 7550 9150 7650
+Wire Wire Line
+	9250 7350 9300 7350
+Wire Wire Line
+	11650 3750 11650 4150
+Wire Wire Line
+	11950 3850 11950 4150
+Connection ~ 11950 4150
+Wire Wire Line
+	11950 4150 12600 4150
+Text GLabel 6000 7600 0    80   Input ~ 0
+U_Sol
+Text GLabel 6000 7900 0    80   Input ~ 0
+U_Bat
+Wire Wire Line
+	10150 7950 9750 7950
+Wire Wire Line
+	9950 8200 9950 8050
+Wire Wire Line
+	9950 8050 10150 8050
+Wire Wire Line
+	5200 4600 5850 4600
+Wire Wire Line
+	6000 7850 6350 7850
+Wire Wire Line
+	6000 7600 6100 7600
+Wire Wire Line
+	6100 7600 6100 7550
+Wire Wire Line
+	6100 7550 6350 7550
+Wire Wire Line
+	6000 7750 6150 7750
+Wire Wire Line
+	6150 7750 6150 7650
+Wire Wire Line
+	6150 7650 6350 7650
+Wire Wire Line
+	7750 7250 7500 7250
+Wire Wire Line
+	9950 8050 8850 8050
+Wire Wire Line
+	8850 8050 8850 7550
+Connection ~ 9950 8050
+$Comp
+L solar-rescue:GND-power #PWR0102
+U 1 1 5DA2C745
+P 9950 8600
+F 0 "#PWR0102" H 9950 8350 50  0001 C CNN
+F 1 "GND" H 9955 8427 50  0000 C CNN
+F 2 "" H 9950 8600 50  0001 C CNN
+F 3 "" H 9950 8600 50  0001 C CNN
+	1    9950 8600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9950 8500 9950 8550
+Wire Wire Line
+	6350 8650 6000 8650
+$Comp
+L solar-rescue:+3.3V-power #PWR0103
+U 1 1 5DA65BBD
+P 7750 8650
+F 0 "#PWR0103" H 7750 8500 50  0001 C CNN
+F 1 "+3.3V" H 7765 8823 50  0000 C CNN
+F 2 "" H 7750 8650 50  0001 C CNN
+F 3 "" H 7750 8650 50  0001 C CNN
+	1    7750 8650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7750 8650 7500 8650
+Wire Wire Line
+	5850 2600 5850 4600
+Wire Wire Line
+	5850 2600 6350 2600
+Connection ~ 12700 2750
+Wire Wire Line
+	12700 2750 13350 2750
+Connection ~ 12600 4150
+Wire Wire Line
+	12600 4150 13350 4150
+$Comp
+L solar-rescue:Conn_01x02_Male-Connector J6
+U 1 1 5DA4D4B2
+P 12600 4700
+F 0 "J6" V 12753 4512 50  0000 R CNN
+F 1 "in" V 12662 4512 50  0000 R CNN
+F 2 "digikey-footprints:1210" H 12600 4700 50  0001 C CNN
+F 3 "~" H 12600 4700 50  0001 C CNN
+	1    12600 4700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12600 4500 12600 4150
+Wire Wire Line
+	12700 2750 12700 4500
+$Comp
+L solar-rescue:CP-Device C2
+U 1 1 5DA5F679
+P 10550 3900
+F 0 "C2" H 10668 3946 50  0000 L CNN
+F 1 "220uF" H 10668 3855 50  0000 L CNN
+F 2 "ESP32-footprints-Lib:Cpol-6.3x7.7" H 10588 3750 50  0001 C CNN
+F 3 "~" H 10550 3900 50  0001 C CNN
+	1    10550 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L solar-rescue:GND-power #PWR0110
+U 1 1 5DA71E7B
+P 5750 8550
+F 0 "#PWR0110" H 5750 8300 50  0001 C CNN
+F 1 "GND" H 5755 8377 50  0000 C CNN
+F 2 "" H 5750 8550 50  0001 C CNN
+F 3 "" H 5750 8550 50  0001 C CNN
+	1    5750 8550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5750 8550 6350 8550
+$Comp
+L solar-rescue:CP-Device C3
+U 1 1 5DA3EE1A
+P 6350 2900
+F 0 "C3" H 6468 2946 50  0000 L CNN
+F 1 "100uF" H 6468 2855 50  0000 L CNN
+F 2 "ESP32-footprints-Lib:Cpol-6.3x7.7" H 6388 2750 50  0001 C CNN
+F 3 "~" H 6350 2900 50  0001 C CNN
+	1    6350 2900
+	1    0    0    -1  
+$EndComp
+Text GLabel 6350 2600 1    50   Input ~ 0
+Solar+
+$Comp
+L solar-rescue:GND-power #PWR0108
+U 1 1 5DA9CE35
+P 6350 4350
+F 0 "#PWR0108" H 6350 4350 30  0001 C CNN
+F 1 "GND" H 6350 4280 30  0001 C CNN
+F 2 "" H 6350 4350 50  0001 C CNN
+F 3 "" H 6350 4350 50  0001 C CNN
+	1    6350 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 3050 6350 4350
+Connection ~ 9950 8550
+Wire Wire Line
+	9950 8550 9950 8600
+Wire Notes Line
+	5200 8850 10900 8850
+Wire Notes Line
+	10900 8850 10900 6950
+Wire Notes Line
+	10900 6950 5200 6950
+Wire Notes Line
+	5200 8850 5200 6950
+Text Notes 7450 9050 0    50   ~ 0
+ESP32
+$Comp
+L connectors:Battery_Output J7
+U 1 1 5DD41E46
+P 5550 1850
+F 0 "J7" H 6068 1683 60  0000 L CNN
+F 1 "SOLAR_OUTPUT" H 6068 1577 60  0000 L CNN
+F 2 "digikey-footprints:1210" H 5550 1850 50  0001 C CNN
+F 3 "" H 5550 1850 50  0001 C CNN
+	1    5550 1850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5850 1900 5850 2600
+Text GLabel 6000 8650 0    50   Input ~ 0
+Solar+
+Wire Wire Line
+	7500 7550 8850 7550
+Wire Wire Line
+	7500 7450 8950 7450
+Wire Wire Line
+	8950 7450 8950 7350
+Wire Wire Line
+	7500 8250 7950 8250
+Wire Wire Line
+	7950 8250 7950 8150
+Wire Wire Line
+	7500 8550 8700 8550
+Wire Wire Line
+	8250 8150 8400 8150
+Wire Wire Line
+	8700 8150 8700 8550
+Connection ~ 8700 8550
+Wire Wire Line
+	8700 8550 9950 8550
+Wire Wire Line
+	6000 7850 6000 7900
+Wire Wire Line
+	8800 4150 10550 4150
+$Comp
+L Device:R R4
+U 1 1 5EAB2B9E
+P 8000 4100
+F 0 "R4" V 7900 4100 50  0000 C CNN
+F 1 "100R" V 8116 4100 50  0000 C CNN
+F 2 "digikey-footprints:0603" V 7930 4100 50  0001 C CNN
+F 3 "~" H 8000 4100 50  0001 C CNN
+	1    8000 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 3100 8000 3450
+Text Notes 2400 2750 0    50   ~ 0
+Solar Input \nbetween 7-12V
+Text Notes 9700 4950 0    50   ~ 0
+Step Down DC to DC Converter
+Wire Wire Line
+	8800 3450 9550 3450
+Text GLabel 8000 4550 3    80   Input ~ 0
+PWM
+Wire Wire Line
+	8800 2600 8800 2900
+Wire Wire Line
+	6350 2600 8800 2600
+Wire Wire Line
+	8800 3300 8800 3450
+$Comp
+L Device:D_Schottky D1
+U 1 1 5EA788B2
+P 8800 3900
+F 0 "D1" V 8754 3979 50  0000 L CNN
+F 1 "D_Schottky" V 8845 3979 50  0000 L CNN
+F 2 "digikey-footprints:DO-214AC" H 8800 3900 50  0001 C CNN
+F 3 "~" H 8800 3900 50  0001 C CNN
+	1    8800 3900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8800 4150 8800 4050
+Connection ~ 8800 4150
+Wire Wire Line
+	8000 4550 8000 4250
+$Comp
+L solar-rescue:R-Device R1
+U 1 1 5EA46477
+P 7850 3100
+F 0 "R1" V 7750 3050 50  0000 L CNN
+F 1 "10k" V 7950 3050 50  0000 L CNN
+F 2 "digikey-footprints:0603" V 7780 3100 50  0001 C CNN
+F 3 "~" H 7850 3100 50  0001 C CNN
+	1    7850 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C5
+U 1 1 5EA46550
+P 7850 3450
+F 0 "C5" V 7700 3450 50  0000 C CNN
+F 1 "1nF" V 8011 3450 50  0000 C CNN
+F 2 "digikey-footprints:0603" H 7888 3300 50  0001 C CNN
+F 3 "~" H 7850 3450 50  0001 C CNN
+	1    7850 3450
+	0    -1   -1   0   
+$EndComp
+Connection ~ 8000 3100
+Connection ~ 8000 3450
+Wire Wire Line
+	8000 3450 8000 3950
+$Comp
+L solar-rescue:GND-power #PWR0101
+U 1 1 5EA50A4A
+P 7700 3650
+F 0 "#PWR0101" H 7700 3650 30  0001 C CNN
+F 1 "GND" H 7700 3580 30  0001 C CNN
+F 2 "" H 7700 3650 50  0001 C CNN
+F 3 "" H 7700 3650 50  0001 C CNN
+	1    7700 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 3450 7700 3650
+Wire Wire Line
+	7700 3100 7700 3450
+Connection ~ 7700 3450
+Wire Wire Line
+	4000 2600 4500 2600
+Connection ~ 4000 2600
+Connection ~ 5850 2600
+Wire Wire Line
+	3650 2600 4000 2600
+Wire Wire Line
+	5700 3050 6350 3050
+Wire Wire Line
+	5700 1900 5700 3050
+Connection ~ 6350 3050
+Wire Wire Line
+	4800 2600 5850 2600
+Wire Wire Line
+	4500 2600 4500 3000
+Wire Wire Line
+	4500 3000 5200 3000
+Wire Wire Line
+	5200 3000 5200 4200
+Connection ~ 4500 2600
+$Comp
+L Device:MAX5424 U2
+U 1 1 5EA52611
+P 6800 6000
+F 0 "U2" H 6825 6375 50  0000 C CNN
+F 1 "MAX5424" H 6825 6284 50  0000 C CNN
+F 2 "digikey-footprints:TDFN-8-1EP" H 6800 6000 50  0001 C CNN
+F 3 "" H 6800 6000 50  0001 C CNN
+	1    6800 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Header:header3 J5
+U 1 1 5EA528AC
+P 7800 6000
+F 0 "J5" H 7940 6052 50  0000 L CNN
+F 1 "header3" H 7940 5961 50  0000 L CNN
+F 2 "ESP32-footprints-Lib:PIN2" H 7800 5900 50  0001 C CNN
+F 3 "" H 7800 5900 50  0001 C CNN
+	1    7800 6000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7150 6100 7750 6100
+Wire Wire Line
+	7150 5950 7750 5950
+Wire Wire Line
+	7750 5950 7750 6000
+Wire Wire Line
+	7150 5850 7750 5850
+Wire Wire Line
+	7750 5850 7750 5900
+$Comp
+L solar-rescue:+3.3V-power #PWR0111
+U 1 1 5EA61BF3
+P 6250 5850
+F 0 "#PWR0111" H 6250 5700 50  0001 C CNN
+F 1 "+3.3V" H 6265 6023 50  0000 C CNN
+F 2 "" H 6250 5850 50  0001 C CNN
+F 3 "" H 6250 5850 50  0001 C CNN
+	1    6250 5850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6250 5850 6500 5850
+$Comp
+L solar-rescue:GND-power #PWR0112
+U 1 1 5EA650AC
+P 7750 6200
+F 0 "#PWR0112" H 7750 5950 50  0001 C CNN
+F 1 "GND" H 7755 6027 50  0000 C CNN
+F 2 "" H 7750 6200 50  0001 C CNN
+F 3 "" H 7750 6200 50  0001 C CNN
+	1    7750 6200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7750 6200 7150 6200
+Wire Wire Line
+	6350 8450 5450 8450
+Wire Wire Line
+	5450 8450 5450 6100
+Wire Wire Line
+	5450 6100 6500 6100
+Wire Wire Line
+	5350 8250 5350 5950
+Wire Wire Line
+	5350 8250 6350 8250
+Wire Wire Line
+	5350 5950 6500 5950
+Wire Wire Line
+	7500 8450 7600 8450
+Wire Wire Line
+	7600 8450 7600 6450
+Wire Wire Line
+	7600 6450 6500 6450
+Wire Wire Line
+	6500 6450 6500 6200
+$Comp
+L solar-rescue:Conn_01x02_Male-Connector RX2
+U 1 1 5EA4CE19
+P 8050 7750
+F 0 "RX2" H 7860 7630 50  0000 L CNN
+F 1 "Receive" H 7740 7750 50  0000 L CNN
+F 2 "ESP32-footprints-Lib:PIN2" H 8050 7750 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2057211.pdf" H 8050 7750 50  0001 C CNN
+	1    8050 7750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7500 7750 7850 7750
+Wire Wire Line
+	7850 7650 7850 7500
+Wire Wire Line
+	7850 7500 9150 7500
+Wire Wire Line
+	9150 7500 9150 7550
+Connection ~ 9150 7550
+Wire Notes Line
+	7400 1950 7400 5050
+Wire Notes Line
+	7400 5050 14200 5050
+Wire Notes Line
+	14200 5050 14200 1950
+Wire Notes Line
+	14200 1950 7400 1950
+$EndSCHEMATC

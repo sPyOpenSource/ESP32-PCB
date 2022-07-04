@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name solar-rescue)(type Legacy)(uri ${KIPRJMOD}/solar-rescue.lib)(options "")(descr ""))
+  (lib (name irfiz44n)(type Legacy)(uri ${KIPRJMOD}/irfiz44n.lib)(options "")(descr ""))
+  (lib (name connectors)(type Legacy)(uri ${KIPRJMOD}/connectors.lib)(options "")(descr ""))
+)

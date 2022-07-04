@@ -1,0 +1,16 @@
+### Module positions - created on wo 13 mei 2020 14:52:40 CEST ###
+### Printed by Pcbnew version kicad 5.0.2+dfsg1-1
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val       Package                           PosX       PosY       Rot  Side
+C1        0.1uF     SM0603_Capa                    91.2503    -8.7486    0.0000  top
+C4        0.1uF     SM0603_Capa                    79.3003   -56.9991    0.0000  top
+C6        0.1uF     SM0603_Capa                    74.6003   -56.8991  180.0000  top
+C15       0.1uF     SM0603_Capa                    84.0283   -61.9531    0.0000  top
+IC1       MAX4173H  SO8E                           92.2996    -4.0496    0.0000  top
+R2        10k       SM0603                         88.3463   -11.6611   90.0000  top
+R3        560R      SM0603                         86.0003   -21.3991    0.0000  top
+R9        4K7       SM0603                         49.0003   -49.3991  270.0000  top
+R10       220R      SM0603                         46.0003   -40.3991    0.0000  top
+U1        HMHA2801  SOP-4_4.4x2.8mm_Pitch1.27mm    42.7503   -46.6491  270.0000  top
+## End

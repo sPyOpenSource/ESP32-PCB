@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name fietslamp-rescue)(type Legacy)(uri ${KIPRJMOD}/fietslamp-rescue.lib)(options "")(descr ""))
+)
