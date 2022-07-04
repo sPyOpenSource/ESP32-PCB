@@ -199,7 +199,7 @@ Text GLabel 3100 3400 1    50   Input ~ 0
 5V
 Text GLabel 3200 3400 1    50   Input ~ 0
 GND
-Text GLabel 2400 4200 0    50   Input ~ 0
+Text GLabel 3200 4200 1    50   Input ~ 0
 GND
 Wire Wire Line
 	3100 3650 3100 3400
