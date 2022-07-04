@@ -1,0 +1,645 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 3 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R6
+U 1 1 61A87953
+P 1050 1950
+F 0 "R6" H 1120 1996 50  0000 L CNN
+F 1 "1k" H 1120 1905 50  0000 L CNN
+F 2 "" V 980 1950 50  0001 C CNN
+F 3 "~" H 1050 1950 50  0001 C CNN
+	1    1050 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_PNP_BCE Q11
+U 1 1 61A8883A
+P 1950 2100
+F 0 "Q11" H 2140 2146 50  0000 L CNN
+F 1 "Q_PNP_BCE" H 2140 2055 50  0000 L CNN
+F 2 "" H 2150 2200 50  0001 C CNN
+F 3 "~" H 1950 2100 50  0001 C CNN
+	1    1950 2100
+	1    0    0    -1  
+$EndComp
+Text GLabel 2050 2550 3    50   Input ~ 0
+GND
+Text GLabel 1700 950  1    50   Input ~ 0
+Vin
+Text GLabel 2450 1500 2    50   Input ~ 0
+Vout
+Wire Wire Line
+	2050 2300 2050 2550
+Wire Wire Line
+	1700 950  1700 1250
+$Comp
+L Device:L L14
+U 1 1 61A8DF51
+P 4800 1450
+F 0 "L14" H 4853 1496 50  0000 L CNN
+F 1 "L" H 4853 1405 50  0000 L CNN
+F 2 "" H 4800 1450 50  0001 C CNN
+F 3 "~" H 4800 1450 50  0001 C CNN
+	1    4800 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_PNP_BCE Q14
+U 1 1 61A8DF5B
+P 4700 2150
+F 0 "Q14" H 4890 2196 50  0000 L CNN
+F 1 "Q_PNP_BCE" H 4890 2105 50  0000 L CNN
+F 2 "" H 4900 2250 50  0001 C CNN
+F 3 "~" H 4700 2150 50  0001 C CNN
+	1    4700 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 1600 4800 1750
+Text GLabel 4800 2600 3    50   Input ~ 0
+GND
+Text GLabel 4800 1000 1    50   Input ~ 0
+Vin
+Text GLabel 6300 1750 2    50   Input ~ 0
+Vout
+Wire Wire Line
+	4800 1750 5500 1750
+Connection ~ 4800 1750
+Wire Wire Line
+	4800 1750 4800 1950
+Wire Wire Line
+	4800 2350 4800 2600
+Wire Wire Line
+	4800 1000 4800 1300
+$Comp
+L Device:D D9
+U 1 1 61A9184F
+P 5650 1750
+F 0 "D9" H 5650 1534 50  0000 C CNN
+F 1 "D" H 5650 1625 50  0000 C CNN
+F 2 "" H 5650 1750 50  0001 C CNN
+F 3 "~" H 5650 1750 50  0001 C CNN
+	1    5650 1750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C9
+U 1 1 61A92D04
+P 6050 2200
+F 0 "C9" H 6165 2246 50  0000 L CNN
+F 1 "C" H 6165 2155 50  0000 L CNN
+F 2 "" H 6088 2050 50  0001 C CNN
+F 3 "~" H 6050 2200 50  0001 C CNN
+	1    6050 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 1750 6050 1750
+Wire Wire Line
+	6050 1750 6050 2050
+Connection ~ 6050 1750
+Wire Wire Line
+	6050 1750 6300 1750
+Wire Wire Line
+	6050 2350 4800 2350
+Connection ~ 4800 2350
+$Comp
+L Device:L L16
+U 1 1 61A99200
+P 9600 1700
+F 0 "L16" H 9653 1746 50  0000 L CNN
+F 1 "L" H 9653 1655 50  0000 L CNN
+F 2 "" H 9600 1700 50  0001 C CNN
+F 3 "~" H 9600 1700 50  0001 C CNN
+	1    9600 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Q_PNP_BCE Q15
+U 1 1 61A9920A
+P 8650 1350
+F 0 "Q15" H 8840 1396 50  0000 L CNN
+F 1 "Q_PNP_BCE" H 8840 1305 50  0000 L CNN
+F 2 "" H 8850 1450 50  0001 C CNN
+F 3 "~" H 8650 1350 50  0001 C CNN
+	1    8650 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 1550 8750 1700
+Text GLabel 8750 2550 3    50   Input ~ 0
+GND
+Text GLabel 8750 850  1    50   Input ~ 0
+Vin
+Text GLabel 10250 1700 2    50   Input ~ 0
+Vout
+Wire Wire Line
+	8750 1700 9450 1700
+Connection ~ 8750 1700
+Wire Wire Line
+	8750 2300 8750 2550
+Wire Wire Line
+	8750 850  8750 1150
+$Comp
+L Device:D D10
+U 1 1 61A9921D
+P 8750 2150
+F 0 "D10" H 8750 1934 50  0000 C CNN
+F 1 "D" H 8750 2025 50  0000 C CNN
+F 2 "" H 8750 2150 50  0001 C CNN
+F 3 "~" H 8750 2150 50  0001 C CNN
+	1    8750 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C10
+U 1 1 61A99227
+P 10000 2150
+F 0 "C10" H 10115 2196 50  0000 L CNN
+F 1 "C" H 10115 2105 50  0000 L CNN
+F 2 "" H 10038 2000 50  0001 C CNN
+F 3 "~" H 10000 2150 50  0001 C CNN
+	1    10000 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9750 1700 10000 1700
+Wire Wire Line
+	10000 1700 10000 2000
+Connection ~ 10000 1700
+Wire Wire Line
+	10000 1700 10250 1700
+Wire Wire Line
+	10000 2300 8750 2300
+Text GLabel 4050 2150 0    50   Input ~ 0
+PWM
+Wire Wire Line
+	4050 2150 4500 2150
+Connection ~ 8750 2300
+Text GLabel 7950 1350 0    50   Input ~ 0
+PWM
+Wire Wire Line
+	7950 1350 8450 1350
+Wire Wire Line
+	8750 1700 8750 2000
+$Comp
+L Device:L L13
+U 1 1 61AA0647
+P 2900 4150
+F 0 "L13" H 2953 4196 50  0000 L CNN
+F 1 "L" H 2953 4105 50  0000 L CNN
+F 2 "" H 2900 4150 50  0001 C CNN
+F 3 "~" H 2900 4150 50  0001 C CNN
+	1    2900 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Q_PNP_BCE Q12
+U 1 1 61AA0651
+P 1950 3800
+F 0 "Q12" H 2140 3846 50  0000 L CNN
+F 1 "Q_PNP_BCE" H 2140 3755 50  0000 L CNN
+F 2 "" H 2150 3900 50  0001 C CNN
+F 3 "~" H 1950 3800 50  0001 C CNN
+	1    1950 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 4000 2050 4150
+Text GLabel 2050 3300 1    50   Input ~ 0
+Vin
+Wire Wire Line
+	2050 4150 2750 4150
+Connection ~ 2050 4150
+Wire Wire Line
+	2050 3300 2050 3600
+$Comp
+L Device:D D6
+U 1 1 61AA0662
+P 2050 4600
+F 0 "D6" H 2050 4384 50  0000 C CNN
+F 1 "D" H 2050 4475 50  0000 C CNN
+F 2 "" H 2050 4600 50  0001 C CNN
+F 3 "~" H 2050 4600 50  0001 C CNN
+	1    2050 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3050 4150 3300 4150
+Wire Wire Line
+	3300 4750 2050 4750
+Text GLabel 1250 3800 0    50   Input ~ 0
+PWM
+Wire Wire Line
+	1250 3800 1750 3800
+Wire Wire Line
+	2050 4150 2050 4450
+$Comp
+L Device:Q_PNP_BCE Q13
+U 1 1 61AA1D0E
+P 3200 4550
+F 0 "Q13" H 3390 4596 50  0000 L CNN
+F 1 "Q_PNP_BCE" H 3390 4505 50  0000 L CNN
+F 2 "" H 3400 4650 50  0001 C CNN
+F 3 "~" H 3200 4550 50  0001 C CNN
+	1    3200 4550
+	1    0    0    -1  
+$EndComp
+Text GLabel 3300 5000 3    50   Input ~ 0
+GND
+Text GLabel 4800 4150 2    50   Input ~ 0
+Vout
+Wire Wire Line
+	3300 4150 4000 4150
+Connection ~ 3300 4150
+Wire Wire Line
+	3300 4150 3300 4350
+Wire Wire Line
+	3300 4750 3300 5000
+$Comp
+L Device:D D8
+U 1 1 61AA1D1F
+P 4150 4150
+F 0 "D8" H 4150 3934 50  0000 C CNN
+F 1 "D" H 4150 4025 50  0000 C CNN
+F 2 "" H 4150 4150 50  0001 C CNN
+F 3 "~" H 4150 4150 50  0001 C CNN
+	1    4150 4150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C8
+U 1 1 61AA1D29
+P 4550 4600
+F 0 "C8" H 4665 4646 50  0000 L CNN
+F 1 "C" H 4665 4555 50  0000 L CNN
+F 2 "" H 4588 4450 50  0001 C CNN
+F 3 "~" H 4550 4600 50  0001 C CNN
+	1    4550 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 4150 4550 4150
+Wire Wire Line
+	4550 4150 4550 4450
+Connection ~ 4550 4150
+Wire Wire Line
+	4550 4150 4800 4150
+Wire Wire Line
+	4550 4750 3300 4750
+Connection ~ 3300 4750
+Text GLabel 2550 4550 0    50   Input ~ 0
+PWM
+Wire Wire Line
+	2550 4550 3000 4550
+$Comp
+L Device:L L15
+U 1 1 61AC85D8
+P 8700 5000
+F 0 "L15" H 8753 5046 50  0000 L CNN
+F 1 "L" H 8753 4955 50  0000 L CNN
+F 2 "" H 8700 5000 50  0001 C CNN
+F 3 "~" H 8700 5000 50  0001 C CNN
+	1    8700 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Q_PNP_BCE Q16
+U 1 1 61AC85E2
+P 8600 4200
+F 0 "Q16" H 8790 4246 50  0000 L CNN
+F 1 "Q_PNP_BCE" H 8790 4155 50  0000 L CNN
+F 2 "" H 8800 4300 50  0001 C CNN
+F 3 "~" H 8600 4200 50  0001 C CNN
+	1    8600 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 4400 8700 4550
+Text GLabel 8700 5400 3    50   Input ~ 0
+GND
+Text GLabel 8700 3700 1    50   Input ~ 0
+Vin
+Text GLabel 10200 5150 2    50   Input ~ 0
+V+
+Wire Wire Line
+	8700 4550 9400 4550
+Connection ~ 8700 4550
+Wire Wire Line
+	8700 5150 8700 5400
+Wire Wire Line
+	8700 3700 8700 4000
+$Comp
+L Device:D D11
+U 1 1 61AC85F4
+P 9550 4550
+F 0 "D11" H 9550 4334 50  0000 C CNN
+F 1 "D" H 9550 4425 50  0000 C CNN
+F 2 "" H 9550 4550 50  0001 C CNN
+F 3 "~" H 9550 4550 50  0001 C CNN
+	1    9550 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C11
+U 1 1 61AC85FE
+P 9950 5000
+F 0 "C11" H 10065 5046 50  0000 L CNN
+F 1 "C" H 10065 4955 50  0000 L CNN
+F 2 "" H 9988 4850 50  0001 C CNN
+F 3 "~" H 9950 5000 50  0001 C CNN
+	1    9950 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9950 4550 9950 4850
+Wire Wire Line
+	9950 5150 10200 5150
+Wire Wire Line
+	9950 5150 8700 5150
+Text GLabel 7900 4200 0    50   Input ~ 0
+PWM
+Wire Wire Line
+	7900 4200 8400 4200
+Wire Wire Line
+	8700 4550 8700 4850
+Connection ~ 8700 5150
+Connection ~ 9950 5150
+Text GLabel 10200 4550 2    50   Input ~ 0
+V-
+Wire Wire Line
+	9950 4550 10200 4550
+Wire Wire Line
+	9950 4550 9700 4550
+Connection ~ 9950 4550
+Text GLabel 3750 7050 2    50   Input ~ 0
+V+
+Wire Wire Line
+	2250 6450 2950 6450
+$Comp
+L Device:D D7
+U 1 1 61AE22EC
+P 3100 6450
+F 0 "D7" H 3100 6234 50  0000 C CNN
+F 1 "D" H 3100 6325 50  0000 C CNN
+F 2 "" H 3100 6450 50  0001 C CNN
+F 3 "~" H 3100 6450 50  0001 C CNN
+	1    3100 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C7
+U 1 1 61AE22F6
+P 3500 6900
+F 0 "C7" H 3615 6946 50  0000 L CNN
+F 1 "C" H 3615 6855 50  0000 L CNN
+F 2 "" H 3538 6750 50  0001 C CNN
+F 3 "~" H 3500 6900 50  0001 C CNN
+	1    3500 6900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 6450 3500 6750
+Wire Wire Line
+	3500 7050 3750 7050
+Wire Wire Line
+	3500 7050 2250 7050
+Connection ~ 3500 7050
+Text GLabel 3750 6450 2    50   Input ~ 0
+V-
+Wire Wire Line
+	3500 6450 3750 6450
+Wire Wire Line
+	3500 6450 3250 6450
+Connection ~ 3500 6450
+$Comp
+L Device:Q_PNP_BCE Q10
+U 1 1 61AE8CE4
+P 1950 6100
+F 0 "Q10" H 2140 6146 50  0000 L CNN
+F 1 "Q_PNP_BCE" H 2140 6055 50  0000 L CNN
+F 2 "" H 2150 6200 50  0001 C CNN
+F 3 "~" H 1950 6100 50  0001 C CNN
+	1    1950 6100
+	1    0    0    -1  
+$EndComp
+Text GLabel 2050 7100 3    50   Input ~ 0
+GND
+Text GLabel 2050 5600 1    50   Input ~ 0
+Vin
+Wire Wire Line
+	2050 6850 2050 7100
+Wire Wire Line
+	2050 5600 2050 5900
+Text GLabel 1250 6100 0    50   Input ~ 0
+PWM
+Wire Wire Line
+	1250 6100 1750 6100
+$Comp
+L Device:L_Core_Ferrite_Coupled L11
+U 1 1 61AF81FC
+P 2150 6650
+F 0 "L11" V 2104 6794 50  0000 L CNN
+F 1 "L_Core_Ferrite_Coupled" V 2195 6794 50  0000 L CNN
+F 2 "" H 2150 6650 50  0001 C CNN
+F 3 "~" H 2150 6650 50  0001 C CNN
+	1    2150 6650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2250 6850 2250 6450
+Connection ~ 2250 6450
+Wire Wire Line
+	2050 6300 2050 6450
+Wire Wire Line
+	2250 7050 2250 6850
+Connection ~ 2250 6850
+$Comp
+L Device:L_Core_Iron_Coupled L7
+U 1 1 61A980ED
+P 1250 1600
+F 0 "L7" H 1250 1881 50  0000 C CNN
+F 1 "L_Core_Iron_Coupled" H 1250 1790 50  0000 C CNN
+F 2 "" H 1250 1600 50  0001 C CNN
+F 3 "~" H 1250 1600 50  0001 C CNN
+	1    1250 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 1700 1050 1800
+Wire Wire Line
+	1050 2100 1750 2100
+Wire Wire Line
+	1050 1500 1050 1250
+Wire Wire Line
+	1700 1250 1700 1700
+Wire Wire Line
+	1700 1700 1450 1700
+Wire Wire Line
+	2050 1500 2050 1900
+Connection ~ 2050 1500
+Wire Wire Line
+	2050 1500 2450 1500
+Wire Wire Line
+	1450 1500 2050 1500
+Connection ~ 1700 1250
+Wire Wire Line
+	1050 1250 1700 1250
+$Comp
+L Device:Q_PNP_BCE Q17
+U 1 1 61B40337
+P 3200 8900
+F 0 "Q17" H 3390 8946 50  0000 L CNN
+F 1 "Q_PNP_BCE" H 3390 8855 50  0000 L CNN
+F 2 "" H 3400 9000 50  0001 C CNN
+F 3 "~" H 3200 8900 50  0001 C CNN
+	1    3200 8900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L_Core_Ferrite L8
+U 1 1 61B4105B
+P 3300 9750
+F 0 "L8" H 3388 9796 50  0000 L CNN
+F 1 "190L" H 3388 9705 50  0000 L CNN
+F 2 "" H 3300 9750 50  0001 C CNN
+F 3 "~" H 3300 9750 50  0001 C CNN
+	1    3300 9750
+	1    0    0    -1  
+$EndComp
+Text GLabel 3300 8150 1    50   Input ~ 0
++19V
+Text GLabel 3300 10350 3    50   Input ~ 0
+GND
+Text GLabel 2450 8900 0    50   Input ~ 0
+PWM
+Wire Wire Line
+	3300 8150 3300 8700
+Wire Wire Line
+	3000 8900 2450 8900
+Wire Wire Line
+	3300 9100 3300 9600
+Wire Wire Line
+	3300 10350 3300 9900
+$Comp
+L Device:Q_PNP_BCE Q18
+U 1 1 61B5298D
+P 5300 8900
+F 0 "Q18" H 5490 8946 50  0000 L CNN
+F 1 "Q_PNP_BCE" H 5490 8855 50  0000 L CNN
+F 2 "" H 5500 9000 50  0001 C CNN
+F 3 "~" H 5300 8900 50  0001 C CNN
+	1    5300 8900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L_Core_Ferrite L10
+U 1 1 61B52997
+P 5400 9750
+F 0 "L10" H 5488 9796 50  0000 L CNN
+F 1 "120L" H 5488 9705 50  0000 L CNN
+F 2 "" H 5400 9750 50  0001 C CNN
+F 3 "~" H 5400 9750 50  0001 C CNN
+	1    5400 9750
+	1    0    0    -1  
+$EndComp
+Text GLabel 5400 8150 1    50   Input ~ 0
++12V
+Text GLabel 5400 10350 3    50   Input ~ 0
+GND
+Text GLabel 4550 8900 0    50   Input ~ 0
+PWM
+Wire Wire Line
+	5400 8150 5400 8700
+Wire Wire Line
+	5100 8900 4550 8900
+Wire Wire Line
+	5400 9100 5400 9600
+Wire Wire Line
+	5400 10350 5400 9900
+$Comp
+L Device:Q_PNP_BCE Q19
+U 1 1 61B56687
+P 7400 8900
+F 0 "Q19" H 7590 8946 50  0000 L CNN
+F 1 "Q_PNP_BCE" H 7590 8855 50  0000 L CNN
+F 2 "" H 7600 9000 50  0001 C CNN
+F 3 "~" H 7400 8900 50  0001 C CNN
+	1    7400 8900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L_Core_Ferrite L12
+U 1 1 61B56691
+P 7500 9750
+F 0 "L12" H 7588 9796 50  0000 L CNN
+F 1 "50L" H 7588 9705 50  0000 L CNN
+F 2 "" H 7500 9750 50  0001 C CNN
+F 3 "~" H 7500 9750 50  0001 C CNN
+	1    7500 9750
+	1    0    0    -1  
+$EndComp
+Text GLabel 7500 8150 1    50   Input ~ 0
++5V
+Text GLabel 7500 10350 3    50   Input ~ 0
+GND
+Text GLabel 6650 8900 0    50   Input ~ 0
+PWM
+Wire Wire Line
+	7500 8150 7500 8700
+Wire Wire Line
+	7200 8900 6650 8900
+Wire Wire Line
+	7500 9100 7500 9600
+Wire Wire Line
+	7500 10350 7500 9900
+$Comp
+L Device:Q_PNP_BCE Q20
+U 1 1 61B566A2
+P 9500 8900
+F 0 "Q20" H 9690 8946 50  0000 L CNN
+F 1 "Q_PNP_BCE" H 9690 8855 50  0000 L CNN
+F 2 "" H 9700 9000 50  0001 C CNN
+F 3 "~" H 9500 8900 50  0001 C CNN
+	1    9500 8900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L_Core_Ferrite L17
+U 1 1 61B566AC
+P 9600 9750
+F 0 "L17" H 9688 9796 50  0000 L CNN
+F 1 "33L" H 9688 9705 50  0000 L CNN
+F 2 "" H 9600 9750 50  0001 C CNN
+F 3 "~" H 9600 9750 50  0001 C CNN
+	1    9600 9750
+	1    0    0    -1  
+$EndComp
+Text GLabel 9600 8150 1    50   Input ~ 0
++3.3V
+Text GLabel 9600 10350 3    50   Input ~ 0
+GND
+Text GLabel 8750 8900 0    50   Input ~ 0
+PWM
+Wire Wire Line
+	9600 8150 9600 8700
+Wire Wire Line
+	9300 8900 8750 8900
+Wire Wire Line
+	9600 9100 9600 9600
+Wire Wire Line
+	9600 10350 9600 9900
+$EndSCHEMATC

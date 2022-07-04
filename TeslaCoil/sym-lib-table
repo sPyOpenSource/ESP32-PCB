@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "Header")(type "Legacy")(uri "/home/spy/Source/KiCad/ESP32-Footprints/footprints-Lib/Header.lib")(options "")(descr ""))
+)

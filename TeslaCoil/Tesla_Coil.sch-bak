@@ -1,0 +1,297 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 3
+Title ""
+Date "2021-12-02"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R1
+U 1 1 61A6493E
+P 2850 2300
+F 0 "R1" H 2920 2346 50  0000 L CNN
+F 1 "10k" H 2920 2255 50  0000 L CNN
+F 2 "" V 2780 2300 50  0001 C CNN
+F 3 "~" H 2850 2300 50  0001 C CNN
+	1    2850 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D1
+U 1 1 61A64C9A
+P 2850 3150
+F 0 "D1" H 2850 3366 50  0000 C CNN
+F 1 "D" H 2850 3275 50  0000 C CNN
+F 2 "" H 2850 3150 50  0001 C CNN
+F 3 "~" H 2850 3150 50  0001 C CNN
+	1    2850 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Q_NPN_BCE Q1
+U 1 1 61A67799
+P 4150 2900
+F 0 "Q1" H 4341 2946 50  0000 L CNN
+F 1 "Q_NPN_BCE" H 4341 2855 50  0000 L CNN
+F 2 "" H 4350 3000 50  0001 C CNN
+F 3 "~" H 4150 2900 50  0001 C CNN
+	1    4150 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L1
+U 1 1 61A67EDD
+P 4250 2350
+F 0 "L1" H 4302 2396 50  0000 L CNN
+F 1 "2L" H 4302 2305 50  0000 L CNN
+F 2 "" H 4250 2350 50  0001 C CNN
+F 3 "~" H 4250 2350 50  0001 C CNN
+	1    4250 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L2
+U 1 1 61A683FE
+P 4900 2350
+F 0 "L2" H 4953 2396 50  0000 L CNN
+F 1 "300L" H 4953 2305 50  0000 L CNN
+F 2 "" H 4900 2350 50  0001 C CNN
+F 3 "~" H 4900 2350 50  0001 C CNN
+	1    4900 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 61A68958
+P 5450 3100
+F 0 "C1" H 5565 3146 50  0000 L CNN
+F 1 "100pF" H 5565 3055 50  0000 L CNN
+F 2 "" H 5488 2950 50  0001 C CNN
+F 3 "~" H 5450 3100 50  0001 C CNN
+	1    5450 3100
+	1    0    0    -1  
+$EndComp
+Text GLabel 2850 3600 3    50   Input ~ 0
+GND
+Text GLabel 2850 1750 1    50   Input ~ 0
+12V
+Wire Wire Line
+	2850 1750 2850 1950
+Wire Wire Line
+	2850 2900 3600 2900
+Connection ~ 2850 2900
+Wire Wire Line
+	2850 2900 2850 3000
+Wire Wire Line
+	2850 1950 4250 1950
+Wire Wire Line
+	4250 1950 4250 2200
+Connection ~ 2850 1950
+Wire Wire Line
+	2850 1950 2850 2150
+Wire Wire Line
+	4900 2200 4900 1950
+Text GLabel 5450 3600 3    50   Input ~ 0
+GND
+$Sheet
+S 10300 2300 1200 1000
+U 61A703D8
+F0 "Inductor" 50
+F1 "file61A703D7.sch" 50
+$EndSheet
+Wire Wire Line
+	2850 2900 2850 2450
+Wire Wire Line
+	4250 2700 4250 2500
+Wire Wire Line
+	4900 2500 4900 3850
+Wire Wire Line
+	2850 3300 2850 3600
+Wire Wire Line
+	3600 2900 3600 3850
+Connection ~ 3600 2900
+Wire Wire Line
+	3600 2900 3950 2900
+Wire Wire Line
+	3600 3850 4900 3850
+Text GLabel 4250 3600 3    50   Input ~ 0
+GND
+Wire Wire Line
+	4250 3100 4250 3600
+Wire Wire Line
+	5450 3250 5450 3600
+Text GLabel 11300 6300 0    50   Input ~ 0
+A+
+Text GLabel 11300 8300 0    50   Input ~ 0
+A-
+Text GLabel 13250 6300 2    50   Input ~ 0
+B+
+Text GLabel 13250 7550 2    50   Input ~ 0
+B-
+$Comp
+L Device:Q_PNP_BEC Q5
+U 1 1 61A69961
+P 12200 7150
+F 0 "Q5" H 12390 7196 50  0000 L CNN
+F 1 "Q_PNP_BEC" H 12390 7105 50  0000 L CNN
+F 2 "" H 12400 7250 50  0001 C CNN
+F 3 "~" H 12200 7150 50  0001 C CNN
+	1    12200 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_PNP_BEC Q6
+U 1 1 61A6A520
+P 12200 7900
+F 0 "Q6" H 12390 7946 50  0000 L CNN
+F 1 "Q_PNP_BEC" H 12390 7855 50  0000 L CNN
+F 2 "" H 12400 8000 50  0001 C CNN
+F 3 "~" H 12200 7900 50  0001 C CNN
+	1    12200 7900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_PNP_BEC Q7
+U 1 1 61A6BD77
+P 12550 6400
+F 0 "Q7" H 12740 6446 50  0000 L CNN
+F 1 "Q_PNP_BEC" H 12740 6355 50  0000 L CNN
+F 2 "" H 12750 6500 50  0001 C CNN
+F 3 "~" H 12550 6400 50  0001 C CNN
+	1    12550 6400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12300 8300 12300 8100
+Wire Wire Line
+	12300 7700 12300 7550
+Connection ~ 12300 7550
+Wire Wire Line
+	12300 7550 12300 7350
+Wire Wire Line
+	11300 6300 12300 6300
+Wire Wire Line
+	12300 6950 12300 6300
+Connection ~ 12300 6300
+Wire Wire Line
+	12300 6300 12350 6300
+Wire Wire Line
+	12750 6300 13250 6300
+Wire Wire Line
+	12550 6600 11650 6600
+Wire Wire Line
+	11650 6600 11650 7150
+Wire Wire Line
+	11650 7900 12000 7900
+Text GLabel 11300 7150 0    50   Input ~ 0
+OFF
+Text GLabel 11900 7150 0    50   Input ~ 0
+ON
+Wire Wire Line
+	12300 7550 13250 7550
+Wire Wire Line
+	12000 7150 11900 7150
+Wire Wire Line
+	11300 7150 11650 7150
+Connection ~ 11650 7150
+Wire Wire Line
+	11650 7150 11650 7900
+Wire Wire Line
+	11300 8300 12300 8300
+$Sheet
+S 11800 2300 1150 1000
+U 61A87791
+F0 "Joule Thief" 50
+F1 "file61A87790.sch" 50
+$EndSheet
+$Comp
+L Device:Speaker LS1
+U 1 1 61A9139F
+P 4850 7300
+F 0 "LS1" H 5020 7296 50  0000 L CNN
+F 1 "Speaker" H 5020 7205 50  0000 L CNN
+F 2 "" H 4850 7100 50  0001 C CNN
+F 3 "~" H 4840 7250 50  0001 C CNN
+	1    4850 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 61A9210A
+P 4100 7300
+F 0 "C4" H 4215 7346 50  0000 L CNN
+F 1 "C" H 4215 7255 50  0000 L CNN
+F 2 "" H 4138 7150 50  0001 C CNN
+F 3 "~" H 4100 7300 50  0001 C CNN
+	1    4100 7300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:L L6
+U 1 1 61A92500
+P 3400 6900
+F 0 "L6" H 3453 6946 50  0000 L CNN
+F 1 "L" H 3453 6855 50  0000 L CNN
+F 2 "" H 3400 6900 50  0001 C CNN
+F 3 "~" H 3400 6900 50  0001 C CNN
+	1    3400 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_PNP_BCE Q4
+U 1 1 61A92AB5
+P 3300 7800
+F 0 "Q4" H 3490 7846 50  0000 L CNN
+F 1 "Q_PNP_BCE" H 3490 7755 50  0000 L CNN
+F 2 "" H 3500 7900 50  0001 C CNN
+F 3 "~" H 3300 7800 50  0001 C CNN
+	1    3300 7800
+	1    0    0    -1  
+$EndComp
+Text GLabel 4650 8000 3    50   Input ~ 0
+GND
+Text GLabel 3400 6150 1    50   Input ~ 0
+Vcc
+Wire Wire Line
+	3400 6150 3400 6750
+Wire Wire Line
+	3400 7050 3400 7300
+Wire Wire Line
+	3950 7300 3400 7300
+Connection ~ 3400 7300
+Wire Wire Line
+	3400 7300 3400 7600
+Wire Wire Line
+	4250 7300 4650 7300
+Wire Wire Line
+	3400 8000 4650 8000
+Wire Wire Line
+	4650 8000 4650 7400
+Text GLabel 2850 7800 0    50   Input ~ 0
+PWM
+Wire Wire Line
+	3100 7800 2850 7800
+$Comp
+L Device:Antenna AE3
+U 1 1 61AB633F
+P 4900 1750
+F 0 "AE3" H 4980 1739 50  0000 L CNN
+F 1 "Antenna" H 4980 1648 50  0000 L CNN
+F 2 "" H 4900 1750 50  0001 C CNN
+F 3 "~" H 4900 1750 50  0001 C CNN
+	1    4900 1750
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	4900 1950 5450 1950
+Wire Notes Line
+	5450 2950 5450 1950
+$EndSCHEMATC
