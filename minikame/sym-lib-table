@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name minikame-rescue)(type Legacy)(uri ${KIPRJMOD}/minikame-rescue.lib)(options "")(descr ""))
+  (lib (name "minikame-rescue")(type "Legacy")(uri "${KIPRJMOD}/minikame-rescue.lib")(options "")(descr ""))
+  (lib (name "Header")(type "Legacy")(uri "/home/spy/Source/KiCad/ESP32-Footprints/footprints-Lib/Header.lib")(options "")(descr ""))
 )
