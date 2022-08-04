@@ -1,3 +1,6 @@
 (sym_lib_table
-  (lib (name "Header")(type "Legacy")(uri "/home/spy/Source/KiCad/ESP32-Footprints/footprints-Lib/Header.lib")(options "")(descr ""))
+  (lib (name "Header")(type "Legacy")(uri "/Users/xuyi/Source/KiCad/ESP32-PCB/Footprints/footprints-Lib/Header.lib")(options "")(descr ""))
+  (lib (name "solar-rescue")(type "Legacy")(uri "/Users/xuyi/Source/KiCad/ESP32-PCB/Solar/solar-rescue.lib")(options "")(descr ""))
+  (lib (name "connectors")(type "Legacy")(uri "/Users/xuyi/Source/KiCad/ESP32-PCB/Solar/connectors.lib")(options "")(descr ""))
+  (lib (name "irfiz44n")(type "Legacy")(uri "/Users/xuyi/Source/KiCad/ESP32-PCB/Solar/irfiz44n.lib")(options "")(descr ""))
 )

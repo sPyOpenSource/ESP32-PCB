@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -344,7 +344,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "spoel.kicad_pro",
+    "filename": "Tesla_Coil.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -423,8 +423,16 @@
   },
   "sheets": [
     [
-      "474697a8-9d62-4dd6-a774-6371d006ba19",
+      "37702ca0-905a-4f36-91f6-fb362c6ef752",
       ""
+    ],
+    [
+      "00000000-0000-0000-0000-000061a703d8",
+      "Inductor"
+    ],
+    [
+      "00000000-0000-0000-0000-000061a87791",
+      "Joule Thief"
     ]
   ],
   "text_variables": {}
