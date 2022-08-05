@@ -63,10 +63,10 @@
       36
     ],
     "visible_layers": "fffffff_ffffffff",
-    "zone_display_mode": 1
+    "zone_display_mode": 0
   },
   "meta": {
-    "filename": "Tesla_Coil.kicad_prl",
+    "filename": "ESP32-Footprints.kicad_prl",
     "version": 3
   },
   "project": {
