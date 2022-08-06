@@ -386,8 +386,7 @@
         "name": "HighPower",
         "nets": [
           "+BATT",
-          "GND",
-          "VCOM"
+          "GND"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -435,8 +434,7 @@
           "/MOTOR3",
           "/MOTOR4",
           "/POWER/D+",
-          "/POWER/D-",
-          "/POWER/VBAT"
+          "/POWER/D-"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
