@@ -5,9 +5,9 @@
   (paper "A4")
 
   (title_block
-    (title "BLDC Driver 4.11")
-    (date "21 aug 2015")
-    (rev "4.12")
+    (title "BLDC Driver 4.12")
+    (date "2022-08-07")
+    (rev "A")
     (company "Benjamin Vedder")
   )
 

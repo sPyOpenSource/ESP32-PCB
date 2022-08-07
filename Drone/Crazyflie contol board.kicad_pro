@@ -111,7 +111,7 @@
         "min_microvia_diameter": 0.020319999999999998,
         "min_microvia_drill": 0.127,
         "min_silk_clearance": 0.0,
-        "min_through_hole_diameter": 0.38,
+        "min_through_hole_diameter": 0.19999999999999998,
         "min_track_width": 0.01524,
         "min_via_annular_width": 0.049999999999999996,
         "min_via_diameter": 0.635,

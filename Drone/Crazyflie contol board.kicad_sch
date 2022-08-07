@@ -6,8 +6,8 @@
 
   (title_block
     (title "Crazyflie control board")
-    (date "2020-05-12")
-    (rev "2.1")
+    (date "2022-08-07")
+    (rev "2.2")
     (company "Bitcraze AB (CC BY-NC-SA)")
   )
 
@@ -1768,7 +1768,7 @@
     (effects (font (size 1.524 1.524)) (justify right bottom))
     (uuid 17a5c135-13b9-43c9-ab34-a5d32bfab494)
   )
-  (label "EN2" (at 25.4 121.92 180)
+  (label "EN1" (at 25.4 121.92 180)
     (effects (font (size 1.524 1.524)) (justify right bottom))
     (uuid 17e5b642-051d-4e1e-b1cb-f47871102246)
   )
@@ -1828,7 +1828,7 @@
     (effects (font (size 1.524 1.524)) (justify left bottom))
     (uuid 8080663a-b368-479b-b0c0-c970c95c620f)
   )
-  (label "EN1" (at 25.4 124.46 180)
+  (label "TDO" (at 25.4 124.46 180)
     (effects (font (size 1.524 1.524)) (justify right bottom))
     (uuid 87fb4618-ffba-4098-894c-2a108e97e5a6)
   )
@@ -1848,7 +1848,7 @@
     (effects (font (size 1.524 1.524)) (justify left bottom))
     (uuid a0179d36-a12b-48cd-8026-953a422b4036)
   )
-  (label "TDO" (at 38.1 121.92 0)
+  (label "EN2" (at 38.1 121.92 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid be9daa3e-02fb-492b-a24c-899909514b4a)
   )
@@ -3232,9 +3232,6 @@
     (path "/00000000-0000-0000-0000-00004de77332/00000000-0000-0000-0000-00004defb5d0"
       (reference "#PWR065") (unit 1) (value "+BATT") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00004de77332/00000000-0000-0000-0000-00004defa9bf"
-      (reference "#PWR068") (unit 1) (value "GND") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-00004de77332/00000000-0000-0000-0000-00004de7ddcc"
       (reference "#PWR073") (unit 1) (value "VCCA") (footprint "")
     )
@@ -3504,9 +3501,6 @@
     )
     (path "/00000000-0000-0000-0000-0000510e4723"
       (reference "R42") (unit 1) (value "100R") (footprint "digikey-footprints:0603")
-    )
-    (path "/00000000-0000-0000-0000-00004de77332/00000000-0000-0000-0000-00004defa9a9"
-      (reference "SW1") (unit 1) (value "PUSH ON/OFF") (footprint "SPST-NO-4x2.5")
     )
     (path "/00000000-0000-0000-0000-00005c766a94"
       (reference "SW2") (unit 1) (value "BOOT") (footprint "ESP32-footprints-Lib:Switch_Tactile_SMD_B3U-1000P_new_new")
