@@ -7,7 +7,7 @@
   (title_block
     (title "Crazyflie control board")
     (date "2022-08-07")
-    (rev "2.2")
+    (rev "2.3")
     (company "Bitcraze AB (CC BY-NC-SA)")
   )
 
