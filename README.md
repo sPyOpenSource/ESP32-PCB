@@ -10,6 +10,6 @@ PCB board design with ESP32 for a mini drone, rc car, solar controller, etc.
 
 2 Motor Controller for RC Car with Wireless Connections
 
-## Solar Controller
+## Solar Charger Controller
 
 Voltage regulator for Solar Charger
