@@ -1,730 +1,2256 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid fd1b2abd-acdb-456a-b12a-78be5659d6b2)
-
-  (paper "A4")
-
-  (title_block
-    (title "Crazyflie control board")
-    (date "2019-10-14")
-    (rev "F")
-    (company "Bitcraze AB (CC BY-NC-SA)")
-  )
-
-  (lib_symbols
-    (symbol "Crazyflie-contol-board-rescue:BMX160-SensorMotion" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-      (property "Reference" "U" (at 0 17.78 0)
-        (effects (font (size 1.524 1.524)))
-      )
-      (property "Value" "BMX160-SensorMotion" (at 0 -17.78 0)
-        (effects (font (size 1.524 1.524)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "BMX160-SensorMotion_0_0"
-        (text "BMX160" (at 1.27 24.13 0)
-          (effects (font (size 1.524 1.524)))
-        )
-      )
-      (symbol "BMX160-SensorMotion_0_1"
-        (rectangle (start -10.16 16.51) (end 10.16 -16.51)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -10.16 -11.43)
-            (xy 10.16 -11.43)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "BMX160-SensorMotion_1_1"
-        (pin input line (at -17.78 1.27 0) (length 7.62)
-          (name "AD0/SDO" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -17.78 -3.81 0) (length 7.62)
-          (name "CSB" (effects (font (size 1.27 1.27))))
-          (number "12" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at -17.78 6.35 0) (length 7.62)
-          (name "SCL/SCLK" (effects (font (size 1.27 1.27))))
-          (number "13" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -17.78 3.81 0) (length 7.62)
-          (name "SDA/SDI" (effects (font (size 1.27 1.27))))
-          (number "14" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -17.78 11.43 0) (length 7.62)
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -17.78 13.97 0) (length 7.62)
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin output line (at 17.78 11.43 180) (length 7.62)
-          (name "INT1" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -17.78 -6.35 0) (length 7.62)
-          (name "VDDIO" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 17.78 3.81 180) (length 7.62)
-          (name "GNDIO" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at 17.78 -13.97 180) (length 7.62)
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "7" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at -17.78 -13.97 0) (length 7.62)
-          (name "VDD" (effects (font (size 1.27 1.27))))
-          (number "8" (effects (font (size 1.27 1.27))))
-        )
-        (pin output line (at 17.78 13.97 180) (length 7.62)
-          (name "INT2" (effects (font (size 1.27 1.27))))
-          (number "9" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Crazyflie-contol-board-rescue:C-Crazyflie-contol-board-rescue" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-      (property "Reference" "C" (at 1.27 2.54 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "C-Crazyflie-contol-board-rescue" (at 1.27 -2.54 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "SM* C? C1-1" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "C-Crazyflie-contol-board-rescue_0_1"
-        (polyline
-          (pts
-            (xy -2.54 -0.762)
-            (xy 2.54 -0.762)
-          )
-          (stroke (width 0.508) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.54 0.762)
-            (xy 2.54 0.762)
-          )
-          (stroke (width 0.508) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "C-Crazyflie-contol-board-rescue_1_1"
-        (pin passive line (at 0 5.08 270) (length 4.318)
-          (name "~" (effects (font (size 1.016 1.016))))
-          (number "1" (effects (font (size 1.016 1.016))))
-        )
-        (pin passive line (at 0 -5.08 90) (length 4.318)
-          (name "~" (effects (font (size 1.016 1.016))))
-          (number "2" (effects (font (size 1.016 1.016))))
-        )
-      )
-    )
-    (symbol "Crazyflie-contol-board-rescue:GND-Crazyflie-contol-board-rescue" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 0 0)
-        (effects (font (size 0.762 0.762)) hide)
-      )
-      (property "Value" "GND-Crazyflie-contol-board-rescue" (at 0 -1.778 0)
-        (effects (font (size 0.762 0.762)) hide)
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "GND-Crazyflie-contol-board-rescue_0_1"
-        (polyline
-          (pts
-            (xy -1.27 0)
-            (xy 0 -1.27)
-            (xy 1.27 0)
-            (xy -1.27 0)
-          )
-          (stroke (width 0) (type solid))
-          (fill (type none))
-        )
-      )
-      (symbol "GND-Crazyflie-contol-board-rescue_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "GND" (effects (font (size 0.762 0.762))))
-          (number "1" (effects (font (size 0.762 0.762))))
-        )
-      )
-    )
-    (symbol "Crazyflie-contol-board-rescue:MS5611-01BA01-Crazyflie-contol-board-rescue" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-      (property "Reference" "U" (at 0 11.43 0)
-        (effects (font (size 1.524 1.524)))
-      )
-      (property "Value" "MS5611-01BA01-Crazyflie-contol-board-rescue" (at 0 -11.43 0)
-        (effects (font (size 1.524 1.524)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "MS5611-01BA01-Crazyflie-contol-board-rescue_0_1"
-        (rectangle (start -7.62 10.16) (end 7.62 -10.16)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -7.62 -5.08)
-            (xy 7.62 -5.08)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "MS5611-01BA01-Crazyflie-contol-board-rescue_1_1"
-        (pin power_in line (at -15.24 -7.62 0) (length 7.62)
-          (name "VDD" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -15.24 -2.54 0) (length 7.62)
-          (name "PS" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at 15.24 -7.62 180) (length 7.62)
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -15.24 5.08 0) (length 7.62)
-          (name "CSB" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -15.24 7.62 0) (length 7.62)
-          (name "CSB" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 15.24 7.62 180) (length 7.62)
-          (name "SDO" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at -15.24 0 0) (length 7.62)
-          (name "SDI/SDA" (effects (font (size 1.27 1.27))))
-          (number "7" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at -15.24 2.54 0) (length 7.62)
-          (name "SCLK" (effects (font (size 1.27 1.27))))
-          (number "8" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Crazyflie-contol-board-rescue:VCCA-Crazyflie-contol-board-rescue" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 2.54 0)
-        (effects (font (size 0.762 0.762)) hide)
-      )
-      (property "Value" "VCCA-Crazyflie-contol-board-rescue" (at 0 2.54 0)
-        (effects (font (size 0.762 0.762)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "VCCA-Crazyflie-contol-board-rescue_0_0"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "VCCA" (effects (font (size 0.508 0.508))))
-          (number "1" (effects (font (size 0.508 0.508))))
-        )
-      )
-      (symbol "VCCA-Crazyflie-contol-board-rescue_0_1"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 0.762)
-            (xy 0 0.762)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (circle (center 0 1.27) (radius 0.508)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-    )
-  )
-
-  (junction (at 128.27 90.17) (diameter 0) (color 0 0 0 0)
-    (uuid 21c25529-23d9-48dd-b470-801777c483af)
-  )
-  (junction (at 118.11 90.17) (diameter 0) (color 0 0 0 0)
-    (uuid 32e6370b-bf08-49c8-a337-257f0f183f57)
-  )
-  (junction (at 137.16 107.95) (diameter 0) (color 0 0 0 0)
-    (uuid 4035c6d5-0218-4683-a405-7b7b1fd841f8)
-  )
-  (junction (at 134.62 135.89) (diameter 0) (color 0 0 0 0)
-    (uuid 4b871601-d963-46d7-ae0d-46063ebbc6fd)
-  )
-  (junction (at 124.46 73.66) (diameter 0) (color 0 0 0 0)
-    (uuid 4d0ca5ae-3491-4004-9167-acc8b77922db)
-  )
-  (junction (at 137.16 73.66) (diameter 0) (color 0 0 0 0)
-    (uuid 52039751-7c90-4bad-b446-00e9c6094980)
-  )
-  (junction (at 172.72 73.66) (diameter 0) (color 0 0 0 0)
-    (uuid 6f0bf181-b7ac-48a2-905c-c67feeb7d571)
-  )
-  (junction (at 137.16 77.47) (diameter 0) (color 0 0 0 0)
-    (uuid 7856fd3e-7cb2-4617-9f08-e93b38475b94)
-  )
-  (junction (at 105.41 63.5) (diameter 0) (color 0 0 0 0)
-    (uuid 9c352ce5-8dcd-4676-8f85-0d97597fd098)
-  )
-  (junction (at 137.16 90.17) (diameter 0) (color 0 0 0 0)
-    (uuid a2e657e9-8fbb-46fe-96c9-f7babcd4a7d6)
-  )
-  (junction (at 134.62 48.26) (diameter 0) (color 0 0 0 0)
-    (uuid a73753d8-f00b-4be9-a8c8-167668e414ea)
-  )
-  (junction (at 137.16 66.04) (diameter 0) (color 0 0 0 0)
-    (uuid b766fba3-ed3c-4f2a-a7b1-a58173e2399a)
-  )
-  (junction (at 107.95 60.96) (diameter 0) (color 0 0 0 0)
-    (uuid dfdae403-bb08-48d4-b042-b5f0fa182e90)
-  )
-  (junction (at 134.62 123.19) (diameter 0) (color 0 0 0 0)
-    (uuid fb7c97ee-bfba-49df-b0a6-949d8c1dbc80)
-  )
-  (junction (at 118.11 107.95) (diameter 0) (color 0 0 0 0)
-    (uuid fc7b2ba4-5cea-4bbc-a550-df13de74159f)
-  )
-
-  (no_connect (at 170.18 107.95) (uuid 931e27aa-b13d-4318-a4da-bc41de9026c2))
-
-  (wire (pts (xy 137.16 55.88) (xy 105.41 55.88))
-    (stroke (width 0) (type default))
-    (uuid 09518f18-8c5c-4629-8039-76c971a8c2f1)
-  )
-  (wire (pts (xy 172.72 123.19) (xy 172.72 135.89))
-    (stroke (width 0) (type default))
-    (uuid 0b16503a-4feb-4e18-bd0a-8dd91a4e6919)
-  )
-  (wire (pts (xy 107.95 113.03) (xy 139.7 113.03))
-    (stroke (width 0) (type default))
-    (uuid 1a3b3ac1-1149-4af0-88a5-7f64e33c4898)
-  )
-  (wire (pts (xy 124.46 123.19) (xy 124.46 73.66))
-    (stroke (width 0) (type default))
-    (uuid 1d1fb783-c648-409c-a81b-ac3ebc78b408)
-  )
-  (wire (pts (xy 139.7 107.95) (xy 137.16 107.95))
-    (stroke (width 0) (type default))
-    (uuid 210b172c-b965-4a60-99f4-39f3cf0b0a90)
-  )
-  (wire (pts (xy 124.46 123.19) (xy 134.62 123.19))
-    (stroke (width 0) (type default))
-    (uuid 2687370f-49a5-4bc5-9d99-d875739be787)
-  )
-  (wire (pts (xy 137.16 53.34) (xy 107.95 53.34))
-    (stroke (width 0) (type default))
-    (uuid 2cde09e2-1478-4e90-84f2-de808fbc4e00)
-  )
-  (wire (pts (xy 137.16 58.42) (xy 134.62 58.42))
-    (stroke (width 0) (type default))
-    (uuid 31d3bb61-3ab8-4ee5-98f7-19fcbef58004)
-  )
-  (wire (pts (xy 172.72 73.66) (xy 172.72 90.17))
-    (stroke (width 0) (type default))
-    (uuid 33f0ff87-5826-47b7-a189-ca3528f1f211)
-  )
-  (wire (pts (xy 134.62 123.19) (xy 134.62 118.11))
-    (stroke (width 0) (type default))
-    (uuid 3ac1108e-506a-4c75-b603-f9a6a39785e0)
-  )
-  (wire (pts (xy 137.16 77.47) (xy 137.16 73.66))
-    (stroke (width 0) (type default))
-    (uuid 463adae5-2b8d-4805-b9f3-b2a6f8105566)
-  )
-  (wire (pts (xy 105.41 115.57) (xy 139.7 115.57))
-    (stroke (width 0) (type default))
-    (uuid 473c668c-5f7b-4cf5-8012-906483dc5dc1)
-  )
-  (wire (pts (xy 105.41 115.57) (xy 105.41 63.5))
-    (stroke (width 0) (type default))
-    (uuid 4b8be3ff-4f25-49f4-9eee-d26026895d38)
-  )
-  (wire (pts (xy 172.72 55.88) (xy 172.72 73.66))
-    (stroke (width 0) (type default))
-    (uuid 56debd93-4345-487f-acb9-09e1591e88c2)
-  )
-  (wire (pts (xy 118.11 90.17) (xy 118.11 48.26))
-    (stroke (width 0) (type default))
-    (uuid 5e39072a-2e0e-4671-907a-12020422c4d1)
-  )
-  (wire (pts (xy 118.11 107.95) (xy 118.11 135.89))
-    (stroke (width 0) (type default))
-    (uuid 5e6e3f23-270b-4648-a786-713453553883)
-  )
-  (wire (pts (xy 128.27 87.63) (xy 128.27 90.17))
-    (stroke (width 0) (type default))
-    (uuid 5f8f5622-0fae-4eeb-bf3b-6112a55f318d)
-  )
-  (wire (pts (xy 137.16 66.04) (xy 137.16 73.66))
-    (stroke (width 0) (type default))
-    (uuid 646cbadb-b1e3-4f3d-b836-1d0a4642fad3)
-  )
-  (wire (pts (xy 118.11 90.17) (xy 118.11 107.95))
-    (stroke (width 0) (type default))
-    (uuid 651d5605-2b52-4dd6-a457-c337bfd4837e)
-  )
-  (wire (pts (xy 91.44 60.96) (xy 107.95 60.96))
-    (stroke (width 0) (type default))
-    (uuid 6a92e431-970e-4e94-9939-6a30a7a953f8)
-  )
-  (wire (pts (xy 107.95 113.03) (xy 107.95 60.96))
-    (stroke (width 0) (type default))
-    (uuid 6cfdc61e-9238-4bf1-8adc-0aa2afd5e23c)
-  )
-  (wire (pts (xy 118.11 48.26) (xy 134.62 48.26))
-    (stroke (width 0) (type default))
-    (uuid 702adbad-cc32-40cc-8557-12ccbcc447f5)
-  )
-  (wire (pts (xy 139.7 123.19) (xy 134.62 123.19))
-    (stroke (width 0) (type default))
-    (uuid 75b6e061-3edd-496d-8819-9872e3fcd769)
-  )
-  (wire (pts (xy 105.41 63.5) (xy 105.41 55.88))
-    (stroke (width 0) (type default))
-    (uuid 79fc1ef9-e921-4832-95d3-5ae7ff6b03fb)
-  )
-  (wire (pts (xy 134.62 58.42) (xy 134.62 48.26))
-    (stroke (width 0) (type default))
-    (uuid 7b448334-a672-4f67-8bb7-9dc7daa7fefe)
-  )
-  (wire (pts (xy 137.16 45.72) (xy 134.62 45.72))
-    (stroke (width 0) (type default))
-    (uuid 7da14e3c-031d-42a9-a820-92c0765992b7)
-  )
-  (wire (pts (xy 91.44 63.5) (xy 105.41 63.5))
-    (stroke (width 0) (type default))
-    (uuid 81cea36f-374e-495b-8b76-6e2c7f3900a5)
-  )
-  (wire (pts (xy 134.62 125.73) (xy 134.62 123.19))
-    (stroke (width 0) (type default))
-    (uuid 84e61ea2-1c29-4ec5-923f-b6010cf9ee5a)
-  )
-  (wire (pts (xy 107.95 53.34) (xy 107.95 60.96))
-    (stroke (width 0) (type default))
-    (uuid 875d8101-02ec-4109-9cb3-dc03033ea564)
-  )
-  (wire (pts (xy 172.72 48.26) (xy 186.69 48.26))
-    (stroke (width 0) (type default))
-    (uuid 8915ab38-0590-446e-aaa6-be99167d8873)
-  )
-  (wire (pts (xy 118.11 90.17) (xy 128.27 90.17))
-    (stroke (width 0) (type default))
-    (uuid 8e477204-0f1a-4014-a89e-2eb3501fe3e3)
-  )
-  (wire (pts (xy 128.27 77.47) (xy 137.16 77.47))
-    (stroke (width 0) (type default))
-    (uuid 8f3eb88d-9ce9-4013-ad67-32b8876a01b4)
-  )
-  (wire (pts (xy 137.16 90.17) (xy 128.27 90.17))
-    (stroke (width 0) (type default))
-    (uuid 97087cbe-2d6b-4de6-8a95-e0f165d3bad4)
-  )
-  (wire (pts (xy 137.16 87.63) (xy 137.16 90.17))
-    (stroke (width 0) (type default))
-    (uuid ac2dd344-9bcd-43ef-97cf-410a56901723)
-  )
-  (wire (pts (xy 134.62 135.89) (xy 172.72 135.89))
-    (stroke (width 0) (type default))
-    (uuid ac99f243-aa8f-4496-82dd-cd58dae79415)
-  )
-  (wire (pts (xy 137.16 63.5) (xy 137.16 66.04))
-    (stroke (width 0) (type default))
-    (uuid aec76fa7-ca3b-4002-827b-890c008964e6)
-  )
-  (wire (pts (xy 137.16 107.95) (xy 137.16 110.49))
-    (stroke (width 0) (type default))
-    (uuid b4d73ef7-d069-453b-a7bd-227eec81fabc)
-  )
-  (wire (pts (xy 134.62 45.72) (xy 134.62 48.26))
-    (stroke (width 0) (type default))
-    (uuid b73189eb-ce33-4fd6-899f-a0fe6fefce38)
-  )
-  (wire (pts (xy 172.72 90.17) (xy 137.16 90.17))
-    (stroke (width 0) (type default))
-    (uuid b7b0924b-a534-453f-b03b-3088a452d2d5)
-  )
-  (wire (pts (xy 170.18 123.19) (xy 172.72 123.19))
-    (stroke (width 0) (type default))
-    (uuid bfeadbcb-526c-43a6-b7fe-4e2f50efd84c)
-  )
-  (wire (pts (xy 137.16 73.66) (xy 124.46 73.66))
-    (stroke (width 0) (type default))
-    (uuid dc907d3a-ade0-4fb2-bac6-3f031f194fac)
-  )
-  (wire (pts (xy 137.16 48.26) (xy 134.62 48.26))
-    (stroke (width 0) (type default))
-    (uuid e494b54b-7300-4f8c-8bb9-32c84d3e63f0)
-  )
-  (wire (pts (xy 118.11 107.95) (xy 137.16 107.95))
-    (stroke (width 0) (type default))
-    (uuid eb3179f1-8e0f-4c83-8288-ccafea628c23)
-  )
-  (wire (pts (xy 134.62 118.11) (xy 139.7 118.11))
-    (stroke (width 0) (type default))
-    (uuid f16f0137-553b-4915-92a0-bc14383612e0)
-  )
-  (wire (pts (xy 118.11 135.89) (xy 134.62 135.89))
-    (stroke (width 0) (type default))
-    (uuid f2831a27-a91e-4ea5-b462-db33920cebb3)
-  )
-  (wire (pts (xy 90.17 90.17) (xy 118.11 90.17))
-    (stroke (width 0) (type default))
-    (uuid f9613653-3970-4330-a27a-806b2c14ef10)
-  )
-  (wire (pts (xy 137.16 110.49) (xy 139.7 110.49))
-    (stroke (width 0) (type default))
-    (uuid fe98897e-19da-4293-b75e-59fc03fd1c77)
-  )
-
-  (text "U5 not mounted on 9-DOF version" (at 134.62 100.33 0)
-    (effects (font (size 1.524 1.524)) (justify left bottom))
-    (uuid 241e4967-98ec-42a7-b49a-322999e65405)
-  )
-
-  (hierarchical_label "I2C_SCL_VCCA" (shape input) (at 91.44 60.96 180) (fields_autoplaced)
-    (effects (font (size 1.524 1.524)) (justify right))
-    (uuid 56cab98c-3eb1-41cd-bdf8-fa073613afc8)
-  )
-  (hierarchical_label "I2C_SDA_VCCA" (shape bidirectional) (at 91.44 63.5 180) (fields_autoplaced)
-    (effects (font (size 1.524 1.524)) (justify right))
-    (uuid 797fc62f-ec08-4f23-905c-e7ecf00b70db)
-  )
-  (hierarchical_label "INT_GA" (shape output) (at 186.69 48.26 0) (fields_autoplaced)
-    (effects (font (size 1.524 1.524)) (justify left))
-    (uuid bb94c706-c1c6-4e19-ac2a-271d09f29af0)
-  )
-
-  (symbol (lib_id "Crazyflie-contol-board-rescue:C-Crazyflie-contol-board-rescue") (at 137.16 82.55 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 00000000-0000-0000-0000-00004f679a90)
-    (property "Reference" "C18" (at 138.43 80.01 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "100nF" (at 138.43 85.09 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 137.16 82.55 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Datasheet" "" (at 137.16 82.55 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid aaf1d2e2-81a2-4191-b652-511b5d706aa7))
-    (pin "2" (uuid d536cd9e-0aa3-438a-8c06-02dfd3b98a18))
-    (instances
-      (project "Crazyflie contol board"
-        (path "/3e9fa01f-48e9-4c58-997e-0bab5b5694a8/00000000-0000-0000-0000-00004de1273c"
-          (reference "C18") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Crazyflie-contol-board-rescue:VCCA-Crazyflie-contol-board-rescue") (at 124.46 73.66 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 00000000-0000-0000-0000-00004f679cf2)
-    (property "Reference" "#PWR039" (at 121.92 73.66 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Value" "VCC" (at 121.92 73.66 0)
-      (effects (font (size 0.762 0.762)))
-    )
-    (property "Footprint" "" (at 124.46 73.66 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 124.46 73.66 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 73d8c72e-5d68-425e-b708-da9c1a3ffc64))
-    (instances
-      (project "Crazyflie contol board"
-        (path "/3e9fa01f-48e9-4c58-997e-0bab5b5694a8/00000000-0000-0000-0000-00004de1273c"
-          (reference "#PWR039") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Crazyflie-contol-board-rescue:C-Crazyflie-contol-board-rescue") (at 128.27 82.55 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 00000000-0000-0000-0000-00004f679fc3)
-    (property "Reference" "C20" (at 129.54 80.01 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "100nF" (at 129.54 85.09 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 128.27 82.55 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Datasheet" "" (at 128.27 82.55 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid f5c2b239-25c2-4a77-b83f-96c3fdbe7817))
-    (pin "2" (uuid 5f70a067-b3bd-48a3-8ea3-c9f50586f7c5))
-    (instances
-      (project "Crazyflie contol board"
-        (path "/3e9fa01f-48e9-4c58-997e-0bab5b5694a8/00000000-0000-0000-0000-00004de1273c"
-          (reference "C20") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Crazyflie-contol-board-rescue:MS5611-01BA01-Crazyflie-contol-board-rescue") (at 154.94 115.57 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 00000000-0000-0000-0000-00004f6999f7)
-    (property "Reference" "U5" (at 154.94 104.14 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Value" "MS5611-01BA03" (at 154.94 127 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Footprint" "MS5611" (at 154.94 124.46 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Datasheet" "" (at 154.94 115.57 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Fält4" "Measurement Specialties" (at 154.94 115.57 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Fält5" "MS5611-01BA03" (at 154.94 115.57 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (pin "1" (uuid 9cf37ab0-58d2-419a-9c76-4836af0b31df))
-    (pin "2" (uuid 86988a1c-729e-41fc-a1af-45f141dca1b0))
-    (pin "3" (uuid 5e09ecda-a7cd-48ae-a70f-dfdc479e3e2a))
-    (pin "4" (uuid 084f3920-ec06-49e3-a9ee-bf3aa2d0a318))
-    (pin "5" (uuid 92fe29d8-c5ff-43fc-bf1a-8ccec26af661))
-    (pin "6" (uuid 05fcc646-19bb-458a-9647-ad4fbbd2ae77))
-    (pin "7" (uuid d03f6f61-ed73-4f7c-8848-216b7f82d2ad))
-    (pin "8" (uuid 72f5e010-4835-4344-b761-78f2b6a212d3))
-    (instances
-      (project "Crazyflie contol board"
-        (path "/3e9fa01f-48e9-4c58-997e-0bab5b5694a8/00000000-0000-0000-0000-00004de1273c"
-          (reference "U5") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Crazyflie-contol-board-rescue:C-Crazyflie-contol-board-rescue") (at 134.62 130.81 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 00000000-0000-0000-0000-00004f699a20)
-    (property "Reference" "C24" (at 135.89 128.27 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "100nF" (at 135.89 133.35 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 134.62 130.81 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Datasheet" "" (at 134.62 130.81 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid a67fc7f9-f8af-4014-9cb1-cdb494cca8ca))
-    (pin "2" (uuid 17f53ec4-9be0-4fb0-9a99-672dccf27e8c))
-    (instances
-      (project "Crazyflie contol board"
-        (path "/3e9fa01f-48e9-4c58-997e-0bab5b5694a8/00000000-0000-0000-0000-00004de1273c"
-          (reference "C24") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Crazyflie-contol-board-rescue:BMX160-SensorMotion") (at 154.94 59.69 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 00000000-0000-0000-0000-00005d68d4ee)
-    (property "Reference" "U1" (at 162.56 40.64 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Value" "BMX160" (at 154.94 40.64 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Footprint" "digikey-footprints:LGA-14L_2.5x3mm__LSM6DS3" (at 154.94 59.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 154.94 59.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 400d7571-a8ac-4b7e-92d6-e056d5d66742))
-    (pin "12" (uuid be41e023-52b9-48e7-a71c-a21683b86136))
-    (pin "13" (uuid d585f400-fdc2-490a-bdcb-33cc0ea85473))
-    (pin "14" (uuid cd7f2d4b-e6d5-40ed-b030-1bb6d0276c1c))
-    (pin "2" (uuid 0a098971-8170-4313-af7d-cc4b35a48563))
-    (pin "3" (uuid 9b821643-0a09-4ed0-af40-76467a90d5d5))
-    (pin "4" (uuid c816de12-445c-4fed-ae1c-cdcaa29b5ddb))
-    (pin "5" (uuid 8aa3e84c-b0b1-49e2-90db-e20ce910aaf1))
-    (pin "6" (uuid 92180a56-bc8d-4a49-8fe4-c3dc9309f11b))
-    (pin "7" (uuid 9a60e026-3ad5-4657-8f64-3e4fe5354316))
-    (pin "8" (uuid ef2be787-d7f6-4c7f-890f-118a5221e338))
-    (pin "9" (uuid d23564cb-4d8d-44b3-8478-8e0f9b845998))
-    (instances
-      (project "Crazyflie contol board"
-        (path "/3e9fa01f-48e9-4c58-997e-0bab5b5694a8/00000000-0000-0000-0000-00004de1273c"
-          (reference "U1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Crazyflie-contol-board-rescue:GND-Crazyflie-contol-board-rescue") (at 90.17 90.17 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid a6d34eb9-4997-4009-9e2b-fba5e9ea1e7d)
-    (property "Reference" "#PWR07" (at 90.17 90.17 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Value" "GND-Crazyflie-contol-board-rescue" (at 88.392 90.17 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Footprint" "" (at 90.17 90.17 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 90.17 90.17 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 5e5c2d3c-dfb3-42d0-a109-999449708a7e))
-    (instances
-      (project "Crazyflie contol board"
-        (path "/3e9fa01f-48e9-4c58-997e-0bab5b5694a8/00000000-0000-0000-0000-00004de1273c"
-          (reference "#PWR07") (unit 1)
-        )
-      )
-    )
-  )
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "fd1b2abd-acdb-456a-b12a-78be5659d6b2")
+	(paper "A4")
+	(title_block
+		(title "Crazyflie control board")
+		(date "2019-10-14")
+		(rev "F")
+		(company "Bitcraze AB (CC BY-NC-SA)")
+	)
+	(lib_symbols
+		(symbol "Crazyflie-contol-board-rescue:BMX160-SensorMotion"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 17.78 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "BMX160-SensorMotion"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BMX160-SensorMotion_0_0"
+				(text "BMX160"
+					(at 1.27 24.13 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(symbol "BMX160-SensorMotion_0_1"
+				(rectangle
+					(start -10.16 16.51)
+					(end 10.16 -16.51)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -10.16 -11.43) (xy 10.16 -11.43)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BMX160-SensorMotion_1_1"
+				(pin input line
+					(at -17.78 13.97 0)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 11.43 0)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 6.35 0)
+					(length 7.62)
+					(name "SCL/SCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 3.81 0)
+					(length 7.62)
+					(name "SDA/SDI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 1.27 0)
+					(length 7.62)
+					(name "AD0/SDO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -3.81 0)
+					(length 7.62)
+					(name "CSB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -6.35 0)
+					(length 7.62)
+					(name "VDDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -17.78 -13.97 0)
+					(length 7.62)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 13.97 180)
+					(length 7.62)
+					(name "INT2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 11.43 180)
+					(length 7.62)
+					(name "INT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 3.81 180)
+					(length 7.62)
+					(name "GNDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 -13.97 180)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Crazyflie-contol-board-rescue:C-Crazyflie-contol-board-rescue"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C-Crazyflie-contol-board-rescue"
+				(at 1.27 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SM* C? C1-1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C-Crazyflie-contol-board-rescue_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0.762) (xy 2.54 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -0.762) (xy 2.54 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C-Crazyflie-contol-board-rescue_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 4.318)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 4.318)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Crazyflie-contol-board-rescue:GND-Crazyflie-contol-board-rescue"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND-Crazyflie-contol-board-rescue"
+				(at 0 -1.778 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND-Crazyflie-contol-board-rescue_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 0 -1.27) (xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND-Crazyflie-contol-board-rescue_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Crazyflie-contol-board-rescue:VCCA-Crazyflie-contol-board-rescue"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VCCA-Crazyflie-contol-board-rescue"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCCA-Crazyflie-contol-board-rescue_0_0"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "VCCA"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+				)
+			)
+			(symbol "VCCA-Crazyflie-contol-board-rescue_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 0.762) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Sensor_Pressure:BMP280"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U2"
+				(at 6.35 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BMP280"
+				(at 6.35 -0.635 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_LGA:Bosch_LGA-8_2x2.5mm_P0.65mm_ClockwisePinNumbering"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMP280-DS001.pdf"
+				(at 3.81 22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Absolute Barometric Pressure Sensor, LGA-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "I2C, SPI, pressure, temperature, sensor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Bosch*LGA*2x2.5mm*P0.65mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BMP280_0_1"
+				(rectangle
+					(start -7.62 -5.08)
+					(end 5.08 7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "BMP280_1_1"
+				(pin input line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "SCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "SDI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "SDO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "CSB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 10.16 270)
+					(length 2.54)
+					(name "INT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name "VDDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 10.16 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "U5 not mounted on 9-DOF version"
+		(exclude_from_sim no)
+		(at 133.35 143.51 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "241e4967-98ec-42a7-b49a-322999e65405")
+	)
+	(junction
+		(at 152.4 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d9b86a8-8baa-4881-af24-614c3746380a")
+	)
+	(junction
+		(at 147.32 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1011ca3b-3b00-411a-ba10-f1eca5f3207d")
+	)
+	(junction
+		(at 128.27 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "21c25529-23d9-48dd-b470-801777c483af")
+	)
+	(junction
+		(at 124.46 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "229a45b0-c9ec-4c23-946f-fce16d3b33c3")
+	)
+	(junction
+		(at 118.11 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "32e6370b-bf08-49c8-a337-257f0f183f57")
+	)
+	(junction
+		(at 134.62 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b871601-d963-46d7-ae0d-46063ebbc6fd")
+	)
+	(junction
+		(at 124.46 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d0ca5ae-3491-4004-9167-acc8b77922db")
+	)
+	(junction
+		(at 137.16 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52039751-7c90-4bad-b446-00e9c6094980")
+	)
+	(junction
+		(at 172.72 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f0bf181-b7ac-48a2-905c-c67feeb7d571")
+	)
+	(junction
+		(at 149.86 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72f736f2-d60d-4b74-ab4a-24277aa15997")
+	)
+	(junction
+		(at 137.16 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7856fd3e-7cb2-4617-9f08-e93b38475b94")
+	)
+	(junction
+		(at 105.41 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c352ce5-8dcd-4676-8f85-0d97597fd098")
+	)
+	(junction
+		(at 134.62 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e6fc685-d6fa-40c1-8b7c-8ee3cd8808f5")
+	)
+	(junction
+		(at 149.86 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f8785a7-54a4-4117-bdd6-2c4c75b1cb3d")
+	)
+	(junction
+		(at 137.16 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2e657e9-8fbb-46fe-96c9-f7babcd4a7d6")
+	)
+	(junction
+		(at 134.62 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a73753d8-f00b-4be9-a8c8-167668e414ea")
+	)
+	(junction
+		(at 137.16 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b766fba3-ed3c-4f2a-a7b1-a58173e2399a")
+	)
+	(junction
+		(at 152.4 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df638373-51cd-4c26-8749-7a8f67075337")
+	)
+	(junction
+		(at 107.95 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dfdae403-bb08-48d4-b042-b5f0fa182e90")
+	)
+	(wire
+		(pts
+			(xy 137.16 55.88) (xy 105.41 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09518f18-8c5c-4629-8039-76c971a8c2f1")
+	)
+	(wire
+		(pts
+			(xy 173.99 125.73) (xy 152.4 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "107c78a2-782e-43f6-a38f-e76201a34def")
+	)
+	(wire
+		(pts
+			(xy 107.95 113.03) (xy 139.7 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a3b3ac1-1149-4af0-88a5-7f64e33c4898")
+	)
+	(wire
+		(pts
+			(xy 124.46 120.65) (xy 124.46 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d1fb783-c648-409c-a81b-ac3ebc78b408")
+	)
+	(wire
+		(pts
+			(xy 124.46 120.65) (xy 134.62 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2687370f-49a5-4bc5-9d99-d875739be787")
+	)
+	(wire
+		(pts
+			(xy 147.32 125.73) (xy 149.86 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bf1b4c8-e41e-4695-8e20-e52afbebce9f")
+	)
+	(wire
+		(pts
+			(xy 137.16 53.34) (xy 107.95 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cde09e2-1478-4e90-84f2-de808fbc4e00")
+	)
+	(wire
+		(pts
+			(xy 137.16 125.73) (xy 147.32 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f910cfa-4903-48e8-84ad-879cf11dd738")
+	)
+	(wire
+		(pts
+			(xy 137.16 58.42) (xy 134.62 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31d3bb61-3ab8-4ee5-98f7-19fcbef58004")
+	)
+	(wire
+		(pts
+			(xy 172.72 73.66) (xy 172.72 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33f0ff87-5826-47b7-a189-ca3528f1f211")
+	)
+	(wire
+		(pts
+			(xy 149.86 135.89) (xy 149.86 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41a32a3e-dbf2-4d2f-97c3-8658ace03706")
+	)
+	(wire
+		(pts
+			(xy 137.16 77.47) (xy 137.16 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "463adae5-2b8d-4805-b9f3-b2a6f8105566")
+	)
+	(wire
+		(pts
+			(xy 105.41 115.57) (xy 139.7 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "473c668c-5f7b-4cf5-8012-906483dc5dc1")
+	)
+	(wire
+		(pts
+			(xy 105.41 115.57) (xy 105.41 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b8be3ff-4f25-49f4-9eee-d26026895d38")
+	)
+	(wire
+		(pts
+			(xy 172.72 55.88) (xy 172.72 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56debd93-4345-487f-acb9-09e1591e88c2")
+	)
+	(wire
+		(pts
+			(xy 124.46 97.79) (xy 149.86 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "593421aa-0c6e-4427-bc5a-82fd0ad52890")
+	)
+	(wire
+		(pts
+			(xy 118.11 90.17) (xy 118.11 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e39072a-2e0e-4671-907a-12020422c4d1")
+	)
+	(wire
+		(pts
+			(xy 128.27 87.63) (xy 128.27 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f8f5622-0fae-4eeb-bf3b-6112a55f318d")
+	)
+	(wire
+		(pts
+			(xy 137.16 66.04) (xy 137.16 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "646cbadb-b1e3-4f3d-b836-1d0a4642fad3")
+	)
+	(wire
+		(pts
+			(xy 118.11 90.17) (xy 118.11 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "651d5605-2b52-4dd6-a457-c337bfd4837e")
+	)
+	(wire
+		(pts
+			(xy 91.44 60.96) (xy 107.95 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a92e431-970e-4e94-9939-6a30a7a953f8")
+	)
+	(wire
+		(pts
+			(xy 107.95 113.03) (xy 107.95 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cfdc61e-9238-4bf1-8adc-0aa2afd5e23c")
+	)
+	(wire
+		(pts
+			(xy 118.11 48.26) (xy 134.62 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "702adbad-cc32-40cc-8557-12ccbcc447f5")
+	)
+	(wire
+		(pts
+			(xy 105.41 63.5) (xy 105.41 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79fc1ef9-e921-4832-95d3-5ae7ff6b03fb")
+	)
+	(wire
+		(pts
+			(xy 134.62 58.42) (xy 134.62 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b448334-a672-4f67-8bb7-9dc7daa7fefe")
+	)
+	(wire
+		(pts
+			(xy 137.16 45.72) (xy 134.62 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7da14e3c-031d-42a9-a820-92c0765992b7")
+	)
+	(wire
+		(pts
+			(xy 149.86 107.95) (xy 152.4 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fac9e38-ab67-4d7d-a83f-4fe305278780")
+	)
+	(wire
+		(pts
+			(xy 91.44 63.5) (xy 105.41 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81cea36f-374e-495b-8b76-6e2c7f3900a5")
+	)
+	(wire
+		(pts
+			(xy 107.95 53.34) (xy 107.95 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "875d8101-02ec-4109-9cb3-dc03033ea564")
+	)
+	(wire
+		(pts
+			(xy 172.72 48.26) (xy 186.69 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8915ab38-0590-446e-aaa6-be99167d8873")
+	)
+	(wire
+		(pts
+			(xy 118.11 90.17) (xy 128.27 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e477204-0f1a-4014-a89e-2eb3501fe3e3")
+	)
+	(wire
+		(pts
+			(xy 128.27 77.47) (xy 137.16 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f3eb88d-9ce9-4013-ad67-32b8876a01b4")
+	)
+	(wire
+		(pts
+			(xy 149.86 125.73) (xy 152.4 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f99d487-acc3-46cc-915b-af33b00f471b")
+	)
+	(wire
+		(pts
+			(xy 172.72 45.72) (xy 186.69 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "900d7c9e-ca17-485a-a953-801c49bcc09e")
+	)
+	(wire
+		(pts
+			(xy 134.62 134.62) (xy 134.62 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "907b82ad-3e19-4099-961b-5d4eb72295e1")
+	)
+	(wire
+		(pts
+			(xy 149.86 97.79) (xy 149.86 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95c348c3-feb3-468d-8e67-4bc5429fb296")
+	)
+	(wire
+		(pts
+			(xy 137.16 90.17) (xy 128.27 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97087cbe-2d6b-4de6-8a95-e0f165d3bad4")
+	)
+	(wire
+		(pts
+			(xy 137.16 118.11) (xy 137.16 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "997cf1e6-e989-4a3b-981f-606c5ae31563")
+	)
+	(wire
+		(pts
+			(xy 139.7 118.11) (xy 137.16 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f29da80-77fd-4b26-aacf-0b0f9b6b99d7")
+	)
+	(wire
+		(pts
+			(xy 137.16 87.63) (xy 137.16 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac2dd344-9bcd-43ef-97cf-410a56901723")
+	)
+	(wire
+		(pts
+			(xy 134.62 135.89) (xy 149.86 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac99f243-aa8f-4496-82dd-cd58dae79415")
+	)
+	(wire
+		(pts
+			(xy 137.16 63.5) (xy 137.16 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aec76fa7-ca3b-4002-827b-890c008964e6")
+	)
+	(wire
+		(pts
+			(xy 152.4 107.95) (xy 173.99 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b179e8fa-7736-49c5-9f89-82bd47e0ebc1")
+	)
+	(wire
+		(pts
+			(xy 134.62 45.72) (xy 134.62 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b73189eb-ce33-4fd6-899f-a0fe6fefce38")
+	)
+	(wire
+		(pts
+			(xy 172.72 90.17) (xy 137.16 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7b0924b-a534-453f-b03b-3088a452d2d5")
+	)
+	(wire
+		(pts
+			(xy 124.46 73.66) (xy 124.46 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b928c0a8-7006-49e2-8fd5-43fa1b773ce1")
+	)
+	(wire
+		(pts
+			(xy 134.62 120.65) (xy 134.62 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bead1a78-6bdc-46a0-b5da-651b3cd08841")
+	)
+	(wire
+		(pts
+			(xy 173.99 107.95) (xy 173.99 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7380fa7-fe76-41e7-9091-f56ef5d1f832")
+	)
+	(wire
+		(pts
+			(xy 134.62 120.65) (xy 139.7 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3733a6b-d25f-4c0c-8ca1-fa86badc6c18")
+	)
+	(wire
+		(pts
+			(xy 137.16 73.66) (xy 124.46 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc907d3a-ade0-4fb2-bac6-3f031f194fac")
+	)
+	(wire
+		(pts
+			(xy 173.99 121.92) (xy 173.99 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2d59ce6-58f5-411c-86ea-759e393958f7")
+	)
+	(wire
+		(pts
+			(xy 137.16 48.26) (xy 134.62 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e494b54b-7300-4f8c-8bb9-32c84d3e63f0")
+	)
+	(wire
+		(pts
+			(xy 118.11 135.89) (xy 134.62 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2831a27-a91e-4ea5-b462-db33920cebb3")
+	)
+	(wire
+		(pts
+			(xy 90.17 90.17) (xy 118.11 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9613653-3970-4330-a27a-806b2c14ef10")
+	)
+	(global_label "INT3"
+		(shape input)
+		(at 147.32 107.95 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "38c72846-6559-472f-b7f8-6b86b6eb5b0e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 147.32 101.586 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "INT2"
+		(shape input)
+		(at 179.07 45.72 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7272c677-fbef-4b8a-b1dc-17234f716ec1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 179.07 39.356 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(hierarchical_label "I2C_SCL_VCCA"
+		(shape input)
+		(at 91.44 60.96 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "56cab98c-3eb1-41cd-bdf8-fa073613afc8")
+	)
+	(hierarchical_label "I2C_SDA_VCCA"
+		(shape bidirectional)
+		(at 91.44 63.5 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "797fc62f-ec08-4f23-905c-e7ecf00b70db")
+	)
+	(hierarchical_label "INT2"
+		(shape output)
+		(at 186.69 45.72 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "b79516bc-4e00-4072-b571-d2a8520fe456")
+	)
+	(hierarchical_label "INT1"
+		(shape output)
+		(at 186.69 48.26 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "bb94c706-c1c6-4e19-ac2a-271d09f29af0")
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:C-Crazyflie-contol-board-rescue")
+		(at 137.16 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004f679a90")
+		(property "Reference" "C18"
+			(at 138.43 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 138.43 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 137.16 82.55 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aaf1d2e2-81a2-4191-b652-511b5d706aa7")
+		)
+		(pin "2"
+			(uuid "d536cd9e-0aa3-438a-8c06-02dfd3b98a18")
+		)
+		(instances
+			(project "Crazyflie contol board"
+				(path "/3e9fa01f-48e9-4c58-997e-0bab5b5694a8/00000000-0000-0000-0000-00004de1273c"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:VCCA-Crazyflie-contol-board-rescue")
+		(at 124.46 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004f679cf2")
+		(property "Reference" "#PWR039"
+			(at 121.92 73.66 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCCA"
+			(at 121.92 73.66 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73d8c72e-5d68-425e-b708-da9c1a3ffc64")
+		)
+		(instances
+			(project "Crazyflie contol board"
+				(path "/3e9fa01f-48e9-4c58-997e-0bab5b5694a8/00000000-0000-0000-0000-00004de1273c"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:C-Crazyflie-contol-board-rescue")
+		(at 128.27 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004f679fc3")
+		(property "Reference" "C20"
+			(at 129.54 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 129.54 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 128.27 82.55 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f5c2b239-25c2-4a77-b83f-96c3fdbe7817")
+		)
+		(pin "2"
+			(uuid "5f70a067-b3bd-48a3-8ea3-c9f50586f7c5")
+		)
+		(instances
+			(project "Crazyflie contol board"
+				(path "/3e9fa01f-48e9-4c58-997e-0bab5b5694a8/00000000-0000-0000-0000-00004de1273c"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:C-Crazyflie-contol-board-rescue")
+		(at 134.62 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004f699a20")
+		(property "Reference" "C24"
+			(at 135.89 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 135.89 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 134.62 129.54 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a67fc7f9-f8af-4014-9cb1-cdb494cca8ca")
+		)
+		(pin "2"
+			(uuid "17f53ec4-9be0-4fb0-9a99-672dccf27e8c")
+		)
+		(instances
+			(project "Crazyflie contol board"
+				(path "/3e9fa01f-48e9-4c58-997e-0bab5b5694a8/00000000-0000-0000-0000-00004de1273c"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:BMX160-SensorMotion")
+		(at 154.94 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005d68d4ee")
+		(property "Reference" "U1"
+			(at 162.56 40.64 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "BMX160"
+			(at 154.94 40.64 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "digikey-footprints:LGA-14L_2.5x3mm__LSM6DS3"
+			(at 154.94 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "400d7571-a8ac-4b7e-92d6-e056d5d66742")
+		)
+		(pin "12"
+			(uuid "be41e023-52b9-48e7-a71c-a21683b86136")
+		)
+		(pin "13"
+			(uuid "d585f400-fdc2-490a-bdcb-33cc0ea85473")
+		)
+		(pin "14"
+			(uuid "cd7f2d4b-e6d5-40ed-b030-1bb6d0276c1c")
+		)
+		(pin "2"
+			(uuid "0a098971-8170-4313-af7d-cc4b35a48563")
+		)
+		(pin "3"
+			(uuid "9b821643-0a09-4ed0-af40-76467a90d5d5")
+		)
+		(pin "4"
+			(uuid "c816de12-445c-4fed-ae1c-cdcaa29b5ddb")
+		)
+		(pin "5"
+			(uuid "8aa3e84c-b0b1-49e2-90db-e20ce910aaf1")
+		)
+		(pin "6"
+			(uuid "92180a56-bc8d-4a49-8fe4-c3dc9309f11b")
+		)
+		(pin "7"
+			(uuid "9a60e026-3ad5-4657-8f64-3e4fe5354316")
+		)
+		(pin "8"
+			(uuid "ef2be787-d7f6-4c7f-890f-118a5221e338")
+		)
+		(pin "9"
+			(uuid "d23564cb-4d8d-44b3-8478-8e0f9b845998")
+		)
+		(instances
+			(project "Crazyflie contol board"
+				(path "/3e9fa01f-48e9-4c58-997e-0bab5b5694a8/00000000-0000-0000-0000-00004de1273c"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Pressure:BMP280")
+		(at 149.86 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "367ab7ed-e512-4c0b-a95c-5c6ebcfce80d")
+		(property "Reference" "U2"
+			(at 156.21 116.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BMP388"
+			(at 156.21 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_LGA:ST_HLGA-10_2x2mm_P0.5mm_LayoutBorder3x2y"
+			(at 149.86 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMP280-DS001.pdf"
+			(at 153.67 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39b73e39-e76b-4d1f-9318-c148f5a39843")
+		)
+		(pin "10"
+			(uuid "df6530c0-0707-4664-8e9c-9236f2a61425")
+		)
+		(pin "2"
+			(uuid "d8294ff7-67aa-4de7-881c-8e6dbb37b8a4")
+		)
+		(pin "3"
+			(uuid "d2847b9b-3bf2-4c6e-a896-9f62c477dc84")
+		)
+		(pin "4"
+			(uuid "bf1f72e1-2e46-49bf-86d3-1fd30ceb7cb9")
+		)
+		(pin "5"
+			(uuid "26671348-f1d0-47f8-9c06-4a555ff8b461")
+		)
+		(pin "6"
+			(uuid "22e502e6-1ed2-4033-a517-a175162edc92")
+		)
+		(pin "7"
+			(uuid "63945799-8ee3-41a8-b3b7-5b385a25b4fb")
+		)
+		(pin "8"
+			(uuid "d551af61-e023-410a-982a-9006faf509ce")
+		)
+		(pin "9"
+			(uuid "e76f3fbe-42aa-4df4-a885-d66a07c1f285")
+		)
+		(instances
+			(project "Crazyflie contol board"
+				(path "/3e9fa01f-48e9-4c58-997e-0bab5b5694a8/00000000-0000-0000-0000-00004de1273c"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:GND-Crazyflie-contol-board-rescue")
+		(at 90.17 90.17 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6d34eb9-4997-4009-9e2b-fba5e9ea1e7d")
+		(property "Reference" "#PWR07"
+			(at 90.17 90.17 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.392 90.17 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e5c2d3c-dfb3-42d0-a109-999449708a7e")
+		)
+		(instances
+			(project "Crazyflie contol board"
+				(path "/3e9fa01f-48e9-4c58-997e-0bab5b5694a8/00000000-0000-0000-0000-00004de1273c"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Crazyflie-contol-board-rescue:C-Crazyflie-contol-board-rescue")
+		(at 173.99 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b2237767-c906-4e1a-aea9-e0db868fb45a")
+		(property "Reference" "C3"
+			(at 175.26 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 175.26 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 173.99 116.84 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6ab8e03b-30b3-4543-b822-eaca7aaf5377")
+		)
+		(pin "2"
+			(uuid "8a47da53-ed59-4b26-8a73-10c522ae876e")
+		)
+		(instances
+			(project "Crazyflie contol board"
+				(path "/3e9fa01f-48e9-4c58-997e-0bab5b5694a8/00000000-0000-0000-0000-00004de1273c"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
 )
