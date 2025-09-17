@@ -1965,34 +1965,36 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R"
+		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
-				(offset 0)
+				(offset 0.254)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "R"
-				(at 0 0 90)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
-				(at -1.778 0 90)
+				(at 0.9652 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2009,7 +2011,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor"
+			(property "Description" "Unpolarized capacitor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2018,7 +2020,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "R res resistor"
+			(property "ki_keywords" "cap capacitor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2027,7 +2029,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "R_*"
+			(property "ki_fp_filters" "C_*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2036,12 +2038,25 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
 					(stroke
-						(width 0.254)
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
 						(type default)
 					)
 					(fill
@@ -2049,10 +2064,10 @@
 					)
 				)
 			)
-			(symbol "R_1_1"
+			(symbol "C_1_1"
 				(pin passive line
 					(at 0 3.81 270)
-					(length 1.27)
+					(length 2.794)
 					(name "~"
 						(effects
 							(font
@@ -2070,7 +2085,7 @@
 				)
 				(pin passive line
 					(at 0 -3.81 90)
-					(length 1.27)
+					(length 2.794)
 					(name "~"
 						(effects
 							(font
@@ -2143,12 +2158,6 @@
 		(uuid "61aa84c9-dadc-4f08-a1a2-82fccc7912e3")
 	)
 	(junction
-		(at 64.77 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7924ebae-cad2-4f36-8149-274416ac2ab9")
-	)
-	(junction
 		(at 54.61 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2190,12 +2199,6 @@
 		(color 0 0 0 0)
 		(uuid "c5fdc6db-7c84-44b4-a07a-12f1270aefd9")
 	)
-	(junction
-		(at 64.77 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e50e3e24-0520-4870-bab2-740f4ea5e093")
-	)
 	(polyline
 		(pts
 			(xy 280.67 128.27) (xy 250.19 128.27)
@@ -2235,6 +2238,16 @@
 			(type default)
 		)
 		(uuid "1848d938-cec0-4104-b6bd-112ded9fa353")
+	)
+	(wire
+		(pts
+			(xy 210.82 116.84) (xy 223.52 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f94e9a7-13fb-476c-9029-cfa49b14d9ce")
 	)
 	(wire
 		(pts
@@ -2328,16 +2341,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 118.11) (xy 86.36 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48fef647-19bb-43b2-83e0-06f7a9153a0f")
-	)
-	(wire
-		(pts
 			(xy 59.69 40.64) (xy 59.69 85.09)
 		)
 		(stroke
@@ -2368,16 +2371,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 77.47) (xy 64.77 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "579dcc41-1d52-471b-a7ee-3bb55e373f3d")
-	)
-	(wire
-		(pts
 			(xy 62.23 87.63) (xy 62.23 38.1)
 		)
 		(stroke
@@ -2385,6 +2378,16 @@
 			(type default)
 		)
 		(uuid "5c470add-b449-455e-95fc-baae46d35c85")
+	)
+	(wire
+		(pts
+			(xy 210.82 109.22) (xy 210.82 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7095d804-e6e9-413d-b999-890d7bd86990")
 	)
 	(wire
 		(pts
@@ -2488,26 +2491,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 74.93) (xy 64.77 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a94d61d-bff9-4344-95e1-5c4c6a87a452")
-	)
-	(wire
-		(pts
-			(xy 54.61 74.93) (xy 57.15 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c10f38e-8953-4b11-b7ca-ffa551b20c5a")
-	)
-	(wire
-		(pts
 			(xy 227.33 123.19) (xy 223.52 123.19)
 		)
 		(stroke
@@ -2525,6 +2508,16 @@
 			(type default)
 		)
 		(uuid "8deaedd6-5549-46cd-8551-ffbafdaeac4f")
+	)
+	(wire
+		(pts
+			(xy 208.28 101.6) (xy 210.82 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e1fcb76-b483-4f5c-95dd-c4e00c0da316")
 	)
 	(wire
 		(pts
@@ -2618,23 +2611,13 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 118.11) (xy 64.77 118.11)
+			(xy 39.37 118.11) (xy 86.36 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ba105837-9e06-4662-9965-7593b1cae8d0")
-	)
-	(wire
-		(pts
-			(xy 54.61 77.47) (xy 57.15 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bbc45a6c-34ca-4319-91a8-87ad84084428")
 	)
 	(wire
 		(pts
@@ -4179,140 +4162,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 60.96 74.93 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0cb118c0-a77c-4590-9f5c-008681eed2a1")
-		(property "Reference" "R6"
-			(at 60.96 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5k1"
-			(at 60.96 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 60.96 76.708 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 60.96 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 60.96 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c0ea188e-b5fd-4023-9d95-fefb8e278865")
-		)
-		(pin "2"
-			(uuid "ff3258ab-f032-4189-894f-baade42028a0")
-		)
-		(instances
-			(project "Crazyflie contol board"
-				(path "/3e9fa01f-48e9-4c58-997e-0bab5b5694a8/00000000-0000-0000-0000-00004de77332"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 60.96 77.47 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "31918a4f-1516-420d-a6db-4863aec0f0c7")
-		(property "Reference" "R7"
-			(at 60.96 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5k1"
-			(at 60.96 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 60.96 79.248 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 60.96 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 60.96 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "49824b39-e41a-4605-91cc-0f977d94fafa")
-		)
-		(pin "2"
-			(uuid "0206e492-99bc-4b4f-88f0-edb31e2e4e51")
-		)
-		(instances
-			(project "Crazyflie contol board"
-				(path "/3e9fa01f-48e9-4c58-997e-0bab5b5694a8/00000000-0000-0000-0000-00004de77332"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Crazyflie-contol-board-rescue:GND-Crazyflie-contol-board-rescue")
 		(at 107.95 50.8 0)
 		(unit 1)
@@ -4617,6 +4466,76 @@
 			(project "Crazyflie contol board"
 				(path "/3e9fa01f-48e9-4c58-997e-0bab5b5694a8/00000000-0000-0000-0000-00004de77332"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 210.82 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1bfdae4-22b1-4a95-ac5d-45987d1cb0c7")
+		(property "Reference" "C6"
+			(at 214.63 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470pF"
+			(at 214.63 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 211.7852 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 210.82 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "92f6e8ae-ed50-4ab8-a300-081cc8f50ceb")
+		)
+		(pin "1"
+			(uuid "7eb98f7d-a6e8-4971-8a6a-56086da8fc07")
+		)
+		(instances
+			(project ""
+				(path "/3e9fa01f-48e9-4c58-997e-0bab5b5694a8/00000000-0000-0000-0000-00004de77332"
+					(reference "C6")
 					(unit 1)
 				)
 			)

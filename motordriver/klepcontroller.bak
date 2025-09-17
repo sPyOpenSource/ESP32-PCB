@@ -1,0 +1,602 @@
+EESchema Schematic File Version 4
+LIBS:klepcontroller-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 2
+Title "Motorcontroller"
+Date "2019-10-11"
+Rev "0.1"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 "Author: X. Wang"
+$EndDescr
+$Sheet
+S 100  -850 600  450 
+U 5B347375
+F0 "Overzicht" 60
+F1 "Functioneel overzicht.sch" 60
+$EndSheet
+$Comp
+L klepcontroller-rescue:Conn_01x06-conn J1
+U 1 1 5D8CDEE9
+P 6300 4000
+F 0 "J1" H 6300 4350 50  0000 C CNN
+F 1 "MOTOR" H 6500 4350 50  0000 C CNN
+F 2 "Connectors_JST:JST_PH_B6B-PH-SM4-TB_06x2.00mm_Straight" H 6300 4000 50  0001 C CNN
+F 3 "" H 6300 4000 50  0001 C CNN
+F 4 "JST" H -5250 -3950 50  0001 C CNN "MFR"
+F 5 "B6B-PH-SM4-TB(LF)(SN)" H -5250 -3950 50  0001 C CNN "MPN"
+F 6 "Farnell" H -5250 -3950 50  0001 C CNN "SPR"
+F 7 "9491945" H -5250 -3950 50  0001 C CNN "SPN"
+F 8 "-" H -5250 -3950 50  0001 C CNN "SPURL"
+	1    6300 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L klepcontroller-rescue:C-device C7
+U 1 1 5D8CDEF4
+P 5450 1250
+F 0 "C7" H 5500 1150 50  0000 L CNN
+F 1 "10uF" H 5500 1350 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 5488 1100 50  0001 C CNN
+F 3 "" H 5450 1250 50  0001 C CNN
+F 4 "Murata" H -6800 -6600 50  0001 C CNN "MFR"
+F 5 "06035C153M4T2A" H -6800 -6600 50  0001 C CNN "MPN"
+F 6 "Mouser" H -6800 -6600 50  0001 C CNN "SPR"
+F 7 "581-06035C153M4T2A" H -6800 -6600 50  0001 C CNN "SPN"
+F 8 "-" H -6800 -6600 50  0001 C CNN "SPURL"
+	1    5450 1250
+	1    0    0    1   
+$EndComp
+$Comp
+L klepcontroller-rescue:+24V-power #PWR0110
+U 1 1 5D8CDEFA
+P 5450 1000
+F 0 "#PWR0110" H 5450 850 50  0001 C CNN
+F 1 "+24V" H 5450 1140 50  0000 C CNN
+F 2 "" H 5450 1000 50  0001 C CNN
+F 3 "" H 5450 1000 50  0001 C CNN
+	1    5450 1000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L klepcontroller-rescue:C-device C8
+U 1 1 5D8CDF05
+P 5850 5150
+F 0 "C8" H 5800 4850 50  0000 L CNN
+F 1 "10nF" H 5650 4950 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 5888 5000 50  0001 C CNN
+F 3 "" H 5850 5150 50  0001 C CNN
+F 4 "Würth" H -5000 -2200 50  0001 C CNN "MFR"
+F 5 "885012206091" H -5000 -2200 50  0001 C CNN "MPN"
+F 6 "Mouser" H -5000 -2200 50  0001 C CNN "SPR"
+F 7 " 710-885012206091" H -5000 -2200 50  0001 C CNN "SPN"
+F 8 "-" H -5000 -2200 50  0001 C CNN "SPURL"
+	1    5850 5150
+	1    0    0    1   
+$EndComp
+$Comp
+L klepcontroller-rescue:GND-power #PWR0111
+U 1 1 5D8CDF0B
+P 6700 2600
+F 0 "#PWR0111" H 6700 2350 50  0001 C CNN
+F 1 "GND" H 6700 2450 50  0000 C CNN
+F 2 "" H 6700 2600 50  0001 C CNN
+F 3 "" H 6700 2600 50  0001 C CNN
+	1    6700 2600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L klepcontroller-rescue:C-device C16
+U 1 1 5D8CDF16
+P 6200 2100
+F 0 "C16" H 6050 2300 50  0000 L CNN
+F 1 "100nF" H 6050 2400 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 6238 1950 50  0001 C CNN
+F 3 "" H 6200 2100 50  0001 C CNN
+F 4 "Murata" H -4900 -6400 50  0001 C CNN "MFR"
+F 5 "06035C153M4T2A" H -4900 -6400 50  0001 C CNN "MPN"
+F 6 "Mouser" H -4900 -6400 50  0001 C CNN "SPR"
+F 7 "581-06035C153M4T2A" H -4900 -6400 50  0001 C CNN "SPN"
+F 8 "-" H -4900 -6400 50  0001 C CNN "SPURL"
+	1    6200 2100
+	1    0    0    1   
+$EndComp
+$Comp
+L klepcontroller-rescue:CP-device C19
+U 1 1 5D8CDF21
+P 6700 2100
+F 0 "C19" H 6850 2100 50  0000 L CNN
+F 1 "10uF" H 6750 2000 50  0000 L CNN
+F 2 "Capacitors_SMD:CP_Elec_6.3x5.8" H 6738 1950 50  0001 C CNN
+F 3 "" H 6700 2100 50  0001 C CNN
+F 4 "Cornell Dubilier" H -4900 -6400 50  0001 C CNN "MFR"
+F 5 "AFK476M35D16T-F" H -4900 -6400 50  0001 C CNN "MPN"
+F 6 "Mouser" H -4900 -6400 50  0001 C CNN "SPR"
+F 7 "5985-AFK35V47-F" H -4900 -6400 50  0001 C CNN "SPN"
+F 8 "-" H -4900 -6400 50  0001 C CNN "SPURL"
+	1    6700 2100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L klepcontroller-rescue:R-device R6
+U 1 1 5D8CDF2C
+P 2550 4550
+F 0 "R6" V 2450 4550 50  0000 C CNN
+F 1 "100m" V 2550 4550 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 2480 4550 50  0001 C CNN
+F 3 "" H 2550 4550 50  0001 C CNN
+F 4 "Multicomp" H -4950 -3200 50  0001 C CNN "MFR"
+F 5 "MCMR04X4532FTL" H -4950 -3200 50  0001 C CNN "MPN"
+F 6 "Farnell" H -4950 -3200 50  0001 C CNN "SPR"
+F 7 "2073053" H -4950 -3200 50  0001 C CNN "SPN"
+F 8 "-" H -4950 -3200 50  0001 C CNN "SPURL"
+	1    2550 4550
+	0    1    1    0   
+$EndComp
+$Comp
+L klepcontroller-rescue:C-device C1
+U 1 1 5D8CDF37
+P 4100 2450
+F 0 "C1" H 4250 2450 50  0000 L CNN
+F 1 "470nF" H 4125 2350 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 4138 2300 50  0001 C CNN
+F 3 "" H 4100 2450 50  0001 C CNN
+F 4 "TDK" H -5300 -6200 50  0001 C CNN "MFR"
+F 5 "CGA3E1X7R1V474K080AC" H -5300 -6200 50  0001 C CNN "MPN"
+F 6 "Mouser" H -5300 -6200 50  0001 C CNN "SPR"
+F 7 "810-CGA3E1X7R1V474K" H -5300 -6200 50  0001 C CNN "SPN"
+F 8 "-" H -5300 -6200 50  0001 C CNN "SPURL"
+	1    4100 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L klepcontroller-rescue:CP-device C20
+U 1 1 5D8CDF42
+P 7050 2100
+F 0 "C20" H 6800 2100 50  0000 L CNN
+F 1 "10uF" H 6750 2000 50  0000 L CNN
+F 2 "Capacitors_SMD:CP_Elec_6.3x5.8" H 7088 1950 50  0001 C CNN
+F 3 "" H 7050 2100 50  0001 C CNN
+F 4 "Cornell Dubilier" H -4900 -6400 50  0001 C CNN "MFR"
+F 5 "AFK476M35D16T-F" H -4900 -6400 50  0001 C CNN "MPN"
+F 6 "Mouser" H -4900 -6400 50  0001 C CNN "SPR"
+F 7 "5985-AFK35V47-F" H -4900 -6400 50  0001 C CNN "SPN"
+F 8 "-" H -4900 -6400 50  0001 C CNN "SPURL"
+	1    7050 2100
+	-1   0    0    -1  
+$EndComp
+Connection ~ 6200 1950
+Connection ~ 6700 1950
+Connection ~ 6700 2250
+Wire Wire Line
+	6200 1950 6700 1950
+Wire Wire Line
+	6700 1950 7050 1950
+Wire Wire Line
+	6200 2250 6700 2250
+Wire Wire Line
+	6700 2250 7050 2250
+$Comp
+L klepcontroller-rescue:GND-power #PWR0112
+U 1 1 5D8CDF4F
+P 4500 5700
+F 0 "#PWR0112" H 4500 5450 50  0001 C CNN
+F 1 "GND" H 4400 5700 50  0001 C CNN
+F 2 "" H 4500 5700 50  0001 C CNN
+F 3 "" H 4500 5700 50  0001 C CNN
+	1    4500 5700
+	1    0    0    -1  
+$EndComp
+Text Notes 6400 3850 0    60   ~ 0
+A1
+Text Notes 6400 4150 0    60   ~ 0
+A2
+Text Notes 6400 4050 0    60   ~ 0
+B2
+Text Notes 6400 4300 0    60   ~ 0
+B1
+$Comp
+L klepcontroller-rescue:C-device C3
+U 1 1 5D8CDF5E
+P 4300 1850
+F 0 "C3" H 4100 1850 50  0000 L CNN
+F 1 "100nF" H 4150 1950 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 4338 1700 50  0001 C CNN
+F 3 "" H 4300 1850 50  0001 C CNN
+F 4 "AVX" H -1800 -1300 50  0001 C CNN "MFR"
+F 5 "06035C104KAT2A" H -1800 -1300 50  0001 C CNN "MPN"
+F 6 "Farnell" H -1800 -1300 50  0001 C CNN "SPR"
+F 7 "1301804" H -1800 -1300 50  0001 C CNN "SPN"
+F 8 "-" H -1800 -1300 50  0001 C CNN "SPURL"
+	1    4300 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L klepcontroller-rescue:GND-power #PWR0113
+U 1 1 5D8CDF64
+P 4100 1550
+F 0 "#PWR0113" H 4100 1300 50  0001 C CNN
+F 1 "GND" H 4100 1400 50  0001 C CNN
+F 2 "" H 4100 1550 50  0001 C CNN
+F 3 "" H 4100 1550 50  0001 C CNN
+	1    4100 1550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4100 1550 4300 1550
+Wire Wire Line
+	4300 1550 4300 1700
+Wire Wire Line
+	4500 5700 4500 5350
+Text GLabel 2550 3250 0    60   Input ~ 0
+DIRECTION1
+Text GLabel 1900 3350 0    60   Input ~ 0
+STEP1
+Text GLabel 1600 3650 0    60   Input ~ 0
+ENABLE1
+Wire Wire Line
+	2550 3250 3600 3250
+Wire Wire Line
+	1900 3350 3600 3350
+$Comp
+L Device:R R7
+U 1 1 5D8CDF72
+P 2950 6100
+F 0 "R7" H 3020 6146 50  0000 L CNN
+F 1 "10R" H 3020 6055 50  0000 L CNN
+F 2 "Resistors_SMD:R_0402" V 2880 6100 50  0001 C CNN
+F 3 "~" H 2950 6100 50  0001 C CNN
+	1    2950 6100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1600 3650 3600 3650
+Wire Wire Line
+	6700 2250 6700 2600
+Wire Wire Line
+	4100 2300 4100 1550
+Connection ~ 4100 1550
+Wire Wire Line
+	4100 2600 4100 2750
+Wire Wire Line
+	4300 2750 4300 2200
+$Comp
+L klepcontroller-rescue:TMC2660-DriverMotor U1
+U 1 1 5D8CDF7E
+P 4400 4050
+F 0 "U1" H 4400 5528 50  0000 C CNN
+F 1 "TMC2660" H 4400 5437 50  0000 C CNN
+F 2 "Housings_QFP:PQFP-44_10x10mm_Pitch0.8mm" H 4400 2650 50  0001 C CNN
+F 3 "https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC262_Datasheet.pdf" H 4450 2700 50  0001 C CNN
+	1    4400 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 5350 4500 5350
+Wire Wire Line
+	4600 5350 4500 5350
+Connection ~ 4500 5350
+Wire Wire Line
+	5200 2950 5200 3050
+Wire Wire Line
+	5200 3150 5200 3250
+Wire Wire Line
+	5200 3250 5200 3350
+Connection ~ 5200 3250
+Wire Wire Line
+	5200 3350 5200 3450
+Connection ~ 5200 3350
+Wire Wire Line
+	5200 3550 5200 3650
+Wire Wire Line
+	5200 4150 5350 4150
+Wire Wire Line
+	5350 4150 5350 4300
+Wire Wire Line
+	5350 4350 5200 4350
+Wire Wire Line
+	5350 4350 5350 4450
+Wire Wire Line
+	5350 4450 5200 4450
+Connection ~ 5350 4350
+Wire Wire Line
+	5350 4450 5350 4750
+Wire Wire Line
+	5350 4750 5200 4750
+Connection ~ 5350 4450
+Wire Wire Line
+	5200 4850 5450 4850
+Wire Wire Line
+	5450 4850 5450 4650
+Wire Wire Line
+	5450 4650 5200 4650
+Wire Wire Line
+	5200 4550 5450 4550
+Wire Wire Line
+	5450 4550 5450 4650
+Connection ~ 5450 4650
+Wire Wire Line
+	5450 4550 5450 4250
+Wire Wire Line
+	5450 4250 5200 4250
+Connection ~ 5450 4550
+Connection ~ 5200 3550
+Wire Wire Line
+	6100 3550 6100 3800
+Wire Wire Line
+	5200 3250 6000 3250
+Wire Wire Line
+	6000 3250 6000 4100
+Wire Wire Line
+	6000 4100 6100 4100
+Wire Wire Line
+	6100 4300 5350 4300
+Connection ~ 5350 4300
+Wire Wire Line
+	5350 4300 5350 4350
+Wire Wire Line
+	5450 4250 5450 4000
+Wire Wire Line
+	5450 4000 6100 4000
+Connection ~ 5450 4250
+$Comp
+L klepcontroller-rescue:GND-power #PWR0114
+U 1 1 5D8CDFB1
+P 3600 5200
+F 0 "#PWR0114" H 3600 4950 50  0001 C CNN
+F 1 "GND" H 3500 5200 50  0001 C CNN
+F 2 "" H 3600 5200 50  0001 C CNN
+F 3 "" H 3600 5200 50  0001 C CNN
+	1    3600 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 5200 3600 4850
+Wire Wire Line
+	4300 5350 4200 5350
+Wire Wire Line
+	4200 5350 4200 5550
+Wire Wire Line
+	4200 5550 3150 5550
+Wire Wire Line
+	3150 5550 3150 1950
+Wire Wire Line
+	3150 1950 4400 1950
+Connection ~ 4200 5350
+Wire Wire Line
+	4400 2750 4400 1950
+Connection ~ 4400 1950
+Wire Wire Line
+	4400 1950 4900 1950
+Wire Wire Line
+	3600 4450 3300 4450
+Wire Wire Line
+	2700 4550 2800 4550
+$Comp
+L klepcontroller-rescue:R-device R5
+U 1 1 5D8CDFCB
+P 2000 4650
+F 0 "R5" V 1900 4650 50  0000 C CNN
+F 1 "100m" V 2000 4650 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 1930 4650 50  0001 C CNN
+F 3 "" H 2000 4650 50  0001 C CNN
+F 4 "Multicomp" H -5500 -3100 50  0001 C CNN "MFR"
+F 5 "MCMR04X4532FTL" H -5500 -3100 50  0001 C CNN "MPN"
+F 6 "Farnell" H -5500 -3100 50  0001 C CNN "SPR"
+F 7 "2073053" H -5500 -3100 50  0001 C CNN "SPN"
+F 8 "-" H -5500 -3100 50  0001 C CNN "SPURL"
+	1    2000 4650
+	0    1    1    0   
+$EndComp
+$Comp
+L klepcontroller-rescue:GND-power #PWR0115
+U 1 1 5D8CDFD1
+P 1800 4650
+F 0 "#PWR0115" H 1800 4400 50  0001 C CNN
+F 1 "GND" H 1800 4500 50  0000 C CNN
+F 2 "" H 1800 4650 50  0001 C CNN
+F 3 "" H 1800 4650 50  0001 C CNN
+	1    1800 4650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1800 4650 1850 4650
+Wire Wire Line
+	2150 4650 2550 4650
+$Comp
+L klepcontroller-rescue:C-device C17
+U 1 1 5D8CDFDE
+P 6300 5150
+F 0 "C17" H 6250 4850 50  0000 L CNN
+F 1 "10nF" H 6100 4950 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 6338 5000 50  0001 C CNN
+F 3 "" H 6300 5150 50  0001 C CNN
+F 4 "Würth" H -4550 -2200 50  0001 C CNN "MFR"
+F 5 "885012206091" H -4550 -2200 50  0001 C CNN "MPN"
+F 6 "Mouser" H -4550 -2200 50  0001 C CNN "SPR"
+F 7 " 710-885012206091" H -4550 -2200 50  0001 C CNN "SPN"
+F 8 "-" H -4550 -2200 50  0001 C CNN "SPURL"
+	1    6300 5150
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	5200 3850 5850 3850
+Wire Wire Line
+	5850 3850 5850 4800
+Wire Wire Line
+	6300 5000 6300 4650
+Wire Wire Line
+	6300 4650 6100 4650
+Wire Wire Line
+	5650 4650 5650 3950
+Wire Wire Line
+	5650 3950 5200 3950
+$Comp
+L Device:R R8
+U 1 1 5D8CDFEA
+P 2950 6400
+F 0 "R8" H 3020 6446 50  0000 L CNN
+F 1 "10R" H 3020 6355 50  0000 L CNN
+F 2 "Resistors_SMD:R_0402" V 2880 6400 50  0001 C CNN
+F 3 "~" H 2950 6400 50  0001 C CNN
+	1    2950 6400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2800 4550 2800 6100
+Connection ~ 2800 4550
+Wire Wire Line
+	2800 4550 3600 4550
+Wire Wire Line
+	2550 4650 2550 6400
+Wire Wire Line
+	2550 6400 2800 6400
+Connection ~ 2550 4650
+Wire Wire Line
+	2550 4650 3600 4650
+Wire Wire Line
+	5600 4800 5850 4800
+Connection ~ 5850 4800
+Wire Wire Line
+	5850 4800 5850 5000
+Connection ~ 6100 4650
+Wire Wire Line
+	6100 4650 5650 4650
+Wire Wire Line
+	5450 1000 5450 1100
+$Comp
+L klepcontroller-rescue:C-device C12
+U 1 1 5D8CE002
+P 5900 1250
+F 0 "C12" H 5950 1150 50  0000 L CNN
+F 1 "10uF" H 5950 1350 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 5938 1100 50  0001 C CNN
+F 3 "" H 5900 1250 50  0001 C CNN
+F 4 "Murata" H -6350 -6600 50  0001 C CNN "MFR"
+F 5 "06035C153M4T2A" H -6350 -6600 50  0001 C CNN "MPN"
+F 6 "Mouser" H -6350 -6600 50  0001 C CNN "SPR"
+F 7 "581-06035C153M4T2A" H -6350 -6600 50  0001 C CNN "SPN"
+F 8 "-" H -6350 -6600 50  0001 C CNN "SPURL"
+	1    5900 1250
+	1    0    0    1   
+$EndComp
+$Comp
+L klepcontroller-rescue:GND-power #PWR0116
+U 1 1 5D8CE008
+P 5900 1450
+F 0 "#PWR0116" H 5900 1200 50  0001 C CNN
+F 1 "GND" H 5900 1300 50  0000 C CNN
+F 2 "" H 5900 1450 50  0001 C CNN
+F 3 "" H 5900 1450 50  0001 C CNN
+	1    5900 1450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 1450 5900 1400
+Wire Wire Line
+	5450 1100 5900 1100
+Connection ~ 5450 1100
+$Comp
+L Device:C C6
+U 1 1 5D8CE011
+P 4900 2600
+F 0 "C6" H 5015 2646 50  0000 L CNN
+F 1 "100nF" H 5015 2555 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 4938 2450 50  0001 C CNN
+F 3 "~" H 4900 2600 50  0001 C CNN
+	1    4900 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 2750 4900 2750
+Wire Wire Line
+	4900 2450 4900 1950
+Connection ~ 4900 1950
+Wire Wire Line
+	3100 6400 6100 6400
+Wire Wire Line
+	6100 4650 6100 6400
+Wire Wire Line
+	3100 6100 5600 6100
+Wire Wire Line
+	5600 4800 5600 6100
+Wire Wire Line
+	4900 1950 6200 1950
+Wire Wire Line
+	4900 1950 4900 1100
+Wire Wire Line
+	4900 1100 5450 1100
+Wire Wire Line
+	5450 1400 5900 1400
+Connection ~ 5900 1400
+Wire Wire Line
+	2350 4550 2400 4550
+$Comp
+L klepcontroller-rescue:GND-power #PWR0117
+U 1 1 5D8CE024
+P 2350 4550
+F 0 "#PWR0117" H 2350 4300 50  0001 C CNN
+F 1 "GND" H 2350 4400 50  0000 C CNN
+F 2 "" H 2350 4550 50  0001 C CNN
+F 3 "" H 2350 4550 50  0001 C CNN
+	1    2350 4550
+	0    1    1    0   
+$EndComp
+$Comp
+L klepcontroller-rescue:+3.3V-power #PWR0118
+U 1 1 5D8CE02A
+P 3600 2200
+F 0 "#PWR0118" H 3600 2050 50  0001 C CNN
+F 1 "+3.3V" H 3600 2340 50  0000 C CNN
+F 2 "" H 3600 2200 50  0000 C CNN
+F 3 "" H 3600 2200 50  0000 C CNN
+	1    3600 2200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3600 2200 4300 2200
+Connection ~ 4300 2200
+Wire Wire Line
+	4300 2200 4300 2000
+$Comp
+L klepcontroller-rescue:GND-power #PWR0119
+U 1 1 5D8CE033
+P 6300 5650
+F 0 "#PWR0119" H 6300 5400 50  0001 C CNN
+F 1 "GND" H 6300 5500 50  0000 C CNN
+F 2 "" H 6300 5650 50  0001 C CNN
+F 3 "" H 6300 5650 50  0001 C CNN
+	1    6300 5650
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 5300 6300 5650
+Wire Wire Line
+	5850 5300 6300 5300
+Connection ~ 6300 5300
+Text GLabel 2050 4150 0    60   Input ~ 0
+SDO
+Text GLabel 2250 4250 0    60   Input ~ 0
+SDI
+Text GLabel 2550 4350 0    60   Input ~ 0
+SCK
+Wire Wire Line
+	2050 4150 3600 4150
+Wire Wire Line
+	2250 4250 3600 4250
+Wire Wire Line
+	2550 4350 3600 4350
+Wire Wire Line
+	5200 3550 6100 3550
+Wire Wire Line
+	5200 3050 6100 3050
+Wire Wire Line
+	6100 3050 6100 3550
+Connection ~ 5200 3050
+Connection ~ 6100 3550
+$EndSCHEMATC

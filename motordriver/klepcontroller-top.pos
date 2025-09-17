@@ -1,0 +1,38 @@
+### Module positions - created on Tue Jul 31 23:26:02 2018 ###
+### Printed by Pcbnew version kicad 6.0.0-rc1-unknown-0cca1c6~65~ubuntu18.04.1
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val            Package                                                 PosX       PosY       Rot  Side
+C1        2.20_uF        C_0603                                               52.0508    31.0885  270.0000  top
+C2        2.20_uF        C_0603                                               39.5976    25.3579   90.0000  top
+C3        22_uF          C_0603                                               48.8559    29.2060    0.0000  top
+C4        12_pF          C_0402                                               33.1206    28.6345   90.0000  top
+C5        12_pF          C_0402                                               30.5298    28.5583   90.0000  top
+C6        100_nF         C_0603                                               35.6352    25.3579   90.0000  top
+C7        100_nF         C_0603                                               37.6164    25.3579   90.0000  top
+C8        470_nF         C_0603                                               25.4752     9.9401    0.0000  top
+C9        470_nF         C_0603                                               21.4620    10.2449  270.0000  top
+C10       22_nF          C_0603                                               18.4902    22.3099    0.0000  top
+C11       15_nF          C_0603                                               15.2390    12.5563   90.0000  top
+C12       220_nF         C_0603                                               15.4168    19.1603   90.0000  top
+C13       47_uF          CP_Elec_6.3x5.8                                      24.1290    31.5301  270.0000  top
+C14       47_uF          CP_Elec_6.3x5.8                                      16.2550    31.5809  270.0000  top
+C15       15_nF          C_0603                                               13.7404    19.1603  270.0000  top
+D1        SMAJ12CA       DO-214AC                                             51.4008     7.3385  180.0000  top
+D2        SMAJ12CA       DO-214AC                                             53.7508    19.8385  270.0000  top
+J1        MOTOR          JST_PH_B6B-PH-SM4-TB_06x2.00mm_Straight               7.8508    15.6385  270.0000  top
+J2        44193-0003     44193-0003                                           57.5508    20.4885   90.0000  top
+J3        SWI            Pin_Header_Straight_1x05_Pitch1.27mm_SMD_Pin1Left    43.3508    19.6885  180.0000  top
+L1        10.0_uH        L_Wuerth_WE-TPC-3816                                 43.8521    29.9680    0.0000  top
+R1        100_k          R_0402                                               46.0873    33.9050   90.0000  top
+R2        1.00_m         R_0402                                               31.8252    23.0465  180.0000  top
+R3        15_k           R_0402                                               31.2508     7.6385   90.0000  top
+R4        45_k           R_0402                                               28.1508     7.6385   90.0000  top
+R5        15_k           R_0402                                               27.2508    13.5385  180.0000  top
+R6        10             R_0402                                               53.7200    12.1499  180.0000  top
+R7        10             R_0402                                               53.6946    13.4961  180.0000  top
+U1        TPS62177DQCR   WSON-10-1EP_2x3mm_Pitch0.5mm_ThermalVias             48.9759    32.8140  180.0000  top
+U3        DRV8886AT      SOP65P640X120-25N                                    20.8524    16.3155    0.0000  top
+U4        SN65HVD72DRBT  SOIC-8_3.9x4.9mm_Pitch1.27mm                         46.7858    12.8357    0.0000  top
+Y1        32.768_kHz     Crystal_SMD_EuroQuartz_EQ161-2pin_3.2x1.5mm          31.8252    25.6373  180.0000  top
+## End

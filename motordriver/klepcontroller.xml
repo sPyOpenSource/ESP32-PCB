@@ -1,0 +1,1213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/jaap/workspace/electronica/Klepcontroller/klepcontroller.sch</source>
+    <date>vr 03 aug 2018 22:19:38 CEST</date>
+    <tool>Eeschema 6.0.0-rc1-unknown-c0615c5~65~ubuntu18.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Klepcontroller</title>
+        <company>Tetra BV</company>
+        <rev>0.2</rev>
+        <date>2018-06-26</date>
+        <source>klepcontroller.sch</source>
+        <comment number="1" value="ID: TOL-Klep002"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value="Author: J. Prickartz"/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Overzicht/" tstamps="/5B347375/">
+      <title_block>
+        <title>Klepcontroller</title>
+        <company>Tetra BV</company>
+        <rev>0.2</rev>
+        <date>2018-06-26</date>
+        <source>Functioneel overzicht.sch</source>
+        <comment number="1" value="ID: TOL-Klep002"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value="Author: J. Prickartz"/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="R6">
+      <value>10</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-07100RL</field>
+        <field name="SPN">9238360</field>
+        <field name="SPR">Farnell</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="klepcontroller-rescue" part="R-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B32085B</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>10</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-07100RL</field>
+        <field name="SPN">9238360</field>
+        <field name="SPR">Farnell</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="klepcontroller-rescue" part="R-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B320947</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>SN65HVD72DRBT</value>
+      <footprint>Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm</footprint>
+      <fields>
+        <field name="MFR">TI</field>
+        <field name="MPN">SN65HVD72DR</field>
+        <field name="SPN">595-SN65HVD72DR</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="SN65HVD72DRBT" part="SN65HVD72DRBT" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B320D89</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>44193-0003</value>
+      <footprint>44193-0003:44193-0003</footprint>
+      <fields>
+        <field name="MFR">Molex</field>
+        <field name="MPN">44193-0003</field>
+        <field name="SPN">538-44193-0003</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="44193-0003" part="44193-0003" description="2 Port Modular Jack Right Angle 8/8 RJ45 Molex Female Cat3, Cat4 RJ45 Modular Jack, Right Angle, Surface Mount Mount, 44193"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B328EF7</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>MOTOR</value>
+      <footprint>Connectors_JST:JST_PH_B6B-PH-SM4-TB_06x2.00mm_Straight</footprint>
+      <fields>
+        <field name="MFR">JST</field>
+        <field name="MPN">B6B-PH-SM4-TB(LF)(SN)</field>
+        <field name="SPN">9491945</field>
+        <field name="SPR">Farnell</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="klepcontroller-rescue" part="Conn_01x06-conn" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B329AEE</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>220 nF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="MFR">TDK</field>
+        <field name="MPN">C1608X7R1V224M080AB</field>
+        <field name="SPN">810-C1608X7R1V224M0B</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="klepcontroller-rescue" part="C-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B32A87E</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>15 nF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="MFR">Murata</field>
+        <field name="MPN">06035C153M4T2A</field>
+        <field name="SPN">581-06035C153M4T2A</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="klepcontroller-rescue" part="C-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B32AE5A</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>22 nF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="MFR">Würth</field>
+        <field name="MPN">885012206091</field>
+        <field name="SPN"> 710-885012206091</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="klepcontroller-rescue" part="C-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B32C001</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>15 nF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="MFR">Murata</field>
+        <field name="MPN">06035C153M4T2A</field>
+        <field name="SPN">581-06035C153M4T2A</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="klepcontroller-rescue" part="C-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B32D977</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>47 uF</value>
+      <footprint>Capacitors_SMD:CP_Elec_6.3x5.8</footprint>
+      <fields>
+        <field name="MFR">Cornell Dubilier</field>
+        <field name="MPN">AFK476M35D16T-F</field>
+        <field name="SPN">5985-AFK35V47-F</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="klepcontroller-rescue" part="CP-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B32DFDE</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>15 k</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
+      <fields>
+        <field name="MFR">Multicomp</field>
+        <field name="MPN">MCWR04X1502FTL</field>
+        <field name="SPN">2447112</field>
+        <field name="SPR">Farnell</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="klepcontroller-rescue" part="R-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B336FC9</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>45 k</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
+      <fields>
+        <field name="MFR">Multicomp</field>
+        <field name="MPN">MCMR04X4532FTL</field>
+        <field name="SPN">2073053</field>
+        <field name="SPR">Farnell</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="klepcontroller-rescue" part="R-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B33796E</tstamp>
+    </comp>
+    <comp ref="JP3">
+      <value>Decay</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02_Pitch1.27mm</footprint>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">-</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="klepcontroller-rescue" part="Jumper_NO_Small-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B337A41</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>15 k</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
+      <fields>
+        <field name="MFR">Multicomp</field>
+        <field name="MPN">MCWR04X1502FTL</field>
+        <field name="SPN">2447112</field>
+        <field name="SPR">Farnell</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="klepcontroller-rescue" part="R-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B3380E8</tstamp>
+    </comp>
+    <comp ref="JP2">
+      <value>Decay</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02_Pitch1.27mm</footprint>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">-</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="klepcontroller-rescue" part="Jumper_NO_Small-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B3380EE</tstamp>
+    </comp>
+    <comp ref="JP4">
+      <value>Decay</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02_Pitch1.27mm</footprint>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">-</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="klepcontroller-rescue" part="Jumper_NO_Small-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B33866A</tstamp>
+    </comp>
+    <comp ref="JP1">
+      <value>Decay</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02_Pitch1.27mm</footprint>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">-</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="klepcontroller-rescue" part="Jumper_NC_Small-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B33920A</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>470 nF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="MFR">TDK</field>
+        <field name="MPN">CGA3E1X7R1V474K080AC</field>
+        <field name="SPN">810-CGA3E1X7R1V474K</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="klepcontroller-rescue" part="C-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B339930</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>470 nF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="MFR">TDK</field>
+        <field name="MPN">CGA3E1X7R1V474K080AC</field>
+        <field name="SPN">810-CGA3E1X7R1V474K</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="klepcontroller-rescue" part="C-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B3399FC</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>DRV8886AT</value>
+      <footprint>jpfp:SOP65P640X120-25N</footprint>
+      <fields>
+        <field name="MFR">TI</field>
+        <field name="MPN">DRV8886ATPWPR</field>
+        <field name="SPN">595-DRV8886ATPWPR</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="DRV8886AT" part="DRV8886AT" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B340627</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>SMAJ12CA</value>
+      <footprint>DO-214AC:DO-214AC</footprint>
+      <fields>
+        <field name="MFR">Taiwan Semiconductor</field>
+        <field name="MPN">SMAJ12CA</field>
+        <field name="SPN">2677636</field>
+        <field name="SPR">Farnell</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="klepcontroller-rescue" part="D_TVS-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B341169</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>47 uF</value>
+      <footprint>Capacitors_SMD:CP_Elec_6.3x5.8</footprint>
+      <fields>
+        <field name="MFR">Cornell Dubilier</field>
+        <field name="MPN">AFK476M35D16T-F</field>
+        <field name="SPN">5985-AFK35V47-F</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="klepcontroller-rescue" part="CP-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B347E90</tstamp>
+    </comp>
+    <comp ref="Y1">
+      <value>32.768 kHz</value>
+      <footprint>Crystals:Crystal_SMD_EuroQuartz_EQ161-2pin_3.2x1.5mm</footprint>
+      <fields>
+        <field name="MFR">Epson</field>
+        <field name="MPN">Q13FC13500004 FC-135 32.768KHZ 12.5PF</field>
+        <field name="SPN">1278036</field>
+        <field name="SPR">Farnell</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="klepcontroller-rescue" part="Crystal-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B3495FA</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>1.00 m</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
+      <fields>
+        <field name="MFR">Panasonic</field>
+        <field name="MPN">ERJ2RKF1004X</field>
+        <field name="SPN">2302957</field>
+        <field name="SPR">Farnell</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="klepcontroller-rescue" part="R_Small-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B349D9E</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>12 pF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="MFR">Kemet</field>
+        <field name="MPN">C0402C120K5RACTU</field>
+        <field name="SPN">2821274</field>
+        <field name="SPR">Farnell</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="klepcontroller-rescue" part="C_Small-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B34A405</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>TPS62177DQCR</value>
+      <footprint>Housings_SON:WSON-10-1EP_2x3mm_Pitch0.5mm_ThermalVias</footprint>
+      <fields>
+        <field name="MFR">TI</field>
+        <field name="MPN">TPS62177DQCT</field>
+        <field name="SPN">595-TPS62177DQCT</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="TPS62177DQC" part="TPS62177DQC" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B39FF01</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>2.20 uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="MFR">TDK</field>
+        <field name="MPN">C1608X5R1V225K080AC</field>
+        <field name="SPN">810-C1608X5R1V225K</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="klepcontroller-rescue" part="C-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B3A0202</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>22 uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="MFR">Murata</field>
+        <field name="MPN">ZRB186R60J226ME11L</field>
+        <field name="SPN">81-ZRB186R60J226ME1L</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="klepcontroller-rescue" part="C-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B3A0B63</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>10.0 uH</value>
+      <footprint>Inductors_SMD:L_Wuerth_WE-TPC-3816</footprint>
+      <fields>
+        <field name="MFR">Coilcraft</field>
+        <field name="MPN">LPS4018-103MRB</field>
+        <field name="SPN">994-LPS4018-103MRB</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="klepcontroller-rescue" part="L_Small-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B3A0C0D</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>100 k</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
+      <fields>
+        <field name="MFR">Vishay</field>
+        <field name="MPN">CRCW0402100KFKEDC</field>
+        <field name="SPN">71-CRCW0402100KFKEDC</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="klepcontroller-rescue" part="R_Small-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B3A1128</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>100 nF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="MFR">AVX</field>
+        <field name="MPN">06035C104KAT2A</field>
+        <field name="SPN">1301804</field>
+        <field name="SPR">Farnell</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="klepcontroller-rescue" part="C-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B3A8CD1</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>2.20 uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="MFR">TDK</field>
+        <field name="MPN">C1608X5R1V225K080AC</field>
+        <field name="SPN">810-C1608X5R1V225K</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="klepcontroller-rescue" part="C-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B3A9CD8</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>100 nF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="MFR">AVX</field>
+        <field name="MPN">06035C104KAT2A</field>
+        <field name="SPN">1301804</field>
+        <field name="SPR">Farnell</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="klepcontroller-rescue" part="C-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B3AA110</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>12 pF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="MFR">Kemet</field>
+        <field name="MPN">C0402C120K5RACTU</field>
+        <field name="SPN">2821274</field>
+        <field name="SPR">Farnell</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="klepcontroller-rescue" part="C_Small-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B3AA260</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>SMAJ12CA</value>
+      <footprint>DO-214AC:DO-214AC</footprint>
+      <fields>
+        <field name="MFR">Taiwan Semiconductor</field>
+        <field name="MPN">SMAJ12CA</field>
+        <field name="SPN">2677636</field>
+        <field name="SPR">Farnell</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="klepcontroller-rescue" part="D_TVS-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B340D26</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>SWI</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x05_Pitch1.27mm_SMD_Pin1Left</footprint>
+      <libsource lib="klepcontroller-rescue" part="Conn_01x05-conn" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B43995F</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>MKL05Z8VLC4</value>
+      <footprint>jpfp:MKL05Z8VLC4</footprint>
+      <fields>
+        <field name="MFR">NXP</field>
+        <field name="MPN">MKL05Z32VLC4</field>
+        <field name="SPN">841-MKL05Z32VLC4</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="MKL05Z8VLC4" part="MKL05Z8VLC4" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B3252C2</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>690</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
+      <fields>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="klepcontroller-rescue" part="R_Small-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B43CF15</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>LED_ARGB</value>
+      <footprint>LEDs:LED_Cree-PLCC4_2x2mm_CW</footprint>
+      <libsource lib="klepcontroller-rescue" part="LED_ARGB-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B445B9C</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="44193-0003" part="44193-0003">
+      <description>2 Port Modular Jack Right Angle 8/8 RJ45 Molex Female Cat3, Cat4 RJ45 Modular Jack, Right Angle, Surface Mount Mount, 44193</description>
+      <docs>http://uk.rs-online.com/web/p/products/8006930</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">44193-0003</field>
+        <field name="Footprint">44193-0003</field>
+        <field name="Datasheet">http://uk.rs-online.com/web/p/products/8006930</field>
+        <field name="Description">2 Port Modular Jack Right Angle 8/8 RJ45 Molex Female Cat3, Cat4 RJ45 Modular Jack, Right Angle, Surface Mount Mount, 44193</field>
+        <field name="RS Part Number">8006930</field>
+        <field name="Manufacturer_Name">Molex</field>
+        <field name="Manufacturer_Part_Number">44193-0003</field>
+        <field name="Allied_Number">70190528</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="BiDi"/>
+        <pin num="2" name="2" type="BiDi"/>
+        <pin num="3" name="3" type="BiDi"/>
+        <pin num="4" name="4" type="BiDi"/>
+        <pin num="5" name="5" type="BiDi"/>
+        <pin num="6" name="6" type="BiDi"/>
+        <pin num="7" name="7" type="BiDi"/>
+        <pin num="8" name="8" type="BiDi"/>
+        <pin num="9" name="9" type="input"/>
+        <pin num="10" name="10" type="input"/>
+        <pin num="11" name="11" type="input"/>
+        <pin num="12" name="12" type="input"/>
+        <pin num="13" name="13" type="input"/>
+        <pin num="14" name="14" type="input"/>
+        <pin num="15" name="15" type="input"/>
+        <pin num="16" name="16" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="DRV8886AT" part="DRV8886AT">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DRV8886AT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CPL" type="input"/>
+        <pin num="2" name="CPH" type="input"/>
+        <pin num="3" name="VCP" type="input"/>
+        <pin num="4" name="VM" type="input"/>
+        <pin num="5" name="AOUT1" type="input"/>
+        <pin num="6" name="PGND" type="input"/>
+        <pin num="7" name="AOUT2" type="input"/>
+        <pin num="8" name="BOUT2" type="input"/>
+        <pin num="9" name="PGND" type="input"/>
+        <pin num="10" name="BOUT1" type="input"/>
+        <pin num="11" name="VN" type="input"/>
+        <pin num="12" name="GND" type="input"/>
+        <pin num="13" name="AVDD" type="input"/>
+        <pin num="14" name="DVDD" type="input"/>
+        <pin num="15" name="~FAULT" type="input"/>
+        <pin num="16" name="RREF" type="input"/>
+        <pin num="17" name="~SLEEP" type="input"/>
+        <pin num="18" name="ENABLE" type="input"/>
+        <pin num="19" name="STEP" type="input"/>
+        <pin num="20" name="DIR" type="input"/>
+        <pin num="21" name="M0" type="input"/>
+        <pin num="22" name="M1" type="input"/>
+        <pin num="23" name="TRQ" type="input"/>
+        <pin num="24" name="DECAY" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="MKL05Z8VLC4" part="MKL05Z8VLC4">
+      <footprints>
+        <fp>MKL05Z8VLC4</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MKL05Z8VLC4</field>
+        <field name="Footprint">98ASH70029A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PTB6/IRQ_2/LPTMR0_ALT3" type="BiDi"/>
+        <pin num="2" name="PTB7/IRQ_3/TPM0_CH2" type="BiDi"/>
+        <pin num="3" name="VDD" type="power_in"/>
+        <pin num="4" name="VREFH" type="power_in"/>
+        <pin num="5" name="VREFL" type="power_in"/>
+        <pin num="6" name="VSS" type="power_in"/>
+        <pin num="7" name="PTA3/EXTAL0" type="BiDi"/>
+        <pin num="8" name="PTA4/LLWU_P0/XTAL0" type="BiDi"/>
+        <pin num="9" name="PTA5/LLWU_P1/RTC_CLK_IN" type="BiDi"/>
+        <pin num="10" name="PTA6/LLWU_P2" type="BiDi"/>
+        <pin num="11" name="PTB8/ADC0_SE11" type="BiDi"/>
+        <pin num="12" name="PTB9/ADC0_SE10" type="BiDi"/>
+        <pin num="13" name="PTB10/ADC0_SE9/TSI0_IN7" type="BiDi"/>
+        <pin num="14" name="PTB11/ADC0_SE8/TSI0_IN6" type="BiDi"/>
+        <pin num="15" name="PTA7/IRQ_7/LLWU_P3" type="BiDi"/>
+        <pin num="16" name="PTB0/IRQ_8/LLWU_P4" type="BiDi"/>
+        <pin num="17" name="PTB1/IRQ_9" type="BiDi"/>
+        <pin num="18" name="PTB2/IRQ_10/LLWU_P5" type="BiDi"/>
+        <pin num="19" name="PTA8/ADC0_SE3/TSI0_IN1" type="BiDi"/>
+        <pin num="20" name="PTA9/ADC0_SE2/TSI0_IN0" type="BiDi"/>
+        <pin num="21" name="PTA10/IRQ_12/TSI0_IN11" type="BiDi"/>
+        <pin num="22" name="PTA11/IRQ_13/TSI0_IN10" type="BiDi"/>
+        <pin num="23" name="PTB3/IRQ_14" type="BiDi"/>
+        <pin num="24" name="PTB4/IRQ_15/LLWU_P6" type="BiDi"/>
+        <pin num="25" name="PTB5" type="BiDi"/>
+        <pin num="26" name="PTA12" type="BiDi"/>
+        <pin num="27" name="PTA13/TSI0_IN9" type="BiDi"/>
+        <pin num="28" name="PTB12/TSI0_IN8" type="BiDi"/>
+        <pin num="29" name="PTB13/ADC0_SE13" type="BiDi"/>
+        <pin num="30" name="PTA0/IRQ_0/LLWU_P7" type="BiDi"/>
+        <pin num="31" name="PTA1" type="BiDi"/>
+        <pin num="32" name="PTA2" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="SN65HVD72DRBT" part="SN65HVD72DRBT">
+      <footprints>
+        <fp>SOIC</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SN65HVD72DRBT</field>
+        <field name="Footprint">SON65P300X300X100-9N</field>
+        <field name="Datasheet">Texas Instruments</field>
+        <field name="Field4">3.3V, Half-Duplex RS-485, 12kV IEC ESD, 250kbps data rate 8-SON -40 to 125</field>
+        <field name="Field5">https://www.digikey.nl/product-detail/en/texas-instruments/SN65HVD72DRBT/296-35711-1-ND/3918594?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol</field>
+        <field name="Field6">SON-8 Texas Instruments</field>
+        <field name="Field7">SN65HVD72DRBT</field>
+        <field name="Field8">296-35711-1-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="R" type="output"/>
+        <pin num="2" name="~RE~" type="input"/>
+        <pin num="3" name="DE" type="input"/>
+        <pin num="4" name="D" type="input"/>
+        <pin num="5" name="GND" type="passive"/>
+        <pin num="6" name="A" type="BiDi"/>
+        <pin num="7" name="B" type="BiDi"/>
+        <pin num="8" name="VCC" type="power_in"/>
+        <pin num="9" name="EXP_PAD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TPS62177DQC" part="TPS62177DQC">
+      <footprints>
+        <fp>DQC0010A</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS62177DQC</field>
+        <field name="Footprint">DQC0010A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PGND" type="power_in"/>
+        <pin num="2" name="VIN" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="NC" type="unspc"/>
+        <pin num="5" name="FB" type="input"/>
+        <pin num="6" name="AGND" type="power_in"/>
+        <pin num="7" name="PG" type="output"/>
+        <pin num="8" name="SLEEP" type="input"/>
+        <pin num="9" name="SW" type="output"/>
+        <pin num="10" name="VOS" type="input"/>
+        <pin num="11" name="DAP" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="klepcontroller-rescue" part="C-device">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C-device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="klepcontroller-rescue" part="CP-device">
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP-device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="klepcontroller-rescue" part="C_Small-device">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small-device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="klepcontroller-rescue" part="Conn_01x05-conn">
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05-conn</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="klepcontroller-rescue" part="Conn_01x06-conn">
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06-conn</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="klepcontroller-rescue" part="Crystal-device">
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal-device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="klepcontroller-rescue" part="D_TVS-device">
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_TVS-device</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A1" type="passive"/>
+        <pin num="C" name="A2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="klepcontroller-rescue" part="Jumper_NC_Small-device">
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_NC_Small-device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="klepcontroller-rescue" part="Jumper_NO_Small-device">
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_NO_Small-device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="klepcontroller-rescue" part="LED_ARGB-device">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_ARGB-device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="RK" type="passive"/>
+        <pin num="3" name="GK" type="passive"/>
+        <pin num="4" name="BK" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="klepcontroller-rescue" part="L_Small-device">
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_Small-device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="klepcontroller-rescue" part="R-device">
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="klepcontroller-rescue" part="R_Small-device">
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small-device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="44193-0003">
+      <uri>/home/jaap/Documenten/kicad/jp_symbols/44193-0003.lib</uri>
+    </library>
+    <library logical="DRV8886AT">
+      <uri>/home/jaap/Documenten/kicad/jp_symbols/DRV8886AT.lib</uri>
+    </library>
+    <library logical="MKL05Z8VLC4">
+      <uri>/home/jaap/Documenten/kicad/jp_symbols/MKL05Z8VLC4.lib</uri>
+    </library>
+    <library logical="SN65HVD72DRBT">
+      <uri>/home/jaap/Documenten/kicad/jp_symbols/SN65HVD72DRBT.lib</uri>
+    </library>
+    <library logical="TPS62177DQC">
+      <uri>/home/jaap/Documenten/kicad/jp_symbols/TPS62177DQC.lib</uri>
+    </library>
+    <library logical="klepcontroller-rescue">
+      <uri>/home/jaap/workspace/electronica/Klepcontroller/klepcontroller-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(J1-Pad5)">
+      <node ref="U3" pin="10"/>
+      <node ref="J1" pin="5"/>
+    </net>
+    <net code="2" name="Net-(U2-Pad18)">
+      <node ref="U2" pin="18"/>
+      <node ref="U3" pin="15"/>
+    </net>
+    <net code="3" name="Net-(U2-Pad15)">
+      <node ref="U2" pin="15"/>
+      <node ref="U3" pin="17"/>
+    </net>
+    <net code="4" name="Net-(U2-Pad10)">
+      <node ref="U3" pin="22"/>
+      <node ref="U2" pin="10"/>
+    </net>
+    <net code="5" name="Net-(U2-Pad9)">
+      <node ref="U2" pin="9"/>
+      <node ref="U3" pin="23"/>
+    </net>
+    <net code="6" name="Net-(U2-Pad11)">
+      <node ref="U3" pin="21"/>
+      <node ref="U2" pin="11"/>
+    </net>
+    <net code="7" name="Net-(U2-Pad12)">
+      <node ref="U2" pin="12"/>
+      <node ref="U3" pin="20"/>
+    </net>
+    <net code="8" name="Net-(U2-Pad13)">
+      <node ref="U2" pin="13"/>
+      <node ref="U3" pin="19"/>
+    </net>
+    <net code="9" name="Net-(U2-Pad14)">
+      <node ref="U2" pin="14"/>
+      <node ref="U3" pin="18"/>
+    </net>
+    <net code="10" name="Net-(C9-Pad1)">
+      <node ref="U3" pin="13"/>
+      <node ref="C9" pin="1"/>
+    </net>
+    <net code="11" name="Net-(C8-Pad1)">
+      <node ref="U3" pin="14"/>
+      <node ref="JP4" pin="2"/>
+      <node ref="C8" pin="1"/>
+    </net>
+    <net code="12" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="13" name="Net-(L1-Pad1)">
+      <node ref="U1" pin="9"/>
+      <node ref="L1" pin="1"/>
+    </net>
+    <net code="14" name="Net-(U2-Pad22)">
+      <node ref="U2" pin="22"/>
+      <node ref="U4" pin="2"/>
+      <node ref="U4" pin="3"/>
+    </net>
+    <net code="15" name="Net-(U2-Pad20)">
+      <node ref="U2" pin="20"/>
+    </net>
+    <net code="16" name="Net-(U2-Pad21)">
+      <node ref="U2" pin="21"/>
+    </net>
+    <net code="17" name="Net-(J3-Pad4)">
+      <node ref="U2" pin="31"/>
+      <node ref="J3" pin="4"/>
+    </net>
+    <net code="18" name="Net-(C5-Pad1)">
+      <node ref="U2" pin="8"/>
+      <node ref="C5" pin="1"/>
+      <node ref="R2" pin="2"/>
+      <node ref="Y1" pin="2"/>
+    </net>
+    <net code="19" name="Net-(U2-Pad24)">
+      <node ref="U4" pin="1"/>
+      <node ref="U2" pin="24"/>
+    </net>
+    <net code="20" name="Net-(U2-Pad25)">
+      <node ref="U2" pin="25"/>
+    </net>
+    <net code="21" name="Net-(U2-Pad16)">
+      <node ref="U2" pin="16"/>
+    </net>
+    <net code="22" name="Net-(U2-Pad2)">
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="23" name="Net-(U2-Pad1)">
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="24" name="Net-(J3-Pad2)">
+      <node ref="J3" pin="2"/>
+      <node ref="U2" pin="30"/>
+    </net>
+    <net code="25" name="Net-(J3-Pad5)">
+      <node ref="U2" pin="32"/>
+      <node ref="J3" pin="5"/>
+    </net>
+    <net code="26" name="GND">
+      <node ref="C4" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="R8" pin="2"/>
+      <node ref="D2" pin="C"/>
+      <node ref="J2" pin="6"/>
+      <node ref="J2" pin="7"/>
+      <node ref="J2" pin="8"/>
+      <node ref="U4" pin="9"/>
+      <node ref="U1" pin="5"/>
+      <node ref="C9" pin="2"/>
+      <node ref="JP1" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="U3" pin="12"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U1" pin="1"/>
+      <node ref="U3" pin="9"/>
+      <node ref="U3" pin="6"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U1" pin="6"/>
+      <node ref="U1" pin="11"/>
+      <node ref="C3" pin="2"/>
+      <node ref="D1" pin="A"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="J2" pin="14"/>
+      <node ref="J2" pin="15"/>
+      <node ref="J2" pin="16"/>
+      <node ref="C15" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="C13" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="U4" pin="5"/>
+      <node ref="J3" pin="3"/>
+      <node ref="U2" pin="5"/>
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="27" name="Net-(D3-Pad4)">
+      <node ref="D3" pin="4"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="28" name="+3V3">
+      <node ref="D3" pin="1"/>
+      <node ref="U4" pin="8"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="L1" pin="2"/>
+      <node ref="C3" pin="1"/>
+      <node ref="U1" pin="10"/>
+      <node ref="U1" pin="8"/>
+      <node ref="U2" pin="3"/>
+      <node ref="U2" pin="4"/>
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="29" name="Net-(D3-Pad3)">
+      <node ref="D3" pin="3"/>
+    </net>
+    <net code="30" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2"/>
+    </net>
+    <net code="31" name="Net-(U2-Pad29)">
+      <node ref="U2" pin="29"/>
+    </net>
+    <net code="32" name="Net-(U2-Pad19)">
+      <node ref="U2" pin="19"/>
+    </net>
+    <net code="33" name="Net-(U2-Pad28)">
+      <node ref="U2" pin="28"/>
+    </net>
+    <net code="34" name="Net-(U2-Pad27)">
+      <node ref="U2" pin="27"/>
+    </net>
+    <net code="35" name="Net-(R5-Pad1)">
+      <node ref="U2" pin="17"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="36" name="Net-(U2-Pad26)">
+      <node ref="U2" pin="26"/>
+    </net>
+    <net code="37" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2"/>
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="38" name="Net-(JP1-Pad1)">
+      <node ref="JP4" pin="1"/>
+      <node ref="JP2" pin="1"/>
+      <node ref="JP3" pin="1"/>
+      <node ref="JP1" pin="1"/>
+      <node ref="U3" pin="24"/>
+    </net>
+    <net code="39" name="Net-(JP2-Pad2)">
+      <node ref="R3" pin="1"/>
+      <node ref="JP2" pin="2"/>
+    </net>
+    <net code="40" name="Net-(C4-Pad1)">
+      <node ref="U2" pin="7"/>
+      <node ref="C4" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="Y1" pin="1"/>
+    </net>
+    <net code="41" name="Net-(R5-Pad2)">
+      <node ref="R5" pin="2"/>
+      <node ref="U3" pin="16"/>
+    </net>
+    <net code="42" name="+24V">
+      <node ref="C1" pin="1"/>
+      <node ref="U3" pin="11"/>
+      <node ref="U3" pin="4"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C12" pin="1"/>
+      <node ref="C15" pin="2"/>
+      <node ref="U1" pin="3"/>
+      <node ref="C13" pin="1"/>
+      <node ref="J2" pin="1"/>
+      <node ref="J2" pin="2"/>
+      <node ref="J2" pin="3"/>
+      <node ref="J2" pin="9"/>
+      <node ref="J2" pin="10"/>
+      <node ref="J2" pin="11"/>
+      <node ref="C14" pin="1"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="43" name="Net-(R7-Pad2)">
+      <node ref="U4" pin="7"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="44" name="Net-(R6-Pad2)">
+      <node ref="U4" pin="6"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="45" name="B">
+      <node ref="J2" pin="13"/>
+      <node ref="J2" pin="5"/>
+      <node ref="R7" pin="1"/>
+      <node ref="D2" pin="A"/>
+    </net>
+    <net code="46" name="A">
+      <node ref="J2" pin="4"/>
+      <node ref="J2" pin="12"/>
+      <node ref="R6" pin="1"/>
+      <node ref="D1" pin="C"/>
+    </net>
+    <net code="47" name="Net-(C10-Pad1)">
+      <node ref="U3" pin="2"/>
+      <node ref="C10" pin="1"/>
+    </net>
+    <net code="48" name="Net-(JP3-Pad2)">
+      <node ref="JP3" pin="2"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="49" name="Net-(C10-Pad2)">
+      <node ref="U3" pin="1"/>
+      <node ref="C10" pin="2"/>
+    </net>
+    <net code="50" name="Net-(C12-Pad2)">
+      <node ref="C12" pin="2"/>
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="51" name="Net-(J1-Pad6)">
+      <node ref="J1" pin="6"/>
+    </net>
+    <net code="52" name="Net-(J1-Pad4)">
+      <node ref="J1" pin="4"/>
+      <node ref="U3" pin="8"/>
+    </net>
+    <net code="53" name="Net-(J1-Pad3)">
+      <node ref="J1" pin="3"/>
+      <node ref="U3" pin="7"/>
+    </net>
+    <net code="54" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="55" name="Net-(U2-Pad23)">
+      <node ref="U2" pin="23"/>
+      <node ref="U4" pin="4"/>
+    </net>
+  </nets>
+</export>
