@@ -1980,16 +1980,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 45.72) (xy 186.69 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "900d7c9e-ca17-485a-a953-801c49bcc09e")
-	)
-	(wire
-		(pts
 			(xy 134.62 134.62) (xy 134.62 135.89)
 		)
 		(stroke
@@ -2320,28 +2310,6 @@
 			)
 		)
 	)
-	(global_label "INT2"
-		(shape input)
-		(at 179.07 45.72 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7272c677-fbef-4b8a-b1dc-17234f716ec1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 179.07 39.356 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(hierarchical_label "I2C_SCL_VCCA"
 		(shape input)
 		(at 91.44 60.96 180)
@@ -2363,17 +2331,6 @@
 			(justify right)
 		)
 		(uuid "797fc62f-ec08-4f23-905c-e7ecf00b70db")
-	)
-	(hierarchical_label "INT2"
-		(shape output)
-		(at 186.69 45.72 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left)
-		)
-		(uuid "b79516bc-4e00-4072-b571-d2a8520fe456")
 	)
 	(hierarchical_label "INT1"
 		(shape output)
