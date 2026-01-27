@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Crazyflie control board")
-		(date "2023-11-27")
-		(rev "2.4")
+		(date "2025-09-23")
+		(rev "3.0")
 		(company "Bitcraze AB (CC BY-NC-SA)")
 	)
 	(lib_symbols
