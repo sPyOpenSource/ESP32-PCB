@@ -2046,7 +2046,7 @@
 		)
 		(uuid "fe451b92-5143-43c9-976a-3a0e719317ff")
 	)
-	(global_label "INT3"
+	(global_label "INT2"
 		(shape input)
 		(at 147.32 107.95 90)
 		(fields_autoplaced yes)
@@ -2058,7 +2058,7 @@
 		)
 		(uuid "38c72846-6559-472f-b7f8-6b86b6eb5b0e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.32 101.586 90)
+			(at 147.32 101.5066 90)
 			(effects
 				(font
 					(size 1.27 1.27)
