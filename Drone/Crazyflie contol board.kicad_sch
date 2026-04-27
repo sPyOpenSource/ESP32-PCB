@@ -4354,16 +4354,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 129.54) (xy 170.18 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3bfb4e7d-730c-4c24-81ea-317ea4bea637")
-	)
-	(wire
-		(pts
 			(xy 242.57 74.93) (xy 247.65 74.93)
 		)
 		(stroke
@@ -5174,16 +5164,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 132.08) (xy 170.18 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc19b8c0-f7f0-4b88-aa5b-ef65238621f2")
-	)
-	(wire
-		(pts
 			(xy 77.47 64.77) (xy 77.47 54.61)
 		)
 		(stroke
@@ -5503,7 +5483,7 @@
 		(uuid "1e3c508c-caf1-4a10-bd28-1d0b6eea77c8")
 	)
 	(label "USBD-"
-		(at 170.18 132.08 0)
+		(at 171.45 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5523,7 +5503,7 @@
 		(uuid "2bd6b25f-a519-4224-8dd9-2e42d262ce2e")
 	)
 	(label "USBD+"
-		(at 170.18 129.54 0)
+		(at 171.45 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7813,6 +7793,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 167.64 132.08 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b8850413-6d4f-49f8-843f-b92222da1f5f")
+		(property "Reference" "R7"
+			(at 167.894 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22R"
+			(at 167.894 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 167.64 133.858 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 167.64 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d52f3914-62ce-4167-95d5-0b827b2cbc76")
+		)
+		(pin "1"
+			(uuid "0196d343-ca19-458b-92c9-e3af4f297cce")
+		)
+		(instances
+			(project ""
+				(path "/3e9fa01f-48e9-4c58-997e-0bab5b5694a8"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "RF_Module:ESP32-S3-WROOM-1")
 		(at 140.97 55.88 0)
 		(unit 1)
@@ -8415,6 +8462,73 @@
 			(project "Crazyflie contol board"
 				(path "/3e9fa01f-48e9-4c58-997e-0bab5b5694a8"
 					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 167.64 129.54 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eeaf5f81-224c-4224-b189-a5d99a43042f")
+		(property "Reference" "R6"
+			(at 167.64 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22R"
+			(at 168.148 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 167.64 131.318 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 167.64 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a0a8b672-1684-4d8b-9930-e3278ea69772")
+		)
+		(pin "1"
+			(uuid "0fa476a2-d1d3-45eb-8c25-11a2d14be5ab")
+		)
+		(instances
+			(project ""
+				(path "/3e9fa01f-48e9-4c58-997e-0bab5b5694a8"
+					(reference "R6")
 					(unit 1)
 				)
 			)
