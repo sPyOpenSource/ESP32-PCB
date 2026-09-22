@@ -1,6 +1,6 @@
 # ESP32-PCBs
 
-PCB board designs by using ESP32 for a mini drone, rc car, solar controller, etc.
+Those PCB boards are designed with ESP32. E,g, mini drone, rc car, solar controller, etc.
 
 ## Mini Drone Project
 
