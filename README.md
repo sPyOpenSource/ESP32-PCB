@@ -13,3 +13,17 @@ It has 4 Motor Controller for Mini Drone with Wireless Connections.
 ## Solar Charger Project
 
 It is the voltage regulator for solar panels for charging and output.
+
+## Goals
+
+The project aims to develop reusable ESP32 PCB designs for:
+1. Robotics
+2. RC vehicles
+3. Drones
+4. Solar energy systems
+5. Embedded control
+6. IoT applications
+
+## License
+
+See the individual project files and repository license for details.
