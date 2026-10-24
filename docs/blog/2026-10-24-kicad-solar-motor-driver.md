@@ -48,7 +48,19 @@ Fab-ready outputs matter more than a perfect schematic. The klepcontroller ships
 
 ## Shared themes and what I'd redo
 
-[see Task 5]
+### Shared themes
+
+**ESP32 power design comes up twice.** Both boards revolve around an ESP32-class MCU and a lithium battery: the Ducky Board uses an ESP32-S3 with USB-C and an integrated Li-Ion charger; the klepcontroller is a motor controller with USB-C power input. The common pattern is "USB in, Li-Ion battery buffer, MCU on top" — worth standardizing as a reusable sub-circuit (charger IC + protection MOSFET + bulk caps) across future boards.
+
+**Fab readiness is the differentiator.** The klepcontroller ships Gerbers, BOM, position CSVs, drill, STEP, and HTML. The solar controller stopped at a breadboard. The gap between "schematic works on breadboard" and "board you can order" is the Gerber/BOM/position-file step, not the schematic.
+
+**Documentation varies wildly.** 1CHmotordriver/README.md is a proper feature list; solar/README.rst is a short design note; motordriver/ has no top-level README at all. A one-page README per board (purpose, how to build, how to order) would make this whole repo more reusable.
+
+### What I'd redo
+
+1. Write a README for every board, even a short one.
+2. Produce Gerbers + BOM + position files before declaring a board "done."
+3. Keep part values and footprints filled in the schematic symbols so a reader can BOM directly from .kicad_sch without opening the PCB.
 
 ## Source files
 
