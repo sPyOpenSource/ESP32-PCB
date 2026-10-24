@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lesson 1 — KiCad Project Anatomy</title>
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <a href="../MISSION.md">Mission</a>
+  <span class="sidenote">&middot;</span>
+  <a href="../RESOURCES.md">Resources</a>
+  <span class="sidenote">&middot;</span>
+  <a href="../learning-records/0001-initial-assessment.md">Learning record</a>
+</nav>
+
+<h1><span class="tag">Lesson 1</span> KiCad Project Anatomy</h1>
+
+<p><strong>Your win for this lesson:</strong> You can look at any KiCad project folder and name each file's role — so you can modify an existing project without accidentally severing the link between schematic and board.</p>
+
+<p>A KiCad project is <em>not</em> a single document. It is a folder of files. The three most important ones are:</p>
+
+<h2>The three core files</h2>
+
+<h3><code>.kicad_pro</code> — Project settings</h3>
+<p>JSON file. Stores project-level configuration: design rules, netclasses, ERC severities, sheet paths, library tables, and which schematic file is the top-level sheet. Your <code>1CHmotordriver/esp32_mine.kicad_pro</code> is 733 lines of this. You rarely edit it by hand; KiCad manages it.</p>
+
+<h3><code>.kicad_sch</code> — Schematic</h3>
+<p>S-expression text file. Contains symbols, wires, labels, junctions, and symbol properties (Reference, Value, Footprint, Datasheet). This is the logical design — what connects to what. Your <code>esp32_mine.kicad_sch</code> starts with <code>(kicad_sch (version 20260306) (generator "eeschema")</code>.</p>
+
+<h3><code>.kicad_pcb</code> — Board layout</h3>
+<p>S-expression text file. Contains footprints placed on the board, tracks, vias, zones (copper pours), layers, and the stackup. This is the physical design — where things actually go. Your <code>esp32_mine.kicad_pcb</code> starts with <code>(kicad_pcb (version 20260206) (generator "pcbnew")</code>.</p>
+
+<h2>Supporting files you will see</h2>
+
+<table>
+  <tr><td><code>.bak</code> / <code>.kicad_pcb-bak</code></td><td>Automatic backup copies KiCad makes when you save. Your repo has several — they are safe to ignore or delete once you are happy with a version.</td></tr>
+  <tr><td><code>.net</code></td><td>Netlist: the intermediate file Eeschema exports and Pcbnew imports to synchronize schematic changes to the board.</td></tr>
+  <tr><td><code>.lib</code> / <code>.dcm</code></td><td>Symbol or footprint library and its documentation. Your <code>klepcontroller-rescue.lib</code> is an example.</td></tr>
+  <tr><td><code>.gts</code>, <code>.gtl</code>, <code>.gbl</code>, <code>.gbo</code>, <code>.gm1</code>, <code>.drl</code></td><td>Gerber and drill files — fabrication output sent to the PCB manufacturer.</td></tr>
+  <tr><td><code>.pos</code>, <code>.csv</code></td><td>Position (pick-and-place) files for assembly.</td></tr>
+  <tr><td><code>.step</code></td><td>3D model of the board for mechanical checking.</td></tr>
+</table>
+
+<h2>The invisible link: UUID</h2>
+
+<p>Each schematic sheet has a UUID. In your <code>.kicad_pro</code>, the top-level sheet is recorded like this:</p>
+
+<pre><code>"top_level_sheets": [
+  {
+    "filename": "esp32_mine.kicad_sch",
+    "name": "esp32_mine",
+    "uuid": "b64a79a8-4f4a-4acb-9115-e844dceb0e9d"
+  }
+]</code></pre>
+
+<p>That UUID appears in both the <code>.kicad_sch</code> and the <code>.kicad_pcb</code>. It is what keeps schematic and board in sync. If you rename or move files outside KiCad, you can break this link.</p>
+
+<h2>Safe modification workflow</h2>
+
+<ol>
+  <li><strong>Work on a copy.</strong> Duplicate the project folder before changing anything. Your <code>.bak</code> files show KiCad already does this automatically — make it deliberate.</li>
+  <li><strong>Open in KiCad.</strong> Open the <code>.kicad_pro</code> file; KiCad loads the schematic and board together.</li>
+  <li><strong>Edit the schematic first</strong> (add/change symbols, wires, footprints).</li>
+  <li><strong>Export the netlist</strong> from Eeschema and import it in Pcbnew to push changes to the board.</li>
+  <li><strong>Run ERC</strong> (Electrical Rules Check) in the schematic and <strong>DRC</strong> (Design Rules Check) in the board. Fix errors before fabricating.</li>
+  <li><strong>Generate Gerbers</strong> only after DRC is clean.</li>
+</ol>
+
+<div class="quiz">
+  <p>Which file holds the schematic symbols and wiring in your KiCad project?</p>
+  <button class="quiz-option" data-correct="false" data-feedback="No — that stores project settings like design rules and netclasses.">.kicad_pro</button>
+  <button class="quiz-option" data-correct="true" data-feedback="Yes. The .kicad_sch file holds symbols, wires, labels, and their connections.">.kicad_sch</button>
+  <button class="quiz-option" data-correct="false" data-feedback="No — that stores the physical board layout: footprints, tracks, vias, zones.">.kicad_pcb</button>
+  <button class="quiz-option" data-correct="false" data-feedback="No — that is an automatic backup copy KiCad makes when you save.">.kicad_sch.bak</button>
+  <p class="quiz-feedback"></p>
+</div>
+
+<h2>Primary source</h2>
+<p>Read the <a href="https://docs.kicad.org/" target="_blank" rel="noopener">KiCad Official Documentation</a> — the authoritative manual covering Eeschema, Pcbnew, file formats, and workflow. Start with the "Getting Started" chapter if you want a deeper walkthrough of the project structure.</p>
+
+<p class="sidenote"><strong>Next:</strong> Lesson 2 will walk through editing a schematic in one of your existing projects — changing a symbol, updating its footprint, and pushing the change to the board.</p>
+
+<p class="sidenote">Have questions? Ask your teacher — that's what I'm for. Anything unclear about KiCad project files, the workflow, or your specific project, just ask.</p>
+
+<hr class="footer">
+<footer class="footer">
+  <a href="../MISSION.md">Mission</a> &middot;
+  <a href="../RESOURCES.md">Resources</a> &middot;
+  <a href="../learning-records/0001-initial-assessment.md">Learning record</a>
+</footer>
+
+<script src="../assets/quiz.js"></script>
+</body>
+</html>
