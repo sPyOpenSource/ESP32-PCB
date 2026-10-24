@@ -64,8 +64,6 @@ Fab-ready outputs matter more than a perfect schematic. The klepcontroller ships
 
 ## Source files
 
-### Source files
-
 - Solar controller: [`solar/`](solar/) — solar.kicad_sch, solar.kicad_pcb, solar/README.rst. Board not manufactured; breadboard only. (solar/README.rst references an Inkscape layout drawing, layout.svg.)
 - Motor driver — Ducky Board: [`1CHmotordriver/`](1CHmotordriver/) — esp32_mine.kicad_sch, esp32_mine.kicad_pcb, Gerbers in production/gerbers/, esp32_mine.csv, README.md.
 - Motor driver — klepcontroller: [`motordriver/`](motordriver/) — klepcontroller.kicad_sch, klepcontroller.kicad_pcb, Gerbers in gerbers/, klepcontroller.xls/.ods, position CSVs, klepcontroller.drl, klepcontroller.step, klepcontroller.html.
