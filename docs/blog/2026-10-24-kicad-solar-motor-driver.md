@@ -30,7 +30,21 @@ Design the telemetry (what you want to measure) before you freeze the schematic.
 
 ## Motor driver: ESP32-S3 breakout + klepcontroller
 
-[see Task 4]
+### Purpose
+Two motor-driver-adjacent boards in the repo serve different roles:
+
+**1CHmotordriver — "Ducky Board"**: an ESP32-S3 breakout with native USB-C programming and an integrated single-cell Li-Ion/LiPo battery charger. All key GPIOs are broken out; part selection is optimized for manufacturing and DIY reuse. Designed entirely in KiCad 9 (README claim; file headers say KiCad 10), with schematics, PCB layout, and Gerbers.
+
+**motordriver — "klepcontroller"**: a motor controller (title block "Motorcontroller", rev 1.12, dated 2023-04-13, author X. Wang, KiCad 10.0, A4 sheet). It includes a USB-C plug connector, and the repo ships Gerbers, BOM (klepcontroller.xls/.ods), top/bottom position CSVs, a drill file (klepcontroller.drl), a STEP model (klepcontroller.step), and an HTML design output (klepcontroller.html) — a complete, fab-ready package compared with the solar board.
+
+### Schematic highlights
+motordriver/klepcontroller.kicad_sch uses a Connector:USB_C_Plug_USB2.0 for power/programming. 1CHmotordriver/esp32_mine.kicad_sch centers the ESP32-S3 with its USB-C and Li-Ion charger IC (MCP73831-2-OT). [Not documented in repo: MOSFET part numbers, gate-driver topology, current-sense resistor values, and thermal design for the motor driver stage — these would need to be read from the schematic symbols and footprint assignments directly. Note: klepcontroller.csv lists U1 as TMC2660 while the schematic places TMC2209-LA — a BOM/schematic mismatch worth checking before ordering.]
+
+### Layout and fabrication
+Both boards have KiCad PCB files (1CHmotordriver/esp32_mine.kicad_pcb, motordriver/klepcontroller.kicad_pcb) and Gerber outputs (1CHmotordriver/production/gerbers, motordriver/gerbers), plus position CSVs for assembly. The klepcontroller even includes a STEP model and HTML preview, which is unusual for a hobby project and worth copying.
+
+### Lesson learned
+Fab-ready outputs matter more than a perfect schematic. The klepcontroller ships Gerbers, BOM, position files, STEP, and HTML — everything a contract manufacturer needs — while the solar controller stayed at breadboard because the mechanical/layout pieces were never finished. If you want a board you can actually order, produce the Gerbers and BOM first, then refine.
 
 ## Shared themes and what I'd redo
 
