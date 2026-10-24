@@ -64,4 +64,14 @@ Fab-ready outputs matter more than a perfect schematic. The klepcontroller ships
 
 ## Source files
 
-[see Task 6]
+### Source files
+
+- Solar controller: [`solar/`](solar/) — solar.kicad_sch, solar.kicad_pcb, solar/README.rst. Board not manufactured; breadboard only. (solar/README.rst references an Inkscape layout drawing layout.svg; confirm before linking.)
+- Motor driver — Ducky Board: [`1CHmotordriver/`](1CHmotordriver/) — esp32_mine.kicad_sch, esp32_mine.kicad_pcb, Gerbers in production/gerbers/, esp32_mine.csv, README.md.
+- Motor driver — klepcontroller: [`motordriver/`](motordriver/) — klepcontroller.kicad_sch, klepcontroller.kicad_pcb, Gerbers in gerbers/, klepcontroller.xls/.ods, position CSVs, klepcontroller.drl, klepcontroller.step, klepcontroller.html.
+
+### Next time
+
+If I revisit these boards, I'd start with the solar controller: pick real parts, fill in the schematic footprints, and spin a PCB so the four CoAP measurements can be validated on real hardware rather than a breadboard.
+
+Fork the repo and modify: https://github.com/xuyi/ESP32-PCB
